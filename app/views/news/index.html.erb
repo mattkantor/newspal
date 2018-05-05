@@ -1,9 +1,34 @@
+<%=render :partial=>'layouts/header'%>
 <h1>Top News</h1>
-<ul>
+<a href="/news?filter=Trump" class="btn btn-sm btn-primary">Trump</a>
+
+
+<div class="card-columns">
+
+
 <% @items.each do |item|%>
-  <li>
-    <%=link_to(item.title, item.url, {target:"_blank"})%> (<%=item.source.name %>)
-  </li>
+
+<div class="card">
+  <%if item.image_url %>
+      <%=image_tag item.image_url,width:320, class:"card-img-top",alt:"Card image cap"  %>
+    <%else %>
+      <img class="card-img-top" src="" >
+    <%end%>
+
+  <div class="card-body">
+    <h5 class="card-title"><%=item.title%></h5>
+    <p class="card-text"><%=sanitize(item.body, :tags=>[])%></p>
+     <%=link_to("Read More...", item.url, {target:"_blank", class:"btn btn-default"})%>
+  </div>
+  <div class="card-footer">
+    <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>
+  </div>
+</div>
+
+
+
+
 
 <% end %>
-</ul>
+</div>
+<%=render :partial=>'layouts/footer'%>
