@@ -1,0 +1,9 @@
+<h1>Top News</h1>
+<ul>
+<% @items.each do |item|%>
+  <li>
+    <%=link_to(item.title, item.url, {target:"_blank"})%> (<%=item.source.name %>)
+  </li>
+
+<% end %>
+</ul>

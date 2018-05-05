@@ -1,7 +1,8 @@
 class Source < ApplicationRecord
+  has_many :items
 
   validates_uniqueness_of :rss_url
-  def self.clear_and_crawl
+  def self.clear_and_get
     Item.destroy_all
     Source.get_all_news
   end
@@ -21,7 +22,7 @@ class Source < ApplicationRecord
     entries = feed.entries
     entries.each do |result|
       puts result.to_s
-      i = Item.new(title:result.title, image_url:result.image, published:result.published, url:result.url, body: result.summary)
+      i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:result.published, url:result.url, body: result.summary)
       i.save
     end
 
