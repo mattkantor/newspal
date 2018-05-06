@@ -1,6 +1,8 @@
 class Source < ApplicationRecord
   has_many :items
 
+  after_update :news_getter
+
   validates_uniqueness_of :rss_url
   def self.clear_and_get
     Item.destroy_all

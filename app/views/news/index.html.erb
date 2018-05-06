@@ -1,34 +1,46 @@
 <%=render :partial=>'layouts/header'%>
 <h1>Top News</h1>
-<a href="/news?filter=Trump" class="btn btn-sm btn-primary">Trump</a>
+Layout: <a href="/news?layout=grid" class="btn btn-sm btn-primary">Grid</a>
+<a href="/news?layout=list" class="btn btn-sm btn-primary">List</a>
+<Br>
+POV:  <a href="/news?l=-3" class="btn btn-sm btn-primary">Left / Liberal</a>
+<a href="/news?l=0" class="btn btn-sm btn-primary">Moderate</a>
+<a href="/news?l=3" class="btn btn-sm btn-primary">Right / Conservative</a>
+<a href="/news?l=" class="btn btn-sm btn-primary">All News</a>
+
+<br>
+
+<%if @layout =="grid"%>
+  <div class="card-columns">
 
 
-<div class="card-columns">
+  <% @items.each do |item|%>
 
+  <div class="card">
+    <%if item.image_url %>
+        <%=image_tag item.image_url,width:320, class:"card-img-top",alt:"Card image cap"  %>
+      <%else %>
+        <img class="card-img-top" src="" >
+      <%end%>
 
-<% @items.each do |item|%>
-
-<div class="card">
-  <%if item.image_url %>
-      <%=image_tag item.image_url,width:320, class:"card-img-top",alt:"Card image cap"  %>
-    <%else %>
-      <img class="card-img-top" src="" >
-    <%end%>
-
-  <div class="card-body">
-    <h5 class="card-title"><%=item.title%></h5>
-    <p class="card-text"><%=sanitize(item.body, :tags=>[])%></p>
-     <%=link_to("Read More...", item.url, {target:"_blank", class:"btn btn-default"})%>
+    <div class="card-body">
+      <h5 class="card-title"><%=item.title%></h5>
+      <p class="card-text"><%=sanitize(item.body, :tags=>[])%></p>
+       <%=link_to("Read More...", item.url, {target:"_blank", class:"btn btn-default"})%>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>
+    </div>
   </div>
-  <div class="card-footer">
-    <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>
+  <% end %>
   </div>
-</div>
-
-
-
-
-
-<% end %>
-</div>
+<%else%>
+<table class="table table-hover table-bordered">
+  <% @items.each do |item|%>
+    <tr><td>
+       <%=link_to(item.title, item.url, {target:"_blank", class:"btn btn-default"})%><%=image_tag item.source.logo_url, height:20 %>
+    </td></tr>
+  <%end %>
+</table>
+<%end%>
 <%=render :partial=>'layouts/footer'%>

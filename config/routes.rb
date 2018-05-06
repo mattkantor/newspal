@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   get 'news'=> 'news#index'
 
-  get 'home/index'
+  get 'home'=>'home#index'
 
   get 'api' => "api#index"
 
