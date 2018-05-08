@@ -1,12 +1,27 @@
 <%=render :partial=>'layouts/header'%>
-<h1>Top News</h1>
-Layout: <a href="/news?layout=grid" class="btn btn-sm btn-primary">Grid</a>
-<a href="/news?layout=list" class="btn btn-sm btn-primary">List</a>
-<Br>
-POV:  <a href="/news?l=-3" class="btn btn-sm btn-primary">Left / Liberal</a>
-<a href="/news?l=0" class="btn btn-sm btn-primary">Moderate</a>
-<a href="/news?l=3" class="btn btn-sm btn-primary">Right / Conservative</a>
-<a href="/news?l=" class="btn btn-sm btn-primary">All News</a>
+<form action="" method="get">
+<div class="row">
+  <div class="col-sm-5">
+  <input type="text" name="filter" value="<%=@filter%>" class="form-control ">
+</div><div class=" col-sm-1">
+  <input type="submit" value="Go" class="btn btn-success"/>
+</div></div>
+</form>
+<hr>
+<div class="row">
+  <div class="col-sm-6">
+  <i class="fa fa-filter"></i>  <a href="/news?l=-3" class="btn btn-sm btn-primary">Left / Liberal</a>
+  <a href="/news?l=0" class="btn btn-sm btn-primary">Moderate</a>
+  <a href="/news?l=3" class="btn btn-sm btn-primary">Right / Conservative</a>
+  <a href="/news?l=" class="btn btn-sm btn-primary">All News</a>
+</div>
+<div class="col-sm-6 ">
+  <a href="/news?layout=grid" class="btn btn-sm btn-default pull-right"><i class="fa fa-table"></i></a>
+  <a href="/news?layout=list" class="btn btn-sm btn-default pull-right"><i class="fa fa-list"></i></a>
+  <a href="/refresh" class="btn btn-sm btn-default pull-right"><i class="fa fa-refresh"></i></a>
+</div>
+</div>
+
 
 <br>
 
@@ -26,7 +41,7 @@ POV:  <a href="/news?l=-3" class="btn btn-sm btn-primary">Left / Liberal</a>
     <div class="card-body">
       <h5 class="card-title"><%=item.title%></h5>
       <p class="card-text"><%=sanitize(item.body, :tags=>[])%></p>
-       <%=link_to("Read More...", item.url, {target:"_blank", class:"btn btn-default"})%>
+       <%=link_to("Read More...", item.url, {target:"_blank", class:"btn btn-primary btn-outline"})%>
     </div>
     <div class="card-footer">
       <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>

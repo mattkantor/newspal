@@ -1,25 +1,34 @@
 class NewsController < ApplicationController
+  def refresh
+    Source.get_all_news
+    redirect_to "/"
+    return
+  end
+
   def index
     layout = params[:layout] || session[:layout] || "grid"
     session[:layout] = layout
-    @layout = layout
-    #@topics = Item.find_topics
+    @filter = params[:filter]
     lean = params[:l]
-
-
     if lean
-      puts lean
       lean = lean.to_i
-      @items = Item.joins(:source).where("sources.leans=? or sources.leans=? or sources.leans=? or sources.leans=? or sources.leans=?",lean-2, lean+2, lean-1, lean, lean+1).order("published desc").all
-
     else
-      @items = Item.order("published desc").all
+      lean = 0
     end
+
+    items = Item.joins(:source).where("sources.leans=? or sources.leans=? or sources.leans=? or sources.leans=? or sources.leans=?",lean-2, lean+2, lean-1, lean, lean+1)
+
+    if @filter!=""
+      items = items.where("title like ?","%#{@filter}%")
+    end
+
+    @layout = layout
+
+    @items = items.order("published desc").all
 
   end
 
   def filter
-    @items = Item.where("title like ?","%#{filter}%").order("published desc").all
 
   end
 end
