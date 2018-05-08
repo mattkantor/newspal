@@ -1,8 +1,10 @@
 <%=render :partial=>'layouts/header'%>
-<form action="" method="get">
+<form action="/?" method="get">
 <div class="row">
   <div class="col-sm-5">
   <input type="text" name="filter" value="<%=@filter%>" class="form-control ">
+  <input type="hidden" name="l" value="<%=@lean%>" class="form-control ">
+
 </div><div class=" col-sm-1">
   <input type="submit" value="Go" class="btn btn-success"/>
 </div></div>
@@ -10,10 +12,10 @@
 <hr>
 <div class="row">
   <div class="col-sm-6">
-  <i class="fa fa-filter"></i>  <a href="/news?l=-3" class="btn btn-sm btn-primary">Left / Liberal</a>
-  <a href="/news?l=0" class="btn btn-sm btn-primary">Moderate</a>
-  <a href="/news?l=3" class="btn btn-sm btn-primary">Right / Conservative</a>
-  <a href="/news?l=" class="btn btn-sm btn-primary">All News</a>
+  <i class="fa fa-filter"></i>  <a href="/news?l=-3&filter=<%=@filter%>" class="btn btn-sm btn-primary">Left / Liberal</a>
+  <a href="/news?l=0&filter=<%=@filter%>" class="btn btn-sm btn-primary">Moderate</a>
+  <a href="/news?l=3&filter=<%=@filter%>" class="btn btn-sm btn-primary">Right / Conservative</a>
+  <a href="/news?l=0&filter=<%=@filter%>" class="btn btn-sm btn-primary">All News</a>
 </div>
 <div class="col-sm-6 ">
   <a href="/news?layout=grid" class="btn btn-sm btn-default pull-right"><i class="fa fa-table"></i></a>
@@ -54,7 +56,8 @@
   <% @items.each do |item|%>
     <tr><td>
        <%=link_to(item.title, item.url, {target:"_blank", class:"btn btn-default"})%><%=image_tag item.source.logo_url, height:20 %>
-    </td></tr>
+       &nbsp;<span class="pull-right"><%=show_leans(item)%></span>
+</td></tr>
   <%end %>
 </table>
 <%end%>

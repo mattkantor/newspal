@@ -9,14 +9,16 @@ class NewsController < ApplicationController
     layout = params[:layout] || session[:layout] || "grid"
     session[:layout] = layout
     @filter = params[:filter]
-    lean = params[:l]
-    if lean
-      lean = lean.to_i
+    @lean = params[:l]
+    items = Item
+    if @lean
+      @lean = @lean.to_i
+      items = items.joins(:source).where("sources.leans=? or sources.leans=? or sources.leans=? or sources.leans=? or sources.leans=?",@lean-2, @lean+2, @lean-1, @lean, @lean+1)
+
     else
       lean = 0
     end
 
-    items = Item.joins(:source).where("sources.leans=? or sources.leans=? or sources.leans=? or sources.leans=? or sources.leans=?",lean-2, lean+2, lean-1, lean, lean+1)
 
     if @filter!=""
       items = items.where("title like ?","%#{@filter}%")
