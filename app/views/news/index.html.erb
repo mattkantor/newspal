@@ -1,0 +1,72 @@
+<%=render :partial=>'layouts/header'%>
+<form action="/?" method="get">
+<div class="row">
+  <div class="col-sm-5">
+  <input type="text" name="filter" value="<%=@filter%>" class="form-control ">
+  <input type="hidden" name="l" value="<%=@lean%>" class="form-control ">
+
+</div><div class=" col-sm-1">
+  <input type="submit" value="Go" class="btn btn-success"/>
+</div></div>
+</form>
+<hr>
+<div class="row">
+  <div class="col-sm-6">
+  <i class="fa fa-filter"></i>
+  <a href="/news?l=-4&filter=<%=@filter%>" class="btn btn-sm btn-primary">Very Left</a>
+  <a href="/news?l=-2&filter=<%=@filter%>" class="btn btn-sm btn-primary">Slight Left</a>
+
+  <a href="/news?l=0&filter=<%=@filter%>" class="btn btn-sm btn-primary">Moderate</a>
+  <a href="/news?l=2&filter=<%=@filter%>" class="btn btn-sm btn-primary">Slight Right</a>
+
+  <a href="/news?l=4&filter=<%=@filter%>" class="btn btn-sm btn-primary">Very Right</a>
+
+  <a href="/news?l=0&filter=<%=@filter%>" class="btn btn-sm btn-primary">All News</a>
+</div>
+<div class="col-sm-6 ">
+  <a href="/news?layout=grid" class="btn btn-sm btn-default pull-right"><i class="fa fa-table"></i></a>
+  <a href="/news?layout=list" class="btn btn-sm btn-default pull-right"><i class="fa fa-list"></i></a>
+  <a href="/refresh" class="btn btn-sm btn-default pull-right"><i class="fa fa-refresh"></i></a>
+</div>
+</div>
+
+
+<br>
+
+<%if @layout =="grid"%>
+  <div class="card-columns">
+
+
+  <% @items.each do |item|%>
+
+  <div class="card">
+    <%if item.image_url %>
+        <%=image_tag item.image_url,width:320, class:"card-img-top",alt:"Card image cap"  %>
+      <%else %>
+        <img class="card-img-top" src="" >
+      <%end%>
+
+    <div class="card-body">
+      <h5 class="card-title"><%=item.title%></h5>
+      <p class="card-text"><%=sanitize(item.body, :tags=>[])%></p>
+       <%=link_to("Read More...", item.url, {target:"_blank", class:"btn btn-primary btn-outline"})%>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>
+    </div>
+  </div>
+  <% end %>
+  </div>
+<%else%>
+<table class="table table-hover table-bordered">
+  <% @items.each do |item|%>
+    <tr><td>
+       <%=link_to(item.title, item.url, {target:"_blank", class:"btn btn-default"})%><%=image_tag item.source.logo_url, height:20 %>
+       &nbsp;<span class="pull-right"><%=show_leans(item)%></span>
+       <br>
+       <p><span class="small"><%=sanitize(item.body, :tags=>[])%></span></p>
+</td></tr>
+  <%end %>
+</table>
+<%end%>
+<%=render :partial=>'layouts/footer'%>

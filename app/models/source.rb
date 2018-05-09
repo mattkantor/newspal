@@ -1,18 +1,21 @@
 class Source < ApplicationRecord
+  has_many :items
 
-  def self.crawl_all
-    Source.all.each do |s|
-      s.news_getter
+  after_update :news_getter
+
+  validates_uniqueness_of :rss_url
+
+  def self.clear_and_get
+    Item.destroy_all
+    Source.get_all_news
+  end
+
+  def self.get_all_news
+    Source.all.each do |source|
+      source.news_getter
     end
   end
 
-  def news_updater(res)
-
-      puts "adding #{res}"
-      i = Item.new(source_id: self.id, title:res.title, image_url:res.image, published:res.published, url:res.url, body: res.summary)
-      i.save
-
-  end
 
   def news_getter
 
@@ -21,9 +24,9 @@ class Source < ApplicationRecord
     feed = Feedjira::Feed.fetch_and_parse self.rss_url
     entries = feed.entries
     entries.each do |result|
-      puts result
-
-      news_updater(result)
+      puts result.to_s
+      i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:result.published, url:result.url, body: result.summary)
+      i.save
     end
 
   end
