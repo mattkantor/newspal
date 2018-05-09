@@ -337,7 +337,6 @@ DEPENDENCIES
   capistrano3-nginx (~> 2.0)
   capistrano3-unicorn
   capybara (~> 2.13)
-  coffee-rails (~> 4.2)
   database_cleaner
   devise
   factory_bot
