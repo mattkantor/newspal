@@ -24,6 +24,6 @@ test:
 
 production:
     adapter: mysql2
-    username: admin
+    username: root
     password: hotdog99
     database: newspal
