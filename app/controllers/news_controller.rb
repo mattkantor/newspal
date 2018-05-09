@@ -8,17 +8,19 @@ class NewsController < ApplicationController
   def index
     layout = params[:layout] || session[:layout] || "grid"
     session[:layout] = layout
+    @items = Item
     @filter = params[:filter]
     @lean = params[:l]
     @channel = params[:channel]
-    if @channel!=""
-      @items = items.joins(:source).where(source.id=@channel).order("published desc").all
+
+    if @channel and @channel!=""
+      @items = @items.joins(:source).where(source.id=@channel).order("published desc").all
       return
     end
-    items = Item
+
     if @lean
       @lean = @lean.to_i
-      items = items.joins(:source).where("sources.leans=? or sources.leans=? or sources.leans=?", @lean-1, @lean, @lean+1)
+      @items = @items.joins(:source).where("sources.leans=? or sources.leans=? or sources.leans=?", @lean-1, @lean, @lean+1)
 
     else
       lean = 0
@@ -26,12 +28,12 @@ class NewsController < ApplicationController
 
 
     if @filter!=""
-      items = items.where("title like ?","%#{@filter}%")
+      @items = @items.where("title like ?","%#{@filter}%")
     end
 
     @layout = layout
 
-    @items = items.order("published desc").all
+    @items = @items.order("published desc").all
 
   end
 
