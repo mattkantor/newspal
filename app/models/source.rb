@@ -1,9 +1,15 @@
 class Source < ApplicationRecord
 
+  def self.crawl_all
+    Source.all.each do |s|
+      s.news_getter
+    end
+  end
+
   def news_updater(res)
 
-      puts "adding #{res.title}"
-      i = Item.new(title:res.title, image:res.image, published:res.date, url:res.link, body: res.description)
+      puts "adding #{res}"
+      i = Item.new(source_id: self.id, title:res.title, image_url:res.image, published:res.published, url:res.url, body: res.summary)
       i.save
 
   end
@@ -16,7 +22,7 @@ class Source < ApplicationRecord
     entries = feed.entries
     entries.each do |result|
       puts result
-      result = { title: result.title,image:result.image, date: result.published, link: result.url, description: result.summary }
+
       news_updater(result)
     end
 
