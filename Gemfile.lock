@@ -339,6 +339,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   database_cleaner
   devise
+  execjs
   factory_bot
   faker
   feedjira

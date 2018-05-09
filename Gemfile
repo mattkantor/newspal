@@ -20,6 +20,8 @@ gem 'sass-rails', '~> 5.0'
 # gem 'therubyracer', platforms: :ruby
 gem "feedjira"
 
+gem "execjs"
+
 gem "httparty"
 # Use CoffeeScript for .coffee assets and views
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
