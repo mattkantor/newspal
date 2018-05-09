@@ -1,5 +1,6 @@
 # server-based syntax
 # ======================
+server '159.203.29.142', user: 'admin', roles: %w{app db web}, primary:true #
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 

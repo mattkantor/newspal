@@ -37,6 +37,7 @@ gem 'capistrano-rails', group: :development
 
 gem 'activeadmin'
 
+gem "mysql2"
 
 
 group :development, :test do
@@ -67,6 +68,7 @@ group :development do
   #gem 'spring-watcher-listen', '~> 2.0.0'
 end
 group :development do
+
   gem 'better_errors'
   gem 'rails_layout'
   gem 'spring-commands-rspec'

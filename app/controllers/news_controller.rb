@@ -10,10 +10,15 @@ class NewsController < ApplicationController
     session[:layout] = layout
     @filter = params[:filter]
     @lean = params[:l]
+    @channel = params[:channel]
+    if @channel!=""
+      @items = items.joins(:source).where(source.id=@channel).order("published desc").all
+      return
+    end
     items = Item
     if @lean
       @lean = @lean.to_i
-      items = items.joins(:source).where("sources.leans=? or sources.leans=? or sources.leans=? or sources.leans=? or sources.leans=?",@lean-2, @lean+2, @lean-1, @lean, @lean+1)
+      items = items.joins(:source).where("sources.leans=? or sources.leans=? or sources.leans=?", @lean-1, @lean, @lean+1)
 
     else
       lean = 0

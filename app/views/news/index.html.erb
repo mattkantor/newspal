@@ -12,9 +12,15 @@
 <hr>
 <div class="row">
   <div class="col-sm-6">
-  <i class="fa fa-filter"></i>  <a href="/news?l=-3&filter=<%=@filter%>" class="btn btn-sm btn-primary">Left / Liberal</a>
+  <i class="fa fa-filter"></i>
+  <a href="/news?l=-4&filter=<%=@filter%>" class="btn btn-sm btn-primary">Very Left</a>
+  <a href="/news?l=-2&filter=<%=@filter%>" class="btn btn-sm btn-primary">Slight Left</a>
+
   <a href="/news?l=0&filter=<%=@filter%>" class="btn btn-sm btn-primary">Moderate</a>
-  <a href="/news?l=3&filter=<%=@filter%>" class="btn btn-sm btn-primary">Right / Conservative</a>
+  <a href="/news?l=2&filter=<%=@filter%>" class="btn btn-sm btn-primary">Slight Right</a>
+
+  <a href="/news?l=4&filter=<%=@filter%>" class="btn btn-sm btn-primary">Very Right</a>
+
   <a href="/news?l=0&filter=<%=@filter%>" class="btn btn-sm btn-primary">All News</a>
 </div>
 <div class="col-sm-6 ">
@@ -57,6 +63,8 @@
     <tr><td>
        <%=link_to(item.title, item.url, {target:"_blank", class:"btn btn-default"})%><%=image_tag item.source.logo_url, height:20 %>
        &nbsp;<span class="pull-right"><%=show_leans(item)%></span>
+       <br>
+       <p><span class="small"><%=sanitize(item.body, :tags=>[])%></span></p>
 </td></tr>
   <%end %>
 </table>
