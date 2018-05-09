@@ -1,23 +1,19 @@
 # Load DSL and set up stages
 require "capistrano/setup"
-
+require "capistrano/deploy"
 require "capistrano/scm/git"
 install_plugin Capistrano::SCM::Git
 
-# Load DSL and set up stages
-require "capistrano/setup"
-
-require "capistrano/deploy"
 require 'capistrano/rvm'
 #require 'capistrano/rbenv'
 # require 'capistrano/chruby'
 require 'capistrano/bundler'
 require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
-require 'airbrake/capistrano/tasks'
+#require 'airbrake/capistrano/tasks'
 require 'capistrano/faster_assets'
 # require 'capistrano/passenger'
-require "whenever/capistrano"
+#require "whenever/capistrano"
 require 'capistrano3/unicorn'
 #require 'capistrano/nginx'
 

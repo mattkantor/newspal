@@ -33,7 +33,6 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'devise'
 # Use Capistrano for deployment
-gem 'capistrano-rails', group: :development
 
 gem 'activeadmin'
 
@@ -72,6 +71,17 @@ group :development do
   gem 'better_errors'
   gem 'rails_layout'
   gem 'spring-commands-rspec'
+  gem "capistrano"
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-faster-assets', '~> 1.0'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rvm'
+  gem "capistrano3-unicorn"
+  gem 'capistrano-service'
+  gem "capistrano-git"
+  gem 'capistrano3-nginx', '~> 2.0'
+  gem 'sshkit-sudo'
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

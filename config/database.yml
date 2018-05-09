@@ -23,5 +23,7 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+    adapter: mysql2
+    username: admin
+    password: hotdog99
+    database: newspal

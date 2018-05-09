@@ -1,8 +1,29 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.10.1"
 
-set :application, "my_app_name"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :application, "objectivity"
+
+set :repo_url, "http://github.com/mattkantor/newspal.git"
+set :deploy_to, '/var/www/wedaways'
+set :pty, true
+#set ssh_options[:keys]="~/.ssh/id_rsa"
+
+set :ssh_options, {:forward_agent => true}
+
+after 'deploy:publishing', 'deploy:restart'
+namespace :deploy do
+  task :restart do
+    #invoke 'unicorn:restart'
+    on roles(:app) do
+        puts "restarting unicorn..."
+        execute! :sudo, :service, :unicorn, :restart
+
+        sleep 5
+        puts "whats running now, eh unicorn?"
+        execute "ps aux | grep unicorn"
+      end
+  end
+end
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
