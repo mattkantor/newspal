@@ -27,5 +27,5 @@ production:
     adapter: mysql2
     hostname: localhost
     username: root
-    password: Shihonage3!
+    password: hotdog99
     database: newspal
