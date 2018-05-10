@@ -12,6 +12,7 @@ default: &default
 development:
   adapter: mysql2
   username: root
+  hostname: localhost
   password: Shihonage3!
   database: newspal
 
@@ -24,6 +25,7 @@ test:
 
 production:
     adapter: mysql2
+    hostname: localhost
     username: root
-    password: hotdog99
+    password: Shihonage3!
     database: newspal
