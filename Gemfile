@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem "rack"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
@@ -50,6 +51,7 @@ group :development, :test do
   gem 'factory_bot'
   gem 'faker'
   gem 'rspec-rails'
+
 end
 
 group :test do
