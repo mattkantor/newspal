@@ -24,8 +24,8 @@ test:
   database: db/test.sqlite3
 
 production:
-    adapter: mysql2
+    adapter: pg
     hostname: localhost
-    username: root
-    password: hotdog99
-    database: newspal
+    username: rails
+    password: 
+    database: rails_project_production

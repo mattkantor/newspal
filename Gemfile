@@ -38,7 +38,7 @@ gem 'devise'
 
 gem 'activeadmin'
 
-gem "mysql2"
+gem "pg"
 
 gem "unicorn"
 
@@ -51,6 +51,7 @@ group :development, :test do
   gem 'factory_bot'
   gem 'faker'
   gem 'rspec-rails'
+  gem "mysql2"
 
 end
 
