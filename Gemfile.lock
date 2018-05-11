@@ -372,8 +372,5 @@ DEPENDENCIES
   unicorn
   web-console (>= 3.3.0)
 
-RUBY VERSION
-   ruby 2.2.7p470
-
 BUNDLED WITH
    1.16.1

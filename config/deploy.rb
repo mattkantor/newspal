@@ -4,7 +4,7 @@ lock "~> 3.10.1"
 set :application, "objectivity"
 
 set :repo_url, "http://github.com/mattkantor/newspal.git"
-set :deploy_to, '/var/www/wedaways'
+set :deploy_to, '/home/rails/rails_project'
 set :pty, true
 #set ssh_options[:keys]="~/.ssh/id_rsa"
 
