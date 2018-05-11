@@ -24,7 +24,9 @@ test:
   database: db/test.sqlite3
 
 production:
-    adapter: postgres
+    adapter: postgresql
+    encoding: unicode
+    pool: 5
     hostname: localhost
     username: rails
     password:
