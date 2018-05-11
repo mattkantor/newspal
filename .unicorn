@@ -1,0 +1,22 @@
+#!/bin/bash
+# This file is meant to be executed via systemd.
+source /usr/local/rvm/scripts/rvm
+source /etc/profile.d/rvm.sh
+export ruby_ver=$(rvm list default string)
+export ruby_ver_num=2.4.0
+
+export CONFIGURED=yes
+export TIMEOUT=50
+export APP_ROOT=/home/rails/rails_project/current
+export RAILS_ENV="production"
+export GEM_HOME="/home/rails/rails_project/shared/bundle/ruby/${ruby_ver_num}/"
+export GEM_PATH="/home/rails/rails_project/shared/bundle/ruby/${ruby_ver_num}/:/usr/local/rvm/gems/${ruby_ver}:/usr/local/rvm/gems/${ruby_ver}@global"
+export PATH="/home/rails/rails_project/shared/bundle/ruby/${ruby_ver_num}/gems/:/home/rails/rails_project/shared/bundle/ruby/${ruby_ver}/bin/:/usr/local/rvm/gems/${ruby_ver}/bin:${PATH}"
+
+# Passwords
+export SECRET_KEY_BASE=5fe68197ec5ea0d25c4746b20aef397966670d95822078f57bbde428f20819306c559f82496b5386dac8f1b92e91a0a8c1317ee608b0feb6e09ba13d498d3b50
+export APP_DATABASE_PASSWORD=c2ba8daee2420ffcf5e45fda4edb3850
+
+# Execute the unicorn process
+/home/rails/rails_project/shared/bundle/ruby/2.4.0/bin/unicorn \
+        -c /etc/unicorn.conf -E production --debug
