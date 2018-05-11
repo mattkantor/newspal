@@ -101,6 +101,7 @@ GEM
       xpath (>= 2.0, < 4.0)
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
+    chronic (0.10.2)
     coderay (1.1.2)
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
@@ -281,6 +282,7 @@ GEM
     selenium-webdriver (3.11.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2)
+    sentimental (1.4.1)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-commands-rspec (1.0.4)
@@ -324,6 +326,8 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
+    whenever (0.10.0)
+      chronic (>= 0.6.3)
     xpath (3.0.0)
       nokogiri (~> 1.8)
 
@@ -364,6 +368,7 @@ DEPENDENCIES
   rspec-rails
   sass-rails (~> 5.0)
   selenium-webdriver
+  sentimental
   spring-commands-rspec
   sqlite3
   sshkit-sudo
@@ -373,6 +378,7 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   unicorn
   web-console (>= 3.3.0)
+  whenever
 
 BUNDLED WITH
    1.16.1

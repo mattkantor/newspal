@@ -13,7 +13,7 @@ require 'capistrano/rails/migrations'
 #require 'airbrake/capistrano/tasks'
 require 'capistrano/faster_assets'
 # require 'capistrano/passenger'
-#require "whenever/capistrano"
+require "whenever/capistrano"
 require 'capistrano3/unicorn'
 #require 'capistrano/nginx'
 

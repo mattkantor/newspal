@@ -61,9 +61,10 @@
 <table class="table table-hover table-bordered">
   <% @items.each do |item|%>
     <tr><td>
-       <%=link_to(item.title, item.url, {target:"_blank", class:"btn btn-default"})%><%=image_tag item.source.logo_url, height:20 %>
+       <%=link_to(item.title, item.url, {target:"_blank", class:"btn btn-default"})%><small><%=show_sentiment(item) %></small>
        &nbsp;<span class="pull-right"><%=show_leans(item)%></span>
        <br>
+
        <p><span class="small"><%=sanitize(item.body, :tags=>[])%></span></p>
 </td></tr>
   <%end %>
