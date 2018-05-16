@@ -16,7 +16,8 @@ namespace :deploy do
     #invoke 'unicorn:restart'
     on roles(:app) do
         puts "restarting unicorn..."
-        execute! :sudo, :service, :unicorn, :restart
+        execute! :sudo, :systemctl, :restart, :unicorn
+        #execute! :sudo, :service, :unicorn, :restart
 
         sleep 5
         puts "whats running now, eh unicorn?"

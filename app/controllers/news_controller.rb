@@ -14,7 +14,7 @@ class NewsController < ApplicationController
     @channel = params[:channel]
 
     if @channel and @channel!=""
-      @items = @items.joins(:source).where(source.id=@channel).order("published desc").all
+      @items = @items.joins(:source).where("source.id=?",@channel).order("published desc").all
       return
     end
 
@@ -27,7 +27,7 @@ class NewsController < ApplicationController
     end
 
 
-    if @filter!=""
+    if @filter and @filter!=""
       @items = @items.where("title like ?","%#{@filter}%")
     end
 

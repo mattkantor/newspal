@@ -10,10 +10,10 @@ default: &default
   timeout: 5000
 
 development:
-  adapter: mysql2
-  username: root
+  adapter: postgresql
+  username: rails
   hostname: localhost
-  password: Shihonage3!
+  password: password
   database: newspal
 
 # Warning: The database defined as "test" will be erased and

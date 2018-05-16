@@ -1,0 +1,19 @@
+2018-05-16 10:09:40.087 EDT [96421] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-05-16 10:09:40.087 EDT [96421] LOG:  listening on IPv6 address "::1", port 5432
+2018-05-16 10:09:40.087 EDT [96421] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-05-16 10:09:40.118 EDT [96422] LOG:  database system was interrupted; last known up at 2018-03-02 11:04:06 EST
+2018-05-16 10:09:40.235 EDT [96422] LOG:  database system was not properly shut down; automatic recovery in progress
+2018-05-16 10:09:40.239 EDT [96422] LOG:  redo starts at 0/15DFC00
+2018-05-16 10:09:40.239 EDT [96422] LOG:  invalid record length at 0/15DFCE0: wanted 24, got 0
+2018-05-16 10:09:40.239 EDT [96422] LOG:  redo done at 0/15DFCA8
+2018-05-16 10:09:40.253 EDT [96421] LOG:  database system is ready to accept connections
+2018-05-16 10:09:46.770 EDT [96433] FATAL:  database "matthewkantor" does not exist
+2018-05-16 10:09:56.716 EDT [96445] FATAL:  role "postgres" does not exist
+2018-05-16 10:10:01.882 EDT [96448] FATAL:  role "admin" does not exist
+2018-05-16 10:10:05.582 EDT [96450] FATAL:  role "root" does not exist
+2018-05-16 10:10:26.353 EDT [97343] FATAL:  role "admin_user" does not exist
+2018-05-16 10:11:12.271 EDT [96421] LOG:  received fast shutdown request
+2018-05-16 10:11:12.271 EDT [96421] LOG:  aborting any active transactions
+2018-05-16 10:11:12.273 EDT [96421] LOG:  worker process: logical replication launcher (PID 96429) exited with exit code 1
+2018-05-16 10:11:12.274 EDT [96424] LOG:  shutting down
+2018-05-16 10:11:12.282 EDT [96421] LOG:  database system is shut down
