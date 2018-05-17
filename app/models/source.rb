@@ -12,6 +12,7 @@ class Source < ApplicationRecord
 
   def self.get_all_news
     Source.all.each do |source|
+    
       source.news_getter
     end
   end
@@ -24,7 +25,6 @@ class Source < ApplicationRecord
     feed = Feedjira::Feed.fetch_and_parse self.rss_url
     entries = feed.entries
     entries.each do |result|
-      puts result.to_s
       i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:result.published, url:result.url, body: result.summary)
       i.save
     end

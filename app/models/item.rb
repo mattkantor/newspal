@@ -1,7 +1,7 @@
 class Item < ApplicationRecord
     validates_uniqueness_of :title, :scope=>:source_id
     belongs_to :source
-    has_many :entities
+    has_many :entities, dependent: :destroy
 
     def find_topics
 
