@@ -5,6 +5,7 @@ class Source < ApplicationRecord
 
   validates_uniqueness_of :rss_url
 
+
   def self.clear_and_get
     Item.destroy_all
     Source.get_all_news
@@ -12,7 +13,7 @@ class Source < ApplicationRecord
 
   def self.get_all_news
     Source.all.each do |source|
-    
+      puts source.name
       source.news_getter
     end
   end
@@ -25,7 +26,7 @@ class Source < ApplicationRecord
     feed = Feedjira::Feed.fetch_and_parse self.rss_url
     entries = feed.entries
     entries.each do |result|
-      i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:result.published, url:result.url, body: result.summary)
+      i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:(result.published||=DateTime.now), url:result.url, body: result.summary)
       i.save
     end
 
