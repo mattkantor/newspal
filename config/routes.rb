@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :submissions, only:[:new, :create]
   get 'news'=> 'news#index'
   get 'refresh'=> 'news#refresh'
 

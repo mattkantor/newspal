@@ -15,6 +15,7 @@ require 'capistrano/faster_assets'
 # require 'capistrano/passenger'
 require "whenever/capistrano"
 require 'capistrano3/unicorn'
+#require 'capistrano-virtualenv'
 #require 'capistrano/nginx'
 
 set :services, [:nginx, :unicorn]

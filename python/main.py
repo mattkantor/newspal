@@ -5,8 +5,12 @@ def get_ner(sentence):
     doc = nlp(sentence)
 
 # Find named entities, phrases and concepts
+    print('[',end="")
+    arr = []
     for entity in doc.ents:
-        print(entity.text, entity.label_)
-
+        x=('{"text":"%s","type":"%s"}' % (entity.text, entity.label_))
+        arr.append(x)
+    print(",".join(arr), end="")
+    print(']',end="")
 
 get_ner(sys.argv[1])

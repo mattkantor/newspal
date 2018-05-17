@@ -1,4 +1,5 @@
 class NewsController < ApplicationController
+
   def refresh
     Source.get_all_news
     redirect_to "/"
