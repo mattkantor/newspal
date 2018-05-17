@@ -11,7 +11,14 @@
 // about supported directives.
 //
 //=require_tree .
-(function(){
+//=require ahoy
+
+$(document).ready(function(){
+  $(".news-item-link").on("click", function(e){
+    ahoy.track("visit-link", {id:$(this).attr("id"),url: $(this).attr("href")});
+
+  });
+
   $(window).scroll(function () {
       var top = $(document).scrollTop();
       if(top > 50)
@@ -69,4 +76,4 @@
     return lines;
   }
 
-})();
+});

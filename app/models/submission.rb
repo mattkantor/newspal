@@ -7,7 +7,7 @@ class Submission < ApplicationRecord
   before_save :check_rss
 
   def check_rss
-
+    
   end
 
 

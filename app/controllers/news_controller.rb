@@ -2,17 +2,19 @@ class NewsController < ApplicationController
 
   def refresh
     Source.get_all_news
+    ahoy.track "refresh"
     redirect_to "/"
     return
   end
 
   def index
-    layout = params[:layout] || session[:layout] || "grid"
+    layout = params[:layout] || session[:layout] || "list"
     session[:layout] = layout
     @items = Item
     @filter = params[:filter]
     @lean = params[:l]
     @channel = params[:channel]
+    ahoy.track "home", {channel: @channel, lean:@lean, filter: @filter, layout:@layout}
 
     if @channel and @channel!=""
       @items = @items.joins(:source).where("source.id=?",@channel).order("published desc").all
@@ -34,7 +36,7 @@ class NewsController < ApplicationController
 
     @layout = layout
 
-    @items = @items.order("published desc").all
+    @items = @items.order("published desc").limit(70).all
 
   end
 
