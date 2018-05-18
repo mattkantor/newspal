@@ -1,6 +1,6 @@
 # server-based syntax
 # ======================
-server '159.89.119.197', user: 'rails', roles: %w{app db web}, primary:true #
+server '159.89.119.197', user: 'deploy', roles: %w{app db web}, primary:true #
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
