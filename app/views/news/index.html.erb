@@ -60,11 +60,14 @@
 <%else%>
 <table class="table table-hover table-bordered">
   <% @items.each do |item|%>
-    <tr><td>
+    <tr><td width="80%">
        <%=link_to(item.title, item.url, {target:"_blank", class:"btn btn-default news-item-link", id:"news-#{item.id.to_s}"})%>
 <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>
-       <small><%=show_sentiment(item) %></small>
-       &nbsp;<span class="pull-right"><%=show_leans(item)%></span>
+</td><Td>
+       &nbsp;<span class="pull-right">leans: <%=show_leans(item)%>
+         <br>
+         <small><%=show_sentiment(item) %></small>
+       </span>
 
 
        <br>
