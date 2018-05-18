@@ -6,7 +6,7 @@ set :application, "objectivity"
 set :repo_url, "http://github.com/mattkantor/newspal.git"
 set :deploy_to, '/home/rails/rails_project'
 set :pty, true
-set :bundle_flags, '--deployment --quiet' 
+set :bundle_flags, '--deployment --quiet'
 #set ssh_options[:keys]="~/.ssh/id_rsa"
 
 set :ssh_options, {:forward_agent => true}
@@ -16,6 +16,8 @@ namespace :deploy do
   task :restart do
     #invoke 'unicorn:restart'
     on roles(:app) do
+        puts "updating python"
+        execute! "pip3 install -r python/requirements.txt"
 
         puts "restarting unicorn..."
         execute!  :sudo, :systemctl, :restart, :unicorn
