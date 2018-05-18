@@ -17,7 +17,7 @@ namespace :deploy do
     on roles(:app) do
 
         puts "restarting unicorn..."
-        execute!  :sudo , :systemctl, :restart, :unicorn
+        execute!  :sudo, :systemctl, :restart, :unicorn
         # => execute! :sudo, :service, :unicorn, :restart
 
         sleep 5

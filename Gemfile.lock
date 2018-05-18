@@ -378,6 +378,7 @@ DEPENDENCIES
   mysql2
   pg
   puma (~> 3.7)
+  rack (~> 2.0.5)
   rails (~> 5.1.5)
   rails_layout
   rspec-rails
