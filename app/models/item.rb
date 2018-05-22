@@ -9,6 +9,7 @@ class Item < ApplicationRecord
 
     before_save :sentiment_anal, :clean_body #, :get_ner
 
+
     def clean_body
       self.body = ApplicationController.helpers.sanitize(self.body, :tags=>[])
     end

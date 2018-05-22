@@ -7,6 +7,12 @@ class NewsController < ApplicationController
     return
   end
 
+  def topics
+    
+
+  end
+
+
   def index
     layout = params[:layout] || session[:layout] || "list"
     session[:layout] = layout

@@ -17,3 +17,25 @@
 2018-05-16 10:11:12.273 EDT [96421] LOG:  worker process: logical replication launcher (PID 96429) exited with exit code 1
 2018-05-16 10:11:12.274 EDT [96424] LOG:  shutting down
 2018-05-16 10:11:12.282 EDT [96421] LOG:  database system is shut down
+LOG:  database system was shut down at 2018-05-19 14:23:24 EDT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "matthewkantor" does not exist
+FATAL:  database "matthewkantor" does not exist
+ERROR:  syntax error at or near ""password"" at character 39
+STATEMENT:  create role rails with login password "password" 
+	;
+ERROR:  role "rails" already exists
+STATEMENT:  CREATE ROLE rails NOSUPERUSER CREATEDB NOCREATEROLE INHERIT LOGIN;
+FATAL:  database "newspal" does not exist
+ERROR:  database "newspal" already exists
+STATEMENT:  CREATE DATABASE "newspal" ENCODING = 'utf8'
+ERROR:  column "type" does not exist at character 44
+STATEMENT:  SELECT "entities".* FROM "entities" WHERE (type='PERSON')
+ERROR:  column "entity_type" does not exist at character 44
+STATEMENT:  SELECT "entities".* FROM "entities" WHERE (entity_type='PERSON')
+ERROR:  syntax error at or near "contains" at character 66
+STATEMENT:  SELECT "entities".* FROM "entities" WHERE (pos='PERSON' AND name contains 'Trump')
+ERROR:  syntax error at or near "having" at character 66
+STATEMENT:  SELECT "entities".* FROM "entities" WHERE (pos='PERSON' AND name having 'Trump')

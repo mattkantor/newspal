@@ -9,3 +9,4 @@ Source.create!(name:'Breitbart News', rss_url:'http://feeds.feedburner.com/breit
 Source.create!(name:'BBC News', rss_url:'http://feeds.bbci.co.uk/news/rss.xml#', logo_url:'http://newsimg.bbc.co.uk/shared/bsp/xsl/rss/img/news_logo.gif',leans:'-1')
 Source.create!(name:'Guardian World News', rss_url:'https://www.theguardian.com/world/rss', logo_url:'https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png',leans:'-2')
 Source.create!(name:'McClatchyDC', rss_url:'http://www.mcclatchydc.com/news/?widgetName=rssfeed&widgetContentId=712015&getXmlFeed=true', logo_url:'',leans:'0')
+Source.create!(name:"Daily Caller Politics", rss_url:"http://feeds.feedburner.com/dailycaller-politics", logo_url:"https://thenewrevere.com/wp-content/uploads/2015/03/Daily-Caller-Logo.jpg",leans:4)

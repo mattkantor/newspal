@@ -20,14 +20,19 @@ class Source < ApplicationRecord
 
 
   def news_getter
+    begin
 
-    rss_results = []
-    #xml = HTTParty.get(self.rss_url).body
-    feed = Feedjira::Feed.fetch_and_parse self.rss_url
-    entries = feed.entries
-    entries.each do |result|
-      i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:(result.published||=DateTime.now), url:result.url, body: result.summary)
-      i.save
+      rss_results = []
+      #xml = HTTParty.get(self.rss_url).body
+      feed = Feedjira::Feed.fetch_and_parse self.rss_url
+      entries = feed.entries
+
+      entries.each do |result|
+        i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:(result.published||=DateTime.now), url:result.url, body: result.summary)
+        i.save
+      end
+    rescue
+    ensure
     end
 
   end
