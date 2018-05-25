@@ -1,24 +1,23 @@
 # README
+How to run this thing
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.4
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
+* System dependencies: Redis, Postgres, Unicorn, NGINX, python3/spacy/spacy en, Sentry.io
 
 * Configuration
 
-* Database creation
+* Database creation: see config/database.yml
 
-* Database initialization
+* Database initialization -
+- rake db:seed
+- rake update_news
+- rake update_ner
 
-* How to run the test suite
+* How to run the test suite - NYI
 
 * Services (job queues, cache servers, search engines, etc.)
+- redis / sidekiq
 
 * Deployment instructions
-
-* ...
+cap production deploy
