@@ -1,67 +1,70 @@
 
 
-<hr>
-<div class="row">
-  <div class="col-sm-6">
-  <i class="fa fa-filter"></i>
-  <a href="/news?l=-4&filter=<%=@filter%>" class="btn btn-sm btn-primary">Very Left</a>
-  <a href="/news?l=-2&filter=<%=@filter%>" class="btn btn-sm btn-primary">Slight Left</a>
+<section class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+      <i class="fa fa-filter"></i>
+      <a href="/news?l=-4&filter=<%=@filter%>" class="btn btn-sm btn-primary">Very Left</a>
+      <a href="/news?l=-2&filter=<%=@filter%>" class="btn btn-sm btn-primary">Slight Left</a>
 
-  <a href="/news?l=0&filter=<%=@filter%>" class="btn btn-sm btn-primary">Moderate</a>
-  <a href="/news?l=2&filter=<%=@filter%>" class="btn btn-sm btn-primary">Slight Right</a>
+      <a href="/news?l=0&filter=<%=@filter%>" class="btn btn-sm btn-primary">Moderate</a>
+      <a href="/news?l=2&filter=<%=@filter%>" class="btn btn-sm btn-primary">Slight Right</a>
 
-  <a href="/news?l=4&filter=<%=@filter%>" class="btn btn-sm btn-primary">Very Right</a>
+      <a href="/news?l=4&filter=<%=@filter%>" class="btn btn-sm btn-primary">Very Right</a>
 
-  <a href="/news?l=0&filter=<%=@filter%>" class="btn btn-sm btn-primary">All News</a>
-</div>
-<div class="col-sm-6 ">
-  <a href="/news?layout=grid" class="btn btn-sm btn-default pull-right"><i class="fa fa-table"></i></a>
-  <a href="/news?layout=list" class="btn btn-sm btn-default pull-right"><i class="fa fa-list"></i></a>
-  <a href="/refresh" class="btn btn-sm btn-default pull-right"><i class="fa fa-refresh"></i></a>
-</div>
-</div>
-
-
-<br>
-
-<%if @layout =="grid"%>
-  <div class="card-columns">
-
-
-  <% @items.each do |item|%>
-
-  <div class="card">
-    <%if item.image_url %>
-        <%=image_tag item.image_url,width:320, class:"card-img-top",alt:"Card image cap"  %>
-      <%else %>
-        <img class="card-img-top" src="" >
-      <%end%>
-
-    <div class="card-body">
-      <h5 class="card-title"><%=item.title%></h5>
-      <p class="card-text"><%=sanitize(item.body, :tags=>[])%></p>
-       <%=link_to("Read More...", item.url, {target:"_blank", class:"btn btn-primary btn-outline"})%>
+      <a href="/news?l=0&filter=<%=@filter%>" class="btn btn-sm btn-primary">All News</a>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>
+    <div class="col-sm-6 ">
+      <a href="/news?layout=grid" class="btn btn-sm btn-default pull-right"><i class="fa fa-table"></i></a>
+      <a href="/news?layout=list" class="btn btn-sm btn-default pull-right"><i class="fa fa-list"></i></a>
+      <a href="/refresh" class="btn btn-sm btn-default pull-right"><i class="fa fa-refresh"></i></a>
     </div>
+    </div>
+
+
+    <br>
+
+    <%if @layout =="grid"%>
+      <div class="card-columns">
+
+
+      <% @items.each do |item|%>
+
+      <div class="card">
+        <%if item.image_url %>
+            <%=image_tag item.image_url,width:320, class:"card-img-top",alt:"Card image cap"  %>
+          <%else %>
+            <img class="card-img-top" src="" >
+          <%end%>
+
+        <div class="card-body">
+          <h5 class="card-title"><%=item.title%></h5>
+          <p class="card-text"><%=sanitize(item.body, :tags=>[])%></p>
+           <%=link_to("Read More...", item.url, {target:"_blank", class:"btn btn-primary btn-outline"})%>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>
+        </div>
+      </div>
+      <% end %>
+      </div>
+    <%else%>
+    <table class="table table-hover table-bordered table-condensed">
+      <% @items.each do |item|%>
+        <tr><td width="80%">
+           <%=link_to(item.title, item.url, {target:"_blank", class:" news-item-link", id:"news-#{item.id.to_s}"})%>
+           <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>
+           <p><span class="small"><%=item.body%></span></p>
+         </td>
+         <td>
+           &nbsp;<span class="pull-right">leans: <%=show_leans(item)%>
+             <br>
+             <small><%=show_sentiment(item) %></small>
+           </span>
+         </td></tr>
+      <%end %>
+    </table>
+    <%end%>
   </div>
-  <% end %>
-  </div>
-<%else%>
-<table class="table table-hover table-bordered">
-  <% @items.each do |item|%>
-    <tr><td width="80%">
-       <%=link_to(item.title, item.url, {target:"_blank", class:"btn btn-default news-item-link", id:"news-#{item.id.to_s}"})%>
-       <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>
-       <p><span class="small"><%=item.body%></span></p>
-     </td>
-     <td>
-       &nbsp;<span class="pull-right">leans: <%=show_leans(item)%>
-         <br>
-         <small><%=show_sentiment(item) %></small>
-       </span>
-     </td></tr>
-  <%end %>
-</table>
-<%end%>
+</section>
