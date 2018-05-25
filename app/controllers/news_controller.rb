@@ -8,7 +8,7 @@ class NewsController < ApplicationController
   end
 
   def topics
-    
+
 
   end
 
@@ -37,7 +37,7 @@ class NewsController < ApplicationController
 
 
     if @filter and @filter!=""
-      @items = @items.where("title like ?","%#{@filter}%")
+      @items = @items.where("title like ? or body like ?","%#{@filter}%","%#{@filter}%")
     end
 
     @layout = layout
