@@ -8,6 +8,18 @@ task :clean_update =>:environment do
   Source.clear_and_get
 end
 
+task :update_ner => :environment do
+  increment = 0
+  Item.all.each do |item|
+    count = item.entities.count
+    if count ==0
+      item.get_ner
+      increment = increment + 1
+      puts "updating #{increment} news item (#{item.title})"
+    end
+  end
+end
+
 task :export_to_seeds => :environment do
 
   sources = Source.all
