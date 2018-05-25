@@ -13,7 +13,7 @@ task :update_ner => :environment do
   Item.all.each do |item|
     count = item.entities.count
     if count ==0
-      item.get_ner
+      item.update_ner
       increment = increment + 1
       puts "updating #{increment} news item (#{item.title})"
     end

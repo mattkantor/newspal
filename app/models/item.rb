@@ -7,11 +7,16 @@ class Item < ApplicationRecord
 
     end
 
-    before_save :sentiment_anal, :clean_body , :get_ner
+    before_save :sentiment_anal, :clean_body
+    after_save :update_ner
 
 
     def clean_body
       self.body = ApplicationController.helpers.sanitize(self.body, :tags=>[])
+    end
+
+    def update_ner
+      ProcessNewsWorker.perform_async(self.id)
     end
 
     def get_ner
@@ -22,7 +27,7 @@ class Item < ApplicationRecord
         hash.each do |ent|
           type = ent["type"]
           name = ent["text"]
-          Entity.where(name:name,  pos:type, item_id:self.id).first_or_create
+          Entity.find_create(name:name,  pos:type, item_id:self.id)
         end
 
     end
@@ -37,5 +42,7 @@ class Item < ApplicationRecord
       end
       self.sentiment = score
     end
+
+
 
 end

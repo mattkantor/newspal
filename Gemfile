@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+
 gem "rack","~>2.0.5"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
@@ -38,7 +39,7 @@ gem 'devise'
 # Use Capistrano for deployment
 
 gem 'activeadmin'
-
+gem "sidekiq"
 gem "pg"
 
 gem "unicorn"
