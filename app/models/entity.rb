@@ -5,11 +5,11 @@ class Entity < ApplicationRecord
 
   def self.find_create(name, type, id)
 
-    name = clean(name)
-    Entity.find_create(name:name,  pos:type, item_id:id).first_or_create
+    name = Entity.clean(name)
+    Entity.where(name:name,  pos:type, item_id:id).first_or_create
   end
 
-  def clean(name)
+  def self.clean(name)
     name = name.gsub("'s","")
     name = name.gsub("'","")
     name = name.gsub(":","")

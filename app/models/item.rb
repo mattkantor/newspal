@@ -27,7 +27,7 @@ class Item < ApplicationRecord
         hash.each do |ent|
           type = ent["type"]
           name = ent["text"]
-          Entity.find_create(name:name,  pos:type, item_id:self.id)
+          Entity.find_create(name, type, self.id)
         end
 
     end
