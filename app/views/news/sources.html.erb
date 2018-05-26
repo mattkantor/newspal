@@ -1,0 +1,24 @@
+
+
+<section class="content">
+  <div class="container-fluid">
+
+
+
+    <table class="table table-hover table-bordered table-condensed">
+      <% @sources.each do |source|%>
+        <tr><td width="80%">
+           <%=source.name%>
+
+         </td>
+         <td>
+           &nbsp;<span class="pull-right">leans:
+             <br>
+             <small>sentiment</small>
+           </span>
+         </td></tr>
+      <%end %>
+    </table>
+
+  </div>
+</section>

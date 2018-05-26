@@ -19,6 +19,7 @@ class Source < ApplicationRecord
   end
 
 
+
   def news_getter
     begin
 
