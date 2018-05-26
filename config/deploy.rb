@@ -36,8 +36,8 @@ namespace :deploy do
   task :restart do
     #invoke 'unicorn:restart'
     on roles(:app) do
-        puts "updating python"
-        execute! "pip3 install -r /home/rails/rails_project/current/python/requirements.txt"
+        #puts "updating python"
+        #execute! "pip3 install -r /home/rails/rails_project/current/python/requirements.txt"
 
         puts "restarting unicorn..."
         execute!  :sudo, :systemctl, :restart, :unicorn
