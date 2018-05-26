@@ -12,6 +12,10 @@ class NewsController < ApplicationController
 
   end
 
+  def sources
+    @sources = Source.all
+  end
+
 
   def index
     layout = params[:layout] || session[:layout] || "list"
