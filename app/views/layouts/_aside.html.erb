@@ -17,28 +17,9 @@
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <!-- Add icons to the links using the .nav-icon class
              with font-awesome or any other icon font library -->
-        <li class="nav-item ">
-          <a href="/" class="nav-link active">
-            <i class="nav-icon fa fa-newspaper-o"></i>
-            <p>
-              News
 
-            </p>
-          </a>
-
-        </li>
-        <li class="nav-item ">
-          <a href="/sources" class="nav-link active">
-            <i class="nav-icon fa fa-folder"></i>
-            <p>
-              Sources
-
-            </p>
-          </a>
-
-        </li>
-
-
+        <%=nav_item("News","/","newspaper-o", @nav=="news")%>
+        <%=nav_item("Sources","/sources","folder", @nav=="sources")%>
         <li class="nav-header">Trending (coming soon)</li>
 
             <% @top_ents.each do |e| %>

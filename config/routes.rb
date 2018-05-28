@@ -3,11 +3,8 @@ Rails.application.routes.draw do
   resources :submissions, only:[:new, :create]
   get 'news'=> 'news#index'
   get 'sources'=> 'news#sources'
-
   get 'refresh'=> 'news#refresh'
-
   get 'home'=>'home#index'
-
   get 'api' => "api#index"
 
   devise_for :admin_users, ActiveAdmin::Devise.config

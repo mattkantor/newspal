@@ -6,6 +6,21 @@ class Source < ApplicationRecord
   validates_uniqueness_of :rss_url
 
 
+
+  def sentiment(items)
+    items.collect{|i|i.sentiment}.inject(:+).to_f/(items.size)
+  end
+
+  def avg_sentiment
+    sentiment(self.items)
+
+  end
+
+  def avg_sentiment_by_date(date)
+    items = self.items.where("published > ? and published < ?", date, date)
+    sentiment(items)
+  end
+
   def self.clear_and_get
     Item.destroy_all
     Source.get_all_news

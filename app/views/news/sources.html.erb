@@ -12,12 +12,16 @@
            &nbsp;
            <%=source.name%>
 
-         </td>
-         <td>
-          <span >leans:  <%=show_leans(source.leans)%>
-             <br>
-             <small>Avg Sentiment: coming soon</small>
-           </span>
+         <br><br>
+          <p>leans:
+              <small class="badge badge-info">
+              <%=show_leans(source.leans)%>
+              </small>
+
+             Avg Sentiment:
+            <%=sentiment_badge(source.avg_sentiment) %>
+
+</p>
          </td></tr>
       <%end %>
     </table>

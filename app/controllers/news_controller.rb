@@ -15,10 +15,12 @@ class NewsController < ApplicationController
   def sources
     @page_title = "News Sources"
     @sources = Source.all
+    @nav="sources"
   end
 
 
   def index
+    @nav="news"
     @page_title = "News Home"
     layout = params[:layout] || session[:layout] || "list"
     session[:layout] = layout
