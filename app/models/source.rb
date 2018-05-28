@@ -8,7 +8,11 @@ class Source < ApplicationRecord
 
 
   def sentiment(items)
-    items.collect{|i|i.sentiment}.inject(:+).to_f/(items.size)
+    if items.size > 0
+      items.collect{|i|i.sentiment}.inject(:+).to_f/(items.size)
+    else
+      0
+    end
   end
 
   def avg_sentiment
