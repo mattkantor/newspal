@@ -9,7 +9,7 @@ class Source < ApplicationRecord
 
   def sentiment(items)
     if items.size > 0
-      items.collect{|i|i.sentiment}.inject(:+).to_f/(items.size)
+      items.reject{|item| item.sentiment.nil?}.collect{|i| i.sentiment||0 }.inject(:+).to_f/(items.size)
     else
       0
     end
