@@ -26,7 +26,7 @@ class NewsController < ApplicationController
     session[:layout] = layout
     @items = Item
     @filter = params[:filter]
-    @lean = params[:l]
+    @lean = params[:l]||"A"
     @channel = params[:channel]
     ahoy.track "home", {channel: @channel, lean:@lean, filter: @filter, layout:@layout}
 
@@ -35,12 +35,12 @@ class NewsController < ApplicationController
       return
     end
 
-    if @lean
+    if @lean and @lean!="A"
       @lean = @lean.to_i
       @items = @items.joins(:source).where("sources.leans=? or sources.leans=? or sources.leans=?", @lean-1, @lean, @lean+1)
 
     else
-      lean = 0
+      @lean = "A"
     end
 
 

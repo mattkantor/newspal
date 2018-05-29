@@ -10,7 +10,7 @@
         <tr><td width="80%">
            <%=image_tag source.logo_url, width:50 %>
            &nbsp;
-           <span class="large"><%=source.name%></span>
+           <span class="large"><%=source.name%></span><A href="#" class="btn btn-primary"> &nbsp; View News</a>
 
          <br><br>
           <p>leans:
@@ -20,6 +20,8 @@
 
              Avg Sentiment:
             <%=sentiment_badge(source.avg_sentiment) %>
+
+
 
 </p>
          </td></tr>
