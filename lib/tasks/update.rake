@@ -8,6 +8,19 @@ task :clean_update =>:environment do
   Source.clear_and_get
 end
 
+task :compute_daily_trends do
+  items_per_day = Item.where("published > ? and published < ?",(DateTime.now).midnight,(DateTime.now+1).midnight)
+  ents_per_day = []
+  items_per_day.each do | item |
+
+    ents = item.entities.collect{|e|e.name}
+    ents_per_day << ents.uniq!
+  
+  end
+
+
+end
+
 task :update_ner => :environment do
   increment = 0
   Item.all.each do |item|

@@ -17,9 +17,14 @@ class Entity < ApplicationRecord
     name
   end
 
-  def self.top(count)
-    ents = Entity.select("name,count(*)").where("(pos=? and name ~ ?) ", "PERSON"," ").group("entities.name").order("count desc").limit(12).all
+  def self.top(count=10, days_back=5)
+    if date.nil?
+      ents = Entity.select("name,count(*)").joins(:item).where("items.published > ?", DateTime.now-days_back).where("(pos=? and name ~ ?) ", "PERSON"," ").group("entities.name").order("count desc").limit(count).all
+
+    end
     ents = ents.collect{|c|c.name}
     ents.uniq
   end
+
+
 end

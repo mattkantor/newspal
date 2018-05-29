@@ -1,5 +1,14 @@
 class NewsController < ApplicationController
+  before_action :get_top_keywords
+  before_action :set_defaults
 
+  def set_defaults
+    @page_title = "Scoopy News"
+  end
+
+  def get_top_keywords
+    @top_ents = Entity.top(10)
+  end
   def refresh
     Source.get_all_news
     ahoy.track "refresh"

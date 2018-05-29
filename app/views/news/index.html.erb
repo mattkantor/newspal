@@ -54,14 +54,17 @@
       <% @items.each do |item|%>
         <tr><td width="80%">
            <%=link_to(item.title, item.url, {target:"_blank", class:" news-item-link", id:"news-#{item.id.to_s}"})%>
-           <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>
+
            <div class="visible-lg"><span class="small"><%=sanitize(item.body, :tags=>[])%></span></div>
          </td>
          <td>
-           &nbsp;<span class="pull-right">leans: <%=show_leans(item.source.leans)%>
+
+              <div class="text-center ">  <%=image_tag item.source.logo_url, width:50 %><Br>
+
+        leans: <span class="badge badge-info"><%=show_leans(item.source.leans)%></span>
              <br>
-             <small><%=show_sentiment(item) %></small>
-           </span>
+             <p>Sentiment: <%=sentiment_badge(item.sentiment) %></p>
+          </div>
          </td></tr>
       <%end %>
     </table>
