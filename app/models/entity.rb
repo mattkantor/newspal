@@ -18,7 +18,7 @@ class Entity < ApplicationRecord
   end
 
   def self.top(count)
-    ents = Entity.where("(pos=? and name ~ ?) ", "PERSON"," ").limit(12).all
+    ents = Entity.select("name,count(*)").where("(pos=? and name ~ ?) ", "PERSON"," ").group("entities.name").order("count desc").limit(12).all
     ents = ents.collect{|c|c.name}
     ents.uniq
   end
