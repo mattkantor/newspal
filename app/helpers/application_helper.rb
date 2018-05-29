@@ -13,7 +13,7 @@ module ApplicationHelper
     end
   end
 
-  def sentiment_badge(sentiment)
+  def sentiment_badge(sentiment=0)
     if sentiment > 0
       badge="success"
     elsif sentiment<0
