@@ -4,29 +4,35 @@
   <div class="container-fluid">
 
 
-
-    <table class="table table-hover table-bordered table-condensed">
-      <% @sources.each do |source|%>
-        <tr><td width="80%">
-           <%=image_tag source.logo_url, width:50 %>
-           &nbsp;
-           <span class="large"><%=source.name%></span><A href="#" class="btn btn-primary"> &nbsp; View News</a>
-
-         <br><br>
-          <p>leans:
-              <small class="badge badge-info">
-              <%=show_leans(source.leans)%>
-              </small>
-
-             Avg Sentiment:
-            <%=sentiment_badge(source.avg_sentiment) %>
+  <div class="row">
+    <div class="col-sm-12">
 
 
+        <% @sources.each do |source|%>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
 
-</p>
-         </td></tr>
-      <%end %>
-    </table>
+             <%=image_tag source.logo_url, width:50 %>
+             &nbsp;
+             <span class="large"><%=source.name%></span>
+           </div>
+           <div class="col-md-2 col-sm-6">
+                leans<Br>
+                <small class="badge badge-info">
+                  <%=show_leans(source.leans)%>
+                </small>
+              </div>   <div class="col-md-2 col-sm-6">
+               Avg Sentiment<Br> <%=sentiment_badge(source.avg_sentiment) %>
+            </div>
+          <div class="col-md-4 col-sm-12">
+            <%=link_to "View News", "/?channel=#{source.id}", class:"btn btn-primary btn-sm" %>
+          
+          </div>
+          </div>
+          <hr/>
+              <%end %>
 
-  </div>
+          </div>
+        </div>
+    </div>
 </section>

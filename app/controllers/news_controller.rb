@@ -31,7 +31,8 @@ class NewsController < ApplicationController
     ahoy.track "home", {channel: @channel, lean:@lean, filter: @filter, layout:@layout}
 
     if @channel and @channel!=""
-      @items = @items.joins(:source).where("source.id=?",@channel).order("published desc").all
+      @source = Source.find(@channel.to_i)
+      @items = @items.joins(:source).where("sources.id=?",@channel.to_i).order("published desc").all
       return
     end
 

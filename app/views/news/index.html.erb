@@ -55,7 +55,7 @@
         <tr><td width="80%">
            <%=link_to(item.title, item.url, {target:"_blank", class:" news-item-link", id:"news-#{item.id.to_s}"})%>
            <small class="text-muted">  <%=image_tag item.source.logo_url, width:50 %></small>
-           <div class="visible-lg"><span class="small"><%=item.body%></span></div>
+           <div class="visible-lg"><span class="small"><%=sanitize(item.body, :tags=>[])%></span></div>
          </td>
          <td>
            &nbsp;<span class="pull-right">leans: <%=show_leans(item.source.leans)%>

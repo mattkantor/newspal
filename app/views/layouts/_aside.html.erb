@@ -20,11 +20,11 @@
 
         <%=nav_item("News","/","newspaper-o", @nav=="news")%>
         <%=nav_item("Sources","/sources","folder", @nav=="sources")%>
-        <li class="nav-header">Trending (coming soon)</li>
+        <li class="nav-header">Trending </li>
 
             <% @top_ents.each do |e| %>
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="/?filter=<%=e %>" class="nav-link">
                   <i class="nav-icon fa fa-circle-o"></i>
                   <p><%= e %></p>
                 </a>
