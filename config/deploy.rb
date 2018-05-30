@@ -1,6 +1,11 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.10.1"
 
+ENV['SENTRY_API_ENDPOINT'] : "https://app.getsentry.com"
+ENV['SENTRY_ORG']          : "propellerhead-zk"
+ENV['SENTRY_PROJECT']      : "newsy"
+ENV['SENTRY_API_KEY']      : "0895c9ac5360465aa513a47e1bcbe5bed81a3c7bc83a43c3af7d9e4b55670484"
+
 set :application, "objectivity"
 
 set :repo_url, "http://github.com/mattkantor/newspal.git"
@@ -12,10 +17,31 @@ set :bundle_flags, '--deployment --quiet'
 set :ssh_options, {:forward_agent => true}
 
 after 'deploy:publishing', 'deploy:restart'
+after 'deploy:published', 'sentry:notify_deployment'
 # after 'deploy:starting', 'sidekiq:quiet'
 # after 'deploy:reverted', 'sidekiq:restart'
 # after 'deploy:published', 'sidekiq:restart'
 
+namespace :sentry do
+  task :notify_deployment do
+    run_locally do
+      require 'uri'
+      require 'net/https'
+
+      puts "Notifying Sentry of release..."
+      uri = URI.parse(ENV['SENTRY_API_ENDPOINT'])
+      http = Net::HTTP.new(uri.host, uri.port)
+      http.use_ssl = true
+
+      req = Net::HTTP::Post.new("/api/0/projects/#{ENV['SENTRY_ORG']}/#{ENV['SENTRY_PROJECT']}/releases/", initheader={'Content-Type' =>'application/json'})
+      req.basic_auth(ENV['SENTRY_API_KEY'], '')
+      req.body = %Q[{"version":"#{fetch(:release_timestamp)}","ref":"#{fetch(:current_revision)}"}]
+
+      response = http.start { |h| h.request(req) }
+      puts "Sentry response: #{response.body}"
+    end
+  end
+end
 
 namespace :sidekiq do
   task :quiet do
