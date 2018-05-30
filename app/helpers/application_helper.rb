@@ -2,7 +2,7 @@ module ApplicationHelper
   def show_leans(leans)
     if leans >3
       return "Very Conservative"
-    elif leans <-3
+    elif leans < -3
       return "Very Liberal"
     elsif leans>1
       return "Conservative"

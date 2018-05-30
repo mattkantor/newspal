@@ -55,7 +55,7 @@
         <tr><td width="80%">
            <%=link_to(item.title, item.url, {target:"_blank", class:" news-item-link", id:"news-#{item.id.to_s}"})%>
 
-           <div class="visible-lg"><span class="small"><%=sanitize(item.body, :tags=>[])%></span></div>
+           <div class="visible-lg"><span class="small"><Strong><%=item.published.strftime("%a %m-%d-%Y") %></strong><br> <%=sanitize(item.body, :tags=>[])%></span></div>
          </td>
          <td>
 

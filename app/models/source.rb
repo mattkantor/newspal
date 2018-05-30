@@ -4,6 +4,7 @@ class Source < ApplicationRecord
   after_update :news_getter
 
   validates_uniqueness_of :rss_url
+  validates_presence_of :rss_url
 
 
 
@@ -43,8 +44,24 @@ class Source < ApplicationRecord
     begin
 
       rss_results = []
+      Feedjira::Feed.add_common_feed_element 'image'
+      Feedjira::Feed.add_common_feed_element 'title'
+
       #xml = HTTParty.get(self.rss_url).body
       feed = Feedjira::Feed.fetch_and_parse self.rss_url
+      title = feed.title ||""
+      description = feed.description || title
+      image_url = feed.image.url || feed.image || ""
+
+      if !image_url.blank? and self.logo_url.blank?
+        self.update_attribute("rss_url", image_url)
+      end
+
+      if !title.blank? and self.title.blank?
+        self.update_attribute('title' , title)
+      end
+
+      #get high level info and update
       entries = feed.entries
 
       entries.each do |result|
