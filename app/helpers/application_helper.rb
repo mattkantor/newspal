@@ -14,9 +14,11 @@ module ApplicationHelper
   end
 
   def sentiment_badge(sentiment=0)
-    if sentiment > 0
+    if sentiment.nil?
+      badge="info"
+    elsif sentiment > 0
       badge="success"
-    elsif sentiment<0
+    elsif sentiment < 0
       badge="danger"
     else
       badge="info"
