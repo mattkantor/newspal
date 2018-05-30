@@ -22,7 +22,7 @@ set :bundle_flags, '--deployment --quiet'
 set :ssh_options, {:forward_agent => true}
 
 after 'deploy:publishing', 'deploy:restart'
-after 'deploy:published', 'sentry:notify_deployment'
+# after 'deploy:published', 'sentry:notify_deployment'
 # after 'deploy:starting', 'sidekiq:quiet'
 # after 'deploy:reverted', 'sidekiq:restart'
 # after 'deploy:published', 'sidekiq:restart'
@@ -39,7 +39,7 @@ namespace :sentry do
       http.use_ssl = true
 
       req = Net::HTTP::Post.new("/api/0/projects/propellerhead-zk/newsy/releases/", initheader={'Content-Type' =>'application/json'})
-      req.basic_auth("0895c9ac5360465aa513a47e1bcbe5bed81a3c7bc83a43c3af7d9e4b55670484", '')
+      req.basic_auth("c239fce47a1548df839b94dbc893fcff2612e9193a1a4c9393f1619719a03825", '')
       req.body = %Q[{"version":"#{fetch(:release_timestamp)}","ref":"#{fetch(:current_revision)}"}]
 
       response = http.start { |h| h.request(req) }
