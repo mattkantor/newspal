@@ -56,7 +56,7 @@ class Source < ApplicationRecord
         i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:(result.published||=DateTime.now), url:result.url, body: result.summary)
         i.save
       end
-      if feed.has_attribute? :title
+      if feed.respond_to? :title
         title = feed.title ||""
         if !title.blank? and self.title.blank?
           self.update_attribute('title' , title)
@@ -65,7 +65,7 @@ class Source < ApplicationRecord
         #puts("feed has no attibute title")
       end
 
-      if feed.has_attribute? :image
+      if feed.respond_to? :image
         image_url = feed.image.url || feed.image || ""
         if !image_url.blank? and self.logo_url.blank?
           self.update_attribute("rss_url", image_url)
