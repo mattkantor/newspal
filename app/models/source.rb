@@ -49,26 +49,30 @@ class Source < ApplicationRecord
 
       #xml = HTTParty.get(self.rss_url).body
       feed = Feedjira::Feed.fetch_and_parse self.rss_url
-      title = feed.title ||""
-      description = feed.description || title
-      image_url = feed.image.url || feed.image || ""
 
-      if !image_url.blank? and self.logo_url.blank?
-        self.update_attribute("rss_url", image_url)
-      end
-
-      if !title.blank? and self.title.blank?
-        self.update_attribute('title' , title)
-      end
-
-      #get high level info and update
       entries = feed.entries
 
       entries.each do |result|
         i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:(result.published||=DateTime.now), url:result.url, body: result.summary)
         i.save
       end
-    rescue
+
+      title = feed.title ||""
+      if !title.blank? and self.title.blank?
+        self.update_attribute('title' , title)
+      end
+
+
+      image_url = feed.image.url || feed.image || ""
+      if !image_url.blank? and self.logo_url.blank?
+        self.update_attribute("rss_url", image_url)
+      end
+
+
+
+    rescue => exception
+      Raven.capture_exception(exception)
+
     ensure
     end
 
