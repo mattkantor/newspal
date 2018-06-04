@@ -56,16 +56,22 @@ class Source < ApplicationRecord
         i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:(result.published||=DateTime.now), url:result.url, body: result.summary)
         i.save
       end
-
-      title = feed.title ||""
-      if !title.blank? and self.title.blank?
-        self.update_attribute('title' , title)
+      if feed.has_attribute? :title
+        title = feed.title ||""
+        if !title.blank? and self.title.blank?
+          self.update_attribute('title' , title)
+        end
+      else
+        #puts("feed has no attibute title")
       end
 
-
-      image_url = feed.image.url || feed.image || ""
-      if !image_url.blank? and self.logo_url.blank?
-        self.update_attribute("rss_url", image_url)
+      if feed.has_attribute? :image
+        image_url = feed.image.url || feed.image || ""
+        if !image_url.blank? and self.logo_url.blank?
+          self.update_attribute("rss_url", image_url)
+        end
+      else
+        #puts("feed has no attibute image")
       end
 
 
