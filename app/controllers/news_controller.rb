@@ -21,6 +21,21 @@ class NewsController < ApplicationController
 
   end
 
+  def follow
+    followed_topics = session[:follows] || []
+    follow_topic = params[:follow]
+    followed_topics << follow_topic
+    session[:follows] = followed_topics.uniq!
+  end
+
+  def unfollow
+    topic = params[:unfollow]
+    followed_topics = session[:follows]
+    followed_topics.push(topic)
+    session[:follows] = followed_topics.uniq!
+
+  end
+
   def sources
     @page_title = "News Sources"
     @sources = Source.all

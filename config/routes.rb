@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   get 'home'=>'home#index'
   get 'api' => "api#index"
 
+  get 'follow' => 'news#follow'
+  get 'unfollow' => 'news#unfollow'
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 

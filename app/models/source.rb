@@ -58,8 +58,8 @@ class Source < ApplicationRecord
       end
       if feed.respond_to? :title
         title = feed.title ||""
-        if !title.blank? and self.title.blank?
-          self.update_attribute('title' , title)
+        if !title.blank? and self.name.blank?
+          self.update_attribute('name' , title)
         end
       else
         #puts("feed has no attibute title")
