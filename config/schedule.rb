@@ -14,7 +14,7 @@ end
 
 every 30.minutes do
 
-  Item.update_ner_raw
+  runner "Item.update_ner_raw"
 end
 #
 # every 4.days do
