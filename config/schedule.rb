@@ -11,6 +11,11 @@ every 15.minutes do
   runner "Source.get_all_news"
 
 end
+
+every 30.minutes do
+
+  Item.update_ner_raw
+end
 #
 # every 4.days do
 #   runner "AnotherModel.prune_old_records"

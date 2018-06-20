@@ -1,6 +1,6 @@
 class Item < ApplicationRecord
     validates_uniqueness_of :title, :scope=>:source_id
-    
+
     belongs_to :source
     has_many :entities, dependent: :destroy
 
@@ -31,6 +31,10 @@ class Item < ApplicationRecord
           Entity.find_create(name, type, self.id)
         end
 
+    end
+
+    def self.update_ner_raw
+      Item.order('created_at desc').limit(200).all.each{|i| i.get_ner}
     end
 
     def sentiment_anal
