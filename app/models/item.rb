@@ -2,7 +2,7 @@ class Item < ApplicationRecord
     validates_uniqueness_of :title, :scope=>:source_id
 
     belongs_to :source
-    has_many :entities, dependent: :destroy
+    has_many :entities, dependent: :destroy, counter_cache:true
 
     def find_topics
 
@@ -34,7 +34,7 @@ class Item < ApplicationRecord
     end
 
     def self.update_ner_raw
-      Item.order('created_at desc').limit(200).all.each{|i| i.get_ner}
+      Item.where("items.entities_count=? and created_at > ?" ,0, (Time.now.to_date - 5)).order('created_at desc').limit(2000).all.each{|i| i.get_ner}
     end
 
     def sentiment_anal

@@ -15,10 +15,22 @@ task :compute_daily_trends do
 
     ents = item.entities.collect{|e|e.name}
     ents_per_day << ents.uniq!
-  
+
   end
 
 
+end
+desc 'Counter cache for items has many entities'
+
+task task_counter: :environment do
+  Item.reset_column_information
+  Item.find_each do |p|
+    Item.reset_counters p.id, :entities
+  end
+end
+
+task :build_ner => :environment do
+  Item.update_ner_raw
 end
 
 task :update_ner => :environment do

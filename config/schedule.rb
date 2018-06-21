@@ -12,7 +12,7 @@ every 15.minutes do
 
 end
 
-every 30.minutes do
+every 10.minutes do
 
   runner "Item.update_ner_raw"
 end

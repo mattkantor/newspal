@@ -1,12 +1,13 @@
 class Entity < ApplicationRecord
 
-  belongs_to :item
+  belongs_to :item, counter_cache: true
   attr_accessor :count
 
   def self.find_create(name, type, id)
 
     name = Entity.clean(name)
     Entity.where(name:name,  pos:type, item_id:id).first_or_create
+
   end
 
   def self.clean(name)
@@ -21,7 +22,7 @@ class Entity < ApplicationRecord
 
       ents = Entity.select("name,count(*)").joins(:item).where("items.published > ?", DateTime.now-days_back).where("(pos=? and name ~ ?) ", "PERSON"," ").group("entities.name").order("count desc").limit(count).all
 
-    
+
     ents = ents.collect{|c|c.name}
     ents.uniq
   end
