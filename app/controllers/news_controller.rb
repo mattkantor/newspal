@@ -1,6 +1,7 @@
 class NewsController < ApplicationController
-  before_action :get_top_keywords
+
   before_action :set_defaults
+  before_action :get_top_keywords
 
 
 
@@ -12,7 +13,7 @@ class NewsController < ApplicationController
   end
 
   def get_top_keywords
-    @top_ents = Entity.top(10)
+    @top_ents = (Entity.top(20) - @following)[0..9]
   end
   def refresh
     Source.get_all_news

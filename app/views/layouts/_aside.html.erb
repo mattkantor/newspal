@@ -38,10 +38,14 @@
 
             <% @top_ents.each do |e| %>
             <li class="nav-item">
-                <a href="/?filter=<%=e %>" class="nav-link">
+              <p class="nav-link">
+                <a href="/?filter=<%=e %>" >
                   <i class="nav-icon fa fa-circle-o"></i>
-                  <p><%= e %></p>
+                  <%= e %>
                 </a>
+                <a href="/follow?topic=<%=e%>" title="follow <%=e%>">
+                <i  class="nav-icon fa fa-smile-o pull-right"></i></a>
+              </p>
             </li>
             <%end%>
 
