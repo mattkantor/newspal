@@ -19,6 +19,13 @@ $(document).ready(function(){
 
   });
 
+  $("i.unfollow").on("click", function(e){
+    e.preventDefault();
+    var id = $(this).attr("id");
+    document.location.href = "/unfollow?topic=" + id.split("-")[1]
+
+  });
+
   $(window).scroll(function () {
       var top = $(document).scrollTop();
       if(top > 50)

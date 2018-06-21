@@ -2,8 +2,13 @@ class NewsController < ApplicationController
   before_action :get_top_keywords
   before_action :set_defaults
 
+
+
+
   def set_defaults
     @page_title = "Scoopy News"
+    @following = session[:follows]||[]
+
   end
 
   def get_top_keywords
@@ -23,17 +28,19 @@ class NewsController < ApplicationController
 
   def follow
     followed_topics = session[:follows] || []
-    follow_topic = params[:follow]
+    follow_topic = params[:topic]
+
     followed_topics << follow_topic
-    session[:follows] = followed_topics.uniq!
+
+    session[:follows] = followed_topics.uniq
+    redirect_to request.referer and return
   end
 
   def unfollow
-    topic = params[:unfollow]
-    followed_topics = session[:follows]
-    followed_topics.push(topic)
-    session[:follows] = followed_topics.uniq!
-
+    topic = params[:topic]
+    followed_topics = session[:follows]||[]
+    session[:follows] = followed_topics - [topic]
+    redirect_to request.referer and return
   end
 
   def sources
@@ -44,6 +51,7 @@ class NewsController < ApplicationController
 
 
   def index
+
     @nav="news"
     @page_title = "News Home"
     layout = params[:layout] || session[:layout] || "list"
@@ -71,6 +79,8 @@ class NewsController < ApplicationController
 
     if @filter and @filter!=""
       @items = @items.where("title like ? or body like ?","%#{@filter}%","%#{@filter}%")
+      @page_title = "Search Results for '#{@filter}'"
+      @add_follow = @filter
     end
 
     @layout = layout

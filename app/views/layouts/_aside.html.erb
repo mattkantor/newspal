@@ -20,6 +20,20 @@
 
         <%=nav_item("News","/","newspaper-o", @nav=="news")%>
         <%=nav_item("Sources","/sources","folder", @nav=="sources")%>
+        <%if @following.count > 0 %>
+        <li class="nav-header">Following </li>
+          <% @following.each do |e| %>
+            <li class="nav-item">
+                <p class="nav-link">
+                        <a href="/?filter=<%=e %>" >
+                        <i class="nav-icon fa fa-smile-o"></i>  <%= e %></a>
+                        <a href="/unfollow?topic=<%=e%>"
+                        <i  class="nav-icon fa fa-close pull-right"></i></a>
+                </p>
+            </li>
+          <%end%>
+        <%end%>
+
         <li class="nav-header">Trending </li>
 
             <% @top_ents.each do |e| %>
