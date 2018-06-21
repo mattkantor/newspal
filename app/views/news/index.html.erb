@@ -56,6 +56,11 @@
            <%=link_to(item.title, item.url, {target:"_blank", class:" news-item-link", id:"news-#{item.id.to_s}"})%>
 
            <div class="visible-lg"><span class="small"><Strong><%=item.published.strftime("%a %m-%d-%Y") %></strong><br> <%=sanitize(item.body, :tags=>[])%></span></div>
+          <!--p>Follow Tags:
+              <%item.entities.all.each do |e|%>
+                <%=e%>
+              <%end  %>
+          </p-->
          </td>
          <td>
 
