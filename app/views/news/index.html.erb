@@ -56,11 +56,14 @@
            <%=link_to(item.title, item.url, {target:"_blank", class:" news-item-link", id:"news-#{item.id.to_s}"})%>
 
            <div class="visible-lg"><span class="small"><Strong><%=item.published.strftime("%a %m-%d-%Y") %></strong><br> <%=sanitize(item.body, :tags=>[])%></span></div>
-          <p>Follow Tags:
-              <%item.entities.where("pos=?", "PERSON").all.each do |e|%>
-                <A  class="pill nav-link" href="/follow?topic=<%=e.name%>"><%e.name=%></a>
+             <%if item.entities.where("pos=?", "PERSON").count > 0 %>
+          <p>Follow :
+              <% item.entities.where("pos=?", "PERSON").all.each do |e|%>
+
+                <A  href="/follow?topic=<%=e.name%>"><span class="badge badge-info"><%=e.name%></span></a>
               <%end  %>
           </p>
+            <%end  %>
          </td>
          <td>
 

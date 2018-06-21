@@ -27,6 +27,11 @@ class NewsController < ApplicationController
 
   end
 
+  def how
+    @nav="How"
+    @page_title = "How we do it"
+  end
+
   def follow
     followed_topics = session[:follows] || []
     follow_topic = params[:topic]

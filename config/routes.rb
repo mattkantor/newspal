@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   get 'refresh'=> 'news#refresh'
   get 'home'=>'home#index'
   get 'api' => "api#index"
+  get 'how'=>'news#how'
+
 
   get 'follow' => 'news#follow'
   get 'unfollow' => 'news#unfollow'

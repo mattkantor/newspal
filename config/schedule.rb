@@ -12,6 +12,7 @@ every 15.minutes do
 
 end
 
+
 every 10.minutes do
 
   runner "Item.update_ner_raw"
