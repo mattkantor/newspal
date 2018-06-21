@@ -17,6 +17,23 @@
   <title>Scoopy (Alpha 1) | News + Analysis</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://cdn.ravenjs.com/3.26.2/raven.min.js" crossorigin="anonymous"></script>
+  <script>
+  var ravenOptions = {
+    ignoreErrors: [
+    'top.GLOBALS',
+    'Graph container element not found']
+    };
+    Raven.config('https://81364d3532474e71873c96a57b9e3e5e@sentry.io/1209409').install()
+
+    Raven.context(function () {
+
+    });
+
+    var s = 1/"0";
+
+  </script>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
   <!-- Ionicons -->

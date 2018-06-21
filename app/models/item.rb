@@ -24,11 +24,16 @@ class Item < ApplicationRecord
         sentence = self.title
         pyscript_path = Rails.root.join('python/main.py')
         entities_json = `python3 #{pyscript_path} "#{sentence}"`.chomp
-        hash = JSON.parse(entities_json)
-        hash.each do |ent|
-          type = ent["type"]
-          name = ent["text"]
-          Entity.find_create(name, type, self.id)
+        begin
+          hash = JSON.parse(entities_json)
+          hash.each do |ent|
+            type = ent["type"]
+            name = ent["text"]
+            Entity.find_create(name, type, self.id)
+          end
+        rescue => exception
+          Raven.extra_context json: entities_json
+          Raven.capture_exception(exception)
         end
 
     end
