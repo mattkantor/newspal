@@ -77,7 +77,7 @@ class Source < ApplicationRecord
 
 
     rescue => exception
-      Raven.capture_exception(exception)
+      #Raven.capture_exception(exception)
 
     ensure
     end

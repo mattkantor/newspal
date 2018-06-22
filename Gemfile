@@ -69,6 +69,9 @@ group :test do
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
+  gem "factory_bot_rails"
+  gem 'faker' #, :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+
 end
 
 group :development do

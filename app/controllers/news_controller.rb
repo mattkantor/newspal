@@ -3,9 +3,6 @@ class NewsController < ApplicationController
   before_action :set_defaults
   before_action :get_top_keywords
 
-
-
-
   def set_defaults
     @page_title = "Scoopy News"
     @following = session[:follows]||[]
@@ -63,7 +60,7 @@ class NewsController < ApplicationController
     layout = params[:layout] || session[:layout] || "list"
     session[:layout] = layout
     @items = Item
-    @filter = params[:filter].downcase
+    @filter = (params[:filter]||"").downcase
     @lean = params[:l]||"A"
     @channel = params[:channel]
     ahoy.track "home", {channel: @channel, lean:@lean, filter: @filter, layout:@layout}
