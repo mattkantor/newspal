@@ -20,10 +20,11 @@ class Entity < ApplicationRecord
 
   def self.top(count=10, days_back=5)
 
-      ents = Entity.select("name,count(*)").joins(:item).where("items.published > ?", DateTime.now-days_back).where("(pos=? and name ~ ?) ", "PERSON"," ").group("entities.name").order("count desc").limit(count).all
+      ents = Entity.select("name,count(*)").joins(:item).where("items.published > ?", DateTime.now-days_back).where("((pos=? or pos=? or pos=?) and name ~ ?) ", "PERSON","ORG","GPE"," ").group("entities.name").order("count desc").limit(count).all
 
 
     ents = ents.collect{|c|c.name}
+    
     ents.uniq
   end
 

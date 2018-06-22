@@ -63,7 +63,7 @@ class NewsController < ApplicationController
     layout = params[:layout] || session[:layout] || "list"
     session[:layout] = layout
     @items = Item
-    @filter = params[:filter]
+    @filter = params[:filter].downcase
     @lean = params[:l]||"A"
     @channel = params[:channel]
     ahoy.track "home", {channel: @channel, lean:@lean, filter: @filter, layout:@layout}
@@ -82,9 +82,15 @@ class NewsController < ApplicationController
       @lean = "A"
     end
 
+    if @show_following and !@following.empty?
+      @following.each do |f|
+        @items = @items.where("lower(title) like ? or lower(body) like ?","%#{f}%","%#{f}%")
+      end
+    end
+
 
     if @filter and @filter!=""
-      @items = @items.where("title like ? or body like ?","%#{@filter}%","%#{@filter}%")
+      @items = @items.where("lower(title) like ? or lower(body) like ?","%#{@filter}%","%#{@filter}%")
       @page_title = "Search Results for '#{@filter}'"
       @add_follow = @filter
     end

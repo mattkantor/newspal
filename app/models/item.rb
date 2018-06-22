@@ -20,6 +20,7 @@ class Item < ApplicationRecord
       ProcessNewsWorker.perform_async(self.id)
     end
 
+    
     def get_ner
         sentence = self.title
         pyscript_path = Rails.root.join('python/main.py')
