@@ -9,5 +9,7 @@ AdminUser.destroy_all
 AdminUser.create!(email: 'matthewkantor@gmail.com', password: 'Shihonage3!', password_confirmation: 'Shihonage3!') if Rails.env.development?
 AdminUser.create!(email: 'matthewkantor@gmail.com', password: 'Shihonage3!', password_confirmation: 'Shihonage3!') if Rails.env.production?
 Source.destroy_all
-require_relative "seeds_sources"
+unless Rails.env.test?
+  require_relative "seeds_sources"
+end
 Source.clear_and_get

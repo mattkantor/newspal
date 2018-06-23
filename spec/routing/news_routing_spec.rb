@@ -8,15 +8,15 @@ RSpec.describe NewsController, type: :routing do
     end
 
     it "routes to #new" do
-      expect(:get => "/filter=John").to route_to("news#index")
+      expect(:get => "/?l=A&filter=Joe").to route_to("news#index", :filter=>"Joe", :l=>"A")
     end
 
     it "routes to #show" do
-      expect(:get => "/follow?topic=Tom").to route_to("news#follow")
+      expect(:get => "/follow?topic=Tom").to route_to("news#follow", :topic=>"Tom")
     end
 
     it "routes to #edit" do
-      expect(:get => "/unfollow?topic=Tom").to route_to("news#unfollow")
+      expect(:get => "/unfollow?topic=Tom").to route_to("news#unfollow", :topic=>"Tom")
     end
 
 

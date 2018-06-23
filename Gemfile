@@ -57,11 +57,10 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-  gem 'factory_bot'
   gem 'faker'
   gem 'rspec-rails'
-  gem "mysql2"
-
+  gem "factory_bot_rails"
+  gem 'webmock'
 end
 
 group :test do
@@ -69,8 +68,6 @@ group :test do
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
-  gem "factory_bot_rails"
-  gem 'faker' #, :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
 end
 
