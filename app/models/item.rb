@@ -33,7 +33,7 @@ class Item < ApplicationRecord
           hash.each do |ent|
             type = ent["type"]
             name = ent["text"]
-            Entity.find_create(name, type, self.id)
+            Entity.find_create(name, type, self.id, self.published)
           end
         rescue => exception
           Raven.extra_context json: entities_json

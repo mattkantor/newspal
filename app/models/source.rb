@@ -48,12 +48,13 @@ class Source < ApplicationRecord
       Feedjira::Feed.add_common_feed_element 'title'
 
       #xml = HTTParty.get(self.rss_url).body
-      feed = Feedjira::Feed.fetch_and_parse self.rss_url
-
-      entries = feed.entries
-
-
-
+      begin
+        feed = Feedjira::Feed.fetch_and_parse self.rss_url
+        entries = feed.entries
+      rescue => exception
+        Raven.capture_message("Feed #{self.name} is not pulling clean data")
+        entries = []
+      end
 
       entries.each do |result|
         title = result.title ||""
@@ -63,7 +64,8 @@ class Source < ApplicationRecord
           i.save
         end
       end
-      if feed.respond_to? :title
+
+      if feed and feed.respond_to? :title
         title = feed.title ||""
         if !title.blank? and self.name.blank?
           self.update_attribute('name' , title)
@@ -72,7 +74,7 @@ class Source < ApplicationRecord
         #puts("feed has no attibute title")
       end
 
-      if feed.respond_to? :image
+      if feed and feed.respond_to? :image
         if feed.image.class.name=="String"
           image_url = feed.image
         elsif feed.image.respond_to? :url

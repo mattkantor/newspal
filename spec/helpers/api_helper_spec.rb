@@ -11,5 +11,6 @@ require 'spec_helper'
 #   end
 # end
 RSpec.describe ApiHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "add some examples to (or delete) #{__FILE__}"
+  
 end

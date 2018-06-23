@@ -3,10 +3,10 @@ class Entity < ApplicationRecord
   belongs_to :item, counter_cache: true
   attr_accessor :count
 
-  def self.find_create(name, type, id)
+  def self.find_create(name, type, id, published)
 
     name = Entity.clean(name)
-    Entity.where(name:name,  pos:type, item_id:id).first_or_create
+    Entity.where(name:name,  pos:type, item_id:id, item_date:published).first_or_create
 
   end
 

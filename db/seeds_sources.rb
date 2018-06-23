@@ -2,7 +2,7 @@ Source.create!(name:'CNN Top Stories', rss_url:'http://rss.cnn.com/rss/cnn_topst
 Source.create!(name:'The Hill', rss_url:'http://thehill.com/rss/syndicator/19109', logo_url:'http://thehill.com/sites/all/themes/thehill/images/redesign/thehill-logo-big.png',leans:'0')
 Source.create!(name:'Reuters Top News', rss_url:'http://feeds.reuters.com/reuters/topNews', logo_url:'http://www.reuters.com/resources_v2/images/reuters125.png',leans:'0')
 Source.create!(name:'Politico - Politics', rss_url:'http://www.politico.com/rss/politics08.xml', logo_url:'https://pmcvariety.files.wordpress.com/2016/05/politico-logo.jpg?w=913&h=513&crop=1',leans:'-2')
-Source.create!(name:'MSNBC - Top Headlines', rss_url:'http://rss.msnbc.msn.com/id/3032091/device/rss/rss.xml', logo_url:'https://www.seeklogo.net/wp-content/uploads/2015/08/msnbc-logo-vector-download.jpg',leans:'-3')
+Source.create!(name:'MSNBC - Top Headlines', rss_url:'http://www.msnbc.com/feeds/latest', logo_url:'https://www.seeklogo.net/wp-content/uploads/2015/08/msnbc-logo-vector-download.jpg',leans:'-3')
 Source.create!(name:'CNBC - Top News', rss_url:'https://www.cnbc.com/id/100003114/device/rss/rss.html', logo_url:'https://upload.wikimedia.org/wikipedia/commons/e/e3/CNBC_logo.svg',leans:'1')
 Source.create!(name:'Fox News Politics', rss_url:'http://feeds.foxnews.com/foxnews/politics', logo_url:'https://pmcvariety.files.wordpress.com/2013/12/fox-news-logo.jpg?w=1000&h=563&crop=1',leans:'3')
 Source.create!(name:'Breitbart News', rss_url:'http://feeds.feedburner.com/breitbart', logo_url:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Breitbart_News.svg/524px-Breitbart_News.svg.png',leans:'5')

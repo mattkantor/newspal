@@ -45,7 +45,7 @@ Source_3:
 Source_4:
   id: 15
   name: Politico - Politics
-  rss_url: http://www.politico.com/rss/politics08.xml
+  rss_url: https://www.politico.com/rss/politics08.xml
   logo_url: https://pmcvariety.files.wordpress.com/2016/05/politico-logo.jpg?w=913&h=513&crop=1
   created_at: !ruby/object:ActiveSupport::TimeWithZone
     utc: &8 2018-05-16 14:18:18.111695000 Z
@@ -59,7 +59,7 @@ Source_4:
 Source_5:
   id: 16
   name: MSNBC - Top Headlines
-  rss_url: http://rss.msnbc.msn.com/id/3032091/device/rss/rss.xml
+  rss_url: http://www.msnbc.com/feeds/latest
   logo_url: https://www.seeklogo.net/wp-content/uploads/2015/08/msnbc-logo-vector-download.jpg
   created_at: !ruby/object:ActiveSupport::TimeWithZone
     utc: &10 2018-05-16 14:18:18.114686000 Z
@@ -144,6 +144,20 @@ Source_11:
   id: 22
   name: McClatchyDC
   rss_url: http://www.mcclatchydc.com/news/?widgetName=rssfeed&widgetContentId=712015&getXmlFeed=true
+  logo_url: ''
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &22 2018-05-16 14:18:18.131664000 Z
+    zone: *2
+    time: *22
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &23 2018-05-16 14:18:18.131664000 Z
+    zone: *2
+    time: *23
+  leans: 0
+Source_12:
+  id: 24
+  name: EmptyBroken
+  rss_url: http://www.emptybroken.com
   logo_url: ''
   created_at: !ruby/object:ActiveSupport::TimeWithZone
     utc: &22 2018-05-16 14:18:18.131664000 Z
