@@ -1,0 +1,7165 @@
+---
+Entity_1:
+  id: 2778
+  name: Florida
+  pos: GPE
+  item_id: 2030
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2018-06-21 14:09:55.036855000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2018-06-21 14:09:55.036855000 Z
+    zone: *2
+    time: *3
+Entity_2:
+  id: 2779
+  name: '2018'
+  pos: DATE
+  item_id: 2030
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2018-06-21 14:09:55.069485000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2018-06-21 14:09:55.069485000 Z
+    zone: *2
+    time: *5
+Entity_3:
+  id: 2780
+  name: I-70
+  pos: ORG
+  item_id: 2029
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &6 2018-06-21 14:09:56.191916000 Z
+    zone: *2
+    time: *6
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &7 2018-06-21 14:09:56.191916000 Z
+    zone: *2
+    time: *7
+Entity_4:
+  id: 2781
+  name: Missouri
+  pos: GPE
+  item_id: 2029
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &8 2018-06-21 14:09:56.202558000 Z
+    zone: *2
+    time: *8
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &9 2018-06-21 14:09:56.202558000 Z
+    zone: *2
+    time: *9
+Entity_5:
+  id: 2782
+  name: Influencers
+  pos: NORP
+  item_id: 2029
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &10 2018-06-21 14:09:56.207135000 Z
+    zone: *2
+    time: *10
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &11 2018-06-21 14:09:56.207135000 Z
+    zone: *2
+    time: *11
+Entity_6:
+  id: 2783
+  name: state‘s
+  pos: ORG
+  item_id: 2029
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &12 2018-06-21 14:09:56.211314000 Z
+    zone: *2
+    time: *12
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &13 2018-06-21 14:09:56.211314000 Z
+    zone: *2
+    time: *13
+Entity_7:
+  id: 2784
+  name: California
+  pos: GPE
+  item_id: 2028
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &14 2018-06-21 14:09:57.324880000 Z
+    zone: *2
+    time: *14
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &15 2018-06-21 14:09:57.324880000 Z
+    zone: *2
+    time: *15
+Entity_8:
+  id: 2785
+  name: Democrats
+  pos: NORP
+  item_id: 2027
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &16 2018-06-21 14:09:58.436937000 Z
+    zone: *2
+    time: *16
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &17 2018-06-21 14:09:58.436937000 Z
+    zone: *2
+    time: *17
+Entity_9:
+  id: 2786
+  name: NC
+  pos: GPE
+  item_id: 2026
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &18 2018-06-21 14:09:59.569015000 Z
+    zone: *2
+    time: *18
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &19 2018-06-21 14:09:59.569015000 Z
+    zone: *2
+    time: *19
+Entity_10:
+  id: 2787
+  name: 'Supreme Court '
+  pos: ORG
+  item_id: 2026
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &20 2018-06-21 14:09:59.576105000 Z
+    zone: *2
+    time: *20
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &21 2018-06-21 14:09:59.576105000 Z
+    zone: *2
+    time: *21
+Entity_11:
+  id: 2788
+  name: Wisconsin
+  pos: GPE
+  item_id: 2026
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &22 2018-06-21 14:09:59.580469000 Z
+    zone: *2
+    time: *22
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &23 2018-06-21 14:09:59.580469000 Z
+    zone: *2
+    time: *23
+Entity_12:
+  id: 2789
+  name: Maryland
+  pos: GPE
+  item_id: 2026
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &24 2018-06-21 14:09:59.585257000 Z
+    zone: *2
+    time: *24
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &25 2018-06-21 14:09:59.585257000 Z
+    zone: *2
+    time: *25
+Entity_13:
+  id: 2790
+  name: Marine
+  pos: NORP
+  item_id: 2025
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &26 2018-06-21 14:10:00.684959000 Z
+    zone: *2
+    time: *26
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &27 2018-06-21 14:10:00.684959000 Z
+    zone: *2
+    time: *27
+Entity_14:
+  id: 2791
+  name: Guantánamo
+  pos: ORG
+  item_id: 2025
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &28 2018-06-21 14:10:00.695886000 Z
+    zone: *2
+    time: *28
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &29 2018-06-21 14:10:00.695886000 Z
+    zone: *2
+    time: *29
+Entity_15:
+  id: 2792
+  name: Russia
+  pos: GPE
+  item_id: 2024
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &30 2018-06-21 14:10:01.805244000 Z
+    zone: *2
+    time: *30
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &31 2018-06-21 14:10:01.805244000 Z
+    zone: *2
+    time: *31
+Entity_16:
+  id: 2793
+  name: Soviet
+  pos: NORP
+  item_id: 2024
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &32 2018-06-21 14:10:01.816370000 Z
+    zone: *2
+    time: *32
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &33 2018-06-21 14:10:01.816370000 Z
+    zone: *2
+    time: *33
+Entity_17:
+  id: 2794
+  name: '09 million'
+  pos: CARDINAL
+  item_id: 2024
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &34 2018-06-21 14:10:01.821376000 Z
+    zone: *2
+    time: *34
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &35 2018-06-21 14:10:01.821376000 Z
+    zone: *2
+    time: *35
+Entity_18:
+  id: 2795
+  name: Koch
+  pos: PERSON
+  item_id: 2023
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &36 2018-06-21 14:10:02.950660000 Z
+    zone: *2
+    time: *36
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &37 2018-06-21 14:10:02.950660000 Z
+    zone: *2
+    time: *37
+Entity_19:
+  id: 2796
+  name: Republicans
+  pos: NORP
+  item_id: 2023
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &38 2018-06-21 14:10:02.957341000 Z
+    zone: *2
+    time: *38
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &39 2018-06-21 14:10:02.957341000 Z
+    zone: *2
+    time: *39
+Entity_20:
+  id: 2797
+  name: Democrats
+  pos: NORP
+  item_id: 2023
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &40 2018-06-21 14:10:02.961466000 Z
+    zone: *2
+    time: *40
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &41 2018-06-21 14:10:02.961466000 Z
+    zone: *2
+    time: *41
+Entity_21:
+  id: 2798
+  name: Supreme Court
+  pos: ORG
+  item_id: 2021
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &42 2018-06-21 14:10:05.200855000 Z
+    zone: *2
+    time: *42
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &43 2018-06-21 14:10:05.200855000 Z
+    zone: *2
+    time: *43
+Entity_22:
+  id: 2799
+  name: House
+  pos: ORG
+  item_id: 2020
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &44 2018-06-21 14:10:06.386342000 Z
+    zone: *2
+    time: *44
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &45 2018-06-21 14:10:06.386342000 Z
+    zone: *2
+    time: *45
+Entity_23:
+  id: 2800
+  name: Thousands
+  pos: CARDINAL
+  item_id: 2019
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &46 2018-06-21 14:10:07.616049000 Z
+    zone: *2
+    time: *46
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &47 2018-06-21 14:10:07.616049000 Z
+    zone: *2
+    time: *47
+Entity_24:
+  id: 2801
+  name: House
+  pos: ORG
+  item_id: 2019
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &48 2018-06-21 14:10:07.620650000 Z
+    zone: *2
+    time: *48
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &49 2018-06-21 14:10:07.620650000 Z
+    zone: *2
+    time: *49
+Entity_25:
+  id: 2802
+  name: US
+  pos: GPE
+  item_id: 2018
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &50 2018-06-21 14:10:08.795287000 Z
+    zone: *2
+    time: *50
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &51 2018-06-21 14:10:08.795287000 Z
+    zone: *2
+    time: *51
+Entity_26:
+  id: 2803
+  name: nearly 6,000
+  pos: CARDINAL
+  item_id: 2018
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &52 2018-06-21 14:10:08.806088000 Z
+    zone: *2
+    time: *52
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &53 2018-06-21 14:10:08.806088000 Z
+    zone: *2
+    time: *53
+Entity_27:
+  id: 2804
+  name: Patrol
+  pos: PERSON
+  item_id: 2016
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &54 2018-06-21 14:10:11.211709000 Z
+    zone: *2
+    time: *54
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &55 2018-06-21 14:10:11.211709000 Z
+    zone: *2
+    time: *55
+Entity_28:
+  id: 2805
+  name: Texas
+  pos: GPE
+  item_id: 2016
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &56 2018-06-21 14:10:11.216231000 Z
+    zone: *2
+    time: *56
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &57 2018-06-21 14:10:11.216231000 Z
+    zone: *2
+    time: *57
+Entity_29:
+  id: 2806
+  name: Guantánamo
+  pos: ORG
+  item_id: 2015
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &58 2018-06-21 14:10:12.351955000 Z
+    zone: *2
+    time: *58
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &59 2018-06-21 14:10:12.351955000 Z
+    zone: *2
+    time: *59
+Entity_30:
+  id: 2807
+  name: " million"
+  pos: CARDINAL
+  item_id: 2014
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &60 2018-06-21 14:10:13.508237000 Z
+    zone: *2
+    time: *60
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &61 2018-06-21 14:10:13.508237000 Z
+    zone: *2
+    time: *61
+Entity_31:
+  id: 2808
+  name: Caymans
+  pos: NORP
+  item_id: 2014
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &62 2018-06-21 14:10:13.518837000 Z
+    zone: *2
+    time: *62
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &63 2018-06-21 14:10:13.518837000 Z
+    zone: *2
+    time: *63
+Entity_32:
+  id: 2809
+  name: Russian
+  pos: NORP
+  item_id: 2013
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &64 2018-06-21 14:10:14.702731000 Z
+    zone: *2
+    time: *64
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &65 2018-06-21 14:10:14.702731000 Z
+    zone: *2
+    time: *65
+Entity_33:
+  id: 2810
+  name: America
+  pos: GPE
+  item_id: 2013
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &66 2018-06-21 14:10:14.713068000 Z
+    zone: *2
+    time: *66
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &67 2018-06-21 14:10:14.713068000 Z
+    zone: *2
+    time: *67
+Entity_34:
+  id: 2811
+  name: Afghan
+  pos: NORP
+  item_id: 2011
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &68 2018-06-21 14:10:16.961112000 Z
+    zone: *2
+    time: *68
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &69 2018-06-21 14:10:16.961112000 Z
+    zone: *2
+    time: *69
+Entity_35:
+  id: 2812
+  name: Republicans
+  pos: NORP
+  item_id: 2010
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &70 2018-06-21 14:10:18.088345000 Z
+    zone: *2
+    time: *70
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &71 2018-06-21 14:10:18.088345000 Z
+    zone: *2
+    time: *71
+Entity_36:
+  id: 2813
+  name: Democrats
+  pos: NORP
+  item_id: 2010
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &72 2018-06-21 14:10:18.098867000 Z
+    zone: *2
+    time: *72
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &73 2018-06-21 14:10:18.098867000 Z
+    zone: *2
+    time: *73
+Entity_37:
+  id: 2814
+  name: McClintock
+  pos: ORG
+  item_id: 2009
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &74 2018-06-21 14:10:19.213540000 Z
+    zone: *2
+    time: *74
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &75 2018-06-21 14:10:19.213540000 Z
+    zone: *2
+    time: *75
+Entity_38:
+  id: 2815
+  name: Trump
+  pos: ORG
+  item_id: 2008
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &76 2018-06-21 14:10:20.332324000 Z
+    zone: *2
+    time: *76
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &77 2018-06-21 14:10:20.332324000 Z
+    zone: *2
+    time: *77
+Entity_39:
+  id: 2816
+  name: one
+  pos: CARDINAL
+  item_id: 2008
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &78 2018-06-21 14:10:20.343400000 Z
+    zone: *2
+    time: *78
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &79 2018-06-21 14:10:20.343400000 Z
+    zone: *2
+    time: *79
+Entity_40:
+  id: 2817
+  name: U.S.
+  pos: GPE
+  item_id: 2006
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &80 2018-06-21 14:10:22.588127000 Z
+    zone: *2
+    time: *80
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &81 2018-06-21 14:10:22.588127000 Z
+    zone: *2
+    time: *81
+Entity_41:
+  id: 2818
+  name: Lionel Messi
+  pos: ORG
+  item_id: 2005
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &82 2018-06-21 14:10:23.705780000 Z
+    zone: *2
+    time: *82
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &83 2018-06-21 14:10:23.705780000 Z
+    zone: *2
+    time: *83
+Entity_42:
+  id: 2819
+  name: Mickey Mouse
+  pos: ORG
+  item_id: 2004
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &84 2018-06-21 14:10:24.821035000 Z
+    zone: *2
+    time: *84
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &85 2018-06-21 14:10:24.821035000 Z
+    zone: *2
+    time: *85
+Entity_43:
+  id: 2820
+  name: Panama Papers
+  pos: WORK_OF_ART
+  item_id: 2004
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &86 2018-06-21 14:10:24.831822000 Z
+    zone: *2
+    time: *86
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &87 2018-06-21 14:10:24.831822000 Z
+    zone: *2
+    time: *87
+Entity_44:
+  id: 2821
+  name: Miami
+  pos: GPE
+  item_id: 2004
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &88 2018-06-21 14:10:24.836804000 Z
+    zone: *2
+    time: *88
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &89 2018-06-21 14:10:24.836804000 Z
+    zone: *2
+    time: *89
+Entity_45:
+  id: 2822
+  name: Mitch McConnell
+  pos: PERSON
+  item_id: 2003
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &90 2018-06-21 14:10:25.966873000 Z
+    zone: *2
+    time: *90
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &91 2018-06-21 14:10:25.966873000 Z
+    zone: *2
+    time: *91
+Entity_46:
+  id: 2823
+  name: Senate
+  pos: ORG
+  item_id: 2003
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &92 2018-06-21 14:10:25.973221000 Z
+    zone: *2
+    time: *92
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &93 2018-06-21 14:10:25.973221000 Z
+    zone: *2
+    time: *93
+Entity_47:
+  id: 2824
+  name: GOP
+  pos: ORG
+  item_id: 2003
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &94 2018-06-21 14:10:25.978673000 Z
+    zone: *2
+    time: *94
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &95 2018-06-21 14:10:25.978673000 Z
+    zone: *2
+    time: *95
+Entity_48:
+  id: 2825
+  name: Kentucky
+  pos: GPE
+  item_id: 2002
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &96 2018-06-21 14:10:27.091270000 Z
+    zone: *2
+    time: *96
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &97 2018-06-21 14:10:27.091270000 Z
+    zone: *2
+    time: *97
+Entity_49:
+  id: 2826
+  name: Bevin
+  pos: PERSON
+  item_id: 2002
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &98 2018-06-21 14:10:27.102538000 Z
+    zone: *2
+    time: *98
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &99 2018-06-21 14:10:27.102538000 Z
+    zone: *2
+    time: *99
+Entity_50:
+  id: 2827
+  name: DC
+  pos: GPE
+  item_id: 2002
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &100 2018-06-21 14:10:27.107335000 Z
+    zone: *2
+    time: *100
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &101 2018-06-21 14:10:27.107335000 Z
+    zone: *2
+    time: *101
+Entity_51:
+  id: 2828
+  name: Senate
+  pos: ORG
+  item_id: 2002
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &102 2018-06-21 14:10:27.112071000 Z
+    zone: *2
+    time: *102
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &103 2018-06-21 14:10:27.112071000 Z
+    zone: *2
+    time: *103
+Entity_52:
+  id: 2829
+  name: Obamacare
+  pos: ORG
+  item_id: 2002
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &104 2018-06-21 14:10:27.123523000 Z
+    zone: *2
+    time: *104
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &105 2018-06-21 14:10:27.123523000 Z
+    zone: *2
+    time: *105
+Entity_53:
+  id: 2830
+  name: Obama
+  pos: PERSON
+  item_id: 2001
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &106 2018-06-21 14:10:28.230356000 Z
+    zone: *2
+    time: *106
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &107 2018-06-21 14:10:28.230356000 Z
+    zone: *2
+    time: *107
+Entity_54:
+  id: 2831
+  name: US
+  pos: GPE
+  item_id: 2000
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &108 2018-06-21 14:10:29.346241000 Z
+    zone: *2
+    time: *108
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &109 2018-06-21 14:10:29.346241000 Z
+    zone: *2
+    time: *109
+Entity_55:
+  id: 2832
+  name: Nikki Haley
+  pos: PERSON
+  item_id: 1999
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &110 2018-06-21 14:10:30.403764000 Z
+    zone: *2
+    time: *110
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &111 2018-06-21 14:10:30.403764000 Z
+    zone: *2
+    time: *111
+Entity_56:
+  id: 2833
+  name: US
+  pos: GPE
+  item_id: 1999
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &112 2018-06-21 14:10:30.410354000 Z
+    zone: *2
+    time: *112
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &113 2018-06-21 14:10:30.410354000 Z
+    zone: *2
+    time: *113
+Entity_57:
+  id: 2834
+  name: UN
+  pos: ORG
+  item_id: 1999
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &114 2018-06-21 14:10:30.414514000 Z
+    zone: *2
+    time: *114
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &115 2018-06-21 14:10:30.414514000 Z
+    zone: *2
+    time: *115
+Entity_58:
+  id: 2835
+  name: Democrats
+  pos: NORP
+  item_id: 1998
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &116 2018-06-21 14:10:31.517341000 Z
+    zone: *2
+    time: *116
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &117 2018-06-21 14:10:31.517341000 Z
+    zone: *2
+    time: *117
+Entity_59:
+  id: 2836
+  name: Trump
+  pos: PERSON
+  item_id: 1998
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &118 2018-06-21 14:10:31.528405000 Z
+    zone: *2
+    time: *118
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &119 2018-06-21 14:10:31.528405000 Z
+    zone: *2
+    time: *119
+Entity_60:
+  id: 2837
+  name: Rachel Maddow
+  pos: PERSON
+  item_id: 1997
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &120 2018-06-21 14:10:32.639477000 Z
+    zone: *2
+    time: *120
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &121 2018-06-21 14:10:32.639477000 Z
+    zone: *2
+    time: *121
+Entity_61:
+  id: 2838
+  name: US
+  pos: GPE
+  item_id: 1996
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &122 2018-06-21 14:10:33.781165000 Z
+    zone: *2
+    time: *122
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &123 2018-06-21 14:10:33.781165000 Z
+    zone: *2
+    time: *123
+Entity_62:
+  id: 2839
+  name: Mexican
+  pos: NORP
+  item_id: 1996
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &124 2018-06-21 14:10:33.786840000 Z
+    zone: *2
+    time: *124
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &125 2018-06-21 14:10:33.786840000 Z
+    zone: *2
+    time: *125
+Entity_63:
+  id: 2840
+  name: Justin Trudeau
+  pos: PERSON
+  item_id: 1995
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &126 2018-06-21 14:10:34.894531000 Z
+    zone: *2
+    time: *126
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &127 2018-06-21 14:10:34.894531000 Z
+    zone: *2
+    time: *127
+Entity_64:
+  id: 2841
+  name: Minnesota
+  pos: GPE
+  item_id: 1994
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &128 2018-06-21 14:10:36.017070000 Z
+    zone: *2
+    time: *128
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &129 2018-06-21 14:10:36.017070000 Z
+    zone: *2
+    time: *129
+Entity_65:
+  id: 2842
+  name: Justin Trudeau
+  pos: PERSON
+  item_id: 1993
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &130 2018-06-21 14:10:37.183683000 Z
+    zone: *2
+    time: *130
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &131 2018-06-21 14:10:37.183683000 Z
+    zone: *2
+    time: *131
+Entity_66:
+  id: 2843
+  name: Khelsilem
+  pos: GPE
+  item_id: 1993
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &132 2018-06-21 14:10:37.192198000 Z
+    zone: *2
+    time: *132
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &133 2018-06-21 14:10:37.192198000 Z
+    zone: *2
+    time: *133
+Entity_67:
+  id: 2844
+  name: summer
+  pos: DATE
+  item_id: 1992
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &134 2018-06-21 14:10:38.297440000 Z
+    zone: *2
+    time: *134
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &135 2018-06-21 14:10:38.297440000 Z
+    zone: *2
+    time: *135
+Entity_68:
+  id: 2845
+  name: Italy
+  pos: GPE
+  item_id: 1991
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &136 2018-06-21 14:10:39.385065000 Z
+    zone: *2
+    time: *136
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &137 2018-06-21 14:10:39.385065000 Z
+    zone: *2
+    time: *137
+Entity_69:
+  id: 2846
+  name: Roma
+  pos: ORG
+  item_id: 1991
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &138 2018-06-21 14:10:39.395309000 Z
+    zone: *2
+    time: *138
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &139 2018-06-21 14:10:39.395309000 Z
+    zone: *2
+    time: *139
+Entity_70:
+  id: 2847
+  name: centuries-old
+  pos: DATE
+  item_id: 1991
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &140 2018-06-21 14:10:39.400506000 Z
+    zone: *2
+    time: *140
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &141 2018-06-21 14:10:39.400506000 Z
+    zone: *2
+    time: *141
+Entity_71:
+  id: 2848
+  name: Myanmar
+  pos: GPE
+  item_id: 1990
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &142 2018-06-21 14:10:40.630587000 Z
+    zone: *2
+    time: *142
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &143 2018-06-21 14:10:40.630587000 Z
+    zone: *2
+    time: *143
+Entity_72:
+  id: 2849
+  name: UK
+  pos: GPE
+  item_id: 1989
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &144 2018-06-21 14:10:41.785916000 Z
+    zone: *2
+    time: *144
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &145 2018-06-21 14:10:41.785916000 Z
+    zone: *2
+    time: *145
+Entity_73:
+  id: 2850
+  name: Foreign Office
+  pos: ORG
+  item_id: 1989
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &146 2018-06-21 14:10:41.790586000 Z
+    zone: *2
+    time: *146
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &147 2018-06-21 14:10:41.790586000 Z
+    zone: *2
+    time: *147
+Entity_74:
+  id: 2851
+  name: Zimbabwe
+  pos: GPE
+  item_id: 1988
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &148 2018-06-21 14:10:42.934428000 Z
+    zone: *2
+    time: *148
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &149 2018-06-21 14:10:42.934428000 Z
+    zone: *2
+    time: *149
+Entity_75:
+  id: 2852
+  name: Philippines
+  pos: GPE
+  item_id: 1987
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &150 2018-06-21 14:10:44.060895000 Z
+    zone: *2
+    time: *150
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &151 2018-06-21 14:10:44.060895000 Z
+    zone: *2
+    time: *151
+Entity_76:
+  id: 2853
+  name: Uganda
+  pos: GPE
+  item_id: 1986
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &152 2018-06-21 14:10:45.134665000 Z
+    zone: *2
+    time: *152
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &153 2018-06-21 14:10:45.134665000 Z
+    zone: *2
+    time: *153
+Entity_77:
+  id: 2854
+  name: World Cup
+  pos: EVENT
+  item_id: 1986
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &154 2018-06-21 14:10:45.144696000 Z
+    zone: *2
+    time: *154
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &155 2018-06-21 14:10:45.144696000 Z
+    zone: *2
+    time: *155
+Entity_78:
+  id: 2855
+  name: four
+  pos: CARDINAL
+  item_id: 1986
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &156 2018-06-21 14:10:45.149664000 Z
+    zone: *2
+    time: *156
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &157 2018-06-21 14:10:45.149664000 Z
+    zone: *2
+    time: *157
+Entity_79:
+  id: 2856
+  name: UN
+  pos: ORG
+  item_id: 1985
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &158 2018-06-21 14:10:46.274938000 Z
+    zone: *2
+    time: *158
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &159 2018-06-21 14:10:46.274938000 Z
+    zone: *2
+    time: *159
+Entity_80:
+  id: 2857
+  name: US
+  pos: GPE
+  item_id: 1985
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &160 2018-06-21 14:10:46.285484000 Z
+    zone: *2
+    time: *160
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &161 2018-06-21 14:10:46.285484000 Z
+    zone: *2
+    time: *161
+Entity_81:
+  id: 2858
+  name: John Lloyd
+  pos: PERSON
+  item_id: 1984
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &162 2018-06-21 14:10:47.396094000 Z
+    zone: *2
+    time: *162
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &163 2018-06-21 14:10:47.396094000 Z
+    zone: *2
+    time: *163
+Entity_82:
+  id: 2859
+  name: New Zealand
+  pos: GPE
+  item_id: 1983
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &164 2018-06-21 14:10:48.519518000 Z
+    zone: *2
+    time: *164
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &165 2018-06-21 14:10:48.519518000 Z
+    zone: *2
+    time: *165
+Entity_83:
+  id: 2860
+  name: Jacinda Ardern
+  pos: PERSON
+  item_id: 1983
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &166 2018-06-21 14:10:48.529598000 Z
+    zone: *2
+    time: *166
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &167 2018-06-21 14:10:48.529598000 Z
+    zone: *2
+    time: *167
+Entity_84:
+  id: 2861
+  name: Trump
+  pos: ORG
+  item_id: 1982
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &168 2018-06-21 14:10:49.621117000 Z
+    zone: *2
+    time: *168
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &169 2018-06-21 14:10:49.621117000 Z
+    zone: *2
+    time: *169
+Entity_85:
+  id: 2862
+  name: '2,300'
+  pos: CARDINAL
+  item_id: 1981
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &170 2018-06-21 14:10:50.736556000 Z
+    zone: *2
+    time: *170
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &171 2018-06-21 14:10:50.736556000 Z
+    zone: *2
+    time: *171
+Entity_86:
+  id: 2863
+  name: Trump
+  pos: ORG
+  item_id: 1981
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &172 2018-06-21 14:10:50.747779000 Z
+    zone: *2
+    time: *172
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &173 2018-06-21 14:10:50.747779000 Z
+    zone: *2
+    time: *173
+Entity_87:
+  id: 2864
+  name: Kenya
+  pos: GPE
+  item_id: 1980
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &174 2018-06-21 14:10:51.861278000 Z
+    zone: *2
+    time: *174
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &175 2018-06-21 14:10:51.861278000 Z
+    zone: *2
+    time: *175
+Entity_88:
+  id: 2865
+  name: Sara Netanyahu
+  pos: PERSON
+  item_id: 1979
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &176 2018-06-21 14:10:52.973158000 Z
+    zone: *2
+    time: *176
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &177 2018-06-21 14:10:52.973158000 Z
+    zone: *2
+    time: *177
+Entity_89:
+  id: 2866
+  name: Belgian
+  pos: NORP
+  item_id: 1978
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &178 2018-06-21 14:10:54.095678000 Z
+    zone: *2
+    time: *178
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &179 2018-06-21 14:10:54.095678000 Z
+    zone: *2
+    time: *179
+Entity_90:
+  id: 2867
+  name: London
+  pos: GPE
+  item_id: 1977
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &180 2018-06-21 14:10:55.234923000 Z
+    zone: *2
+    time: *180
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &181 2018-06-21 14:10:55.234923000 Z
+    zone: *2
+    time: *181
+Entity_91:
+  id: 2868
+  name: James Comey
+  pos: PERSON
+  item_id: 1976
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &182 2018-06-21 14:10:56.376846000 Z
+    zone: *2
+    time: *182
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &183 2018-06-21 14:10:56.376846000 Z
+    zone: *2
+    time: *183
+Entity_92:
+  id: 2869
+  name: Barcelona
+  pos: GPE
+  item_id: 1974
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &184 2018-06-21 14:10:59.581474000 Z
+    zone: *2
+    time: *184
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &185 2018-06-21 14:10:59.581474000 Z
+    zone: *2
+    time: *185
+Entity_93:
+  id: 2870
+  name: Hidden City
+  pos: GPE
+  item_id: 1973
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &186 2018-06-21 14:11:00.742414000 Z
+    zone: *2
+    time: *186
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &187 2018-06-21 14:11:00.742414000 Z
+    zone: *2
+    time: *187
+Entity_94:
+  id: 2871
+  name: Buenos Aires
+  pos: ORG
+  item_id: 1973
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &188 2018-06-21 14:11:00.753338000 Z
+    zone: *2
+    time: *188
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &189 2018-06-21 14:11:00.753338000 Z
+    zone: *2
+    time: *189
+Entity_95:
+  id: 2872
+  name: Kathmandu
+  pos: GPE
+  item_id: 1972
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &190 2018-06-21 14:11:01.895535000 Z
+    zone: *2
+    time: *190
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &191 2018-06-21 14:11:01.895535000 Z
+    zone: *2
+    time: *191
+Entity_96:
+  id: 2873
+  name: GCHQ
+  pos: ORG
+  item_id: 1971
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &192 2018-06-21 14:11:03.019937000 Z
+    zone: *2
+    time: *192
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &193 2018-06-21 14:11:03.019937000 Z
+    zone: *2
+    time: *193
+Entity_97:
+  id: 2874
+  name: UK
+  pos: GPE
+  item_id: 1971
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &194 2018-06-21 14:11:03.027095000 Z
+    zone: *2
+    time: *194
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &195 2018-06-21 14:11:03.027095000 Z
+    zone: *2
+    time: *195
+Entity_98:
+  id: 2875
+  name: European
+  pos: NORP
+  item_id: 1971
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &196 2018-06-21 14:11:03.032282000 Z
+    zone: *2
+    time: *196
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &197 2018-06-21 14:11:03.032282000 Z
+    zone: *2
+    time: *197
+Entity_99:
+  id: 2876
+  name: EU
+  pos: ORG
+  item_id: 1970
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &198 2018-06-21 14:11:04.595288000 Z
+    zone: *2
+    time: *198
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &199 2018-06-21 14:11:04.595288000 Z
+    zone: *2
+    time: *199
+Entity_100:
+  id: 2877
+  name: Italy
+  pos: GPE
+  item_id: 1969
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &200 2018-06-21 14:11:05.790517000 Z
+    zone: *2
+    time: *200
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &201 2018-06-21 14:11:05.790517000 Z
+    zone: *2
+    time: *201
+Entity_101:
+  id: 2878
+  name: thousands
+  pos: CARDINAL
+  item_id: 1969
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &202 2018-06-21 14:11:05.795170000 Z
+    zone: *2
+    time: *202
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &203 2018-06-21 14:11:05.795170000 Z
+    zone: *2
+    time: *203
+Entity_102:
+  id: 2879
+  name: Roma
+  pos: ORG
+  item_id: 1969
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &204 2018-06-21 14:11:05.800375000 Z
+    zone: *2
+    time: *204
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &205 2018-06-21 14:11:05.800375000 Z
+    zone: *2
+    time: *205
+Entity_103:
+  id: 2880
+  name: Hungary
+  pos: GPE
+  item_id: 1968
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &206 2018-06-21 14:11:07.011904000 Z
+    zone: *2
+    time: *206
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &207 2018-06-21 14:11:07.011904000 Z
+    zone: *2
+    time: *207
+Entity_104:
+  id: 2881
+  name: Stop Soros
+  pos: PERSON
+  item_id: 1968
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &208 2018-06-21 14:11:07.022095000 Z
+    zone: *2
+    time: *208
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &209 2018-06-21 14:11:07.022095000 Z
+    zone: *2
+    time: *209
+Entity_105:
+  id: 2882
+  name: Canada
+  pos: GPE
+  item_id: 1967
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &210 2018-06-21 14:11:08.498531000 Z
+    zone: *2
+    time: *210
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &211 2018-06-21 14:11:08.498531000 Z
+    zone: *2
+    time: *211
+Entity_106:
+  id: 2883
+  name: second
+  pos: ORDINAL
+  item_id: 1967
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &212 2018-06-21 14:11:08.510396000 Z
+    zone: *2
+    time: *212
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &213 2018-06-21 14:11:08.510396000 Z
+    zone: *2
+    time: *213
+Entity_107:
+  id: 2884
+  name: American Outdoor Brands
+  pos: ORG
+  item_id: 1966
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &214 2018-06-21 14:11:10.076731000 Z
+    zone: *2
+    time: *214
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &215 2018-06-21 14:11:10.076731000 Z
+    zone: *2
+    time: *215
+Entity_108:
+  id: 2885
+  name: Portland
+  pos: GPE
+  item_id: 1964
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &216 2018-06-21 14:11:12.727799000 Z
+    zone: *2
+    time: *216
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &217 2018-06-21 14:11:12.727799000 Z
+    zone: *2
+    time: *217
+Entity_109:
+  id: 2886
+  name: Italy
+  pos: GPE
+  item_id: 1963
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &218 2018-06-21 14:11:13.920651000 Z
+    zone: *2
+    time: *218
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &219 2018-06-21 14:11:13.920651000 Z
+    zone: *2
+    time: *219
+Entity_110:
+  id: 2887
+  name: Salvini
+  pos: GPE
+  item_id: 1963
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &220 2018-06-21 14:11:13.930253000 Z
+    zone: *2
+    time: *220
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &221 2018-06-21 14:11:13.930253000 Z
+    zone: *2
+    time: *221
+Entity_111:
+  id: 2888
+  name: EU
+  pos: GPE
+  item_id: 1963
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &222 2018-06-21 14:11:13.934931000 Z
+    zone: *2
+    time: *222
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &223 2018-06-21 14:11:13.934931000 Z
+    zone: *2
+    time: *223
+Entity_112:
+  id: 2889
+  name: Womp
+  pos: PERSON
+  item_id: 1962
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &224 2018-06-21 14:11:15.061944000 Z
+    zone: *2
+    time: *224
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &225 2018-06-21 14:11:15.061944000 Z
+    zone: *2
+    time: *225
+Entity_113:
+  id: 2890
+  name: Corey Lewandowski
+  pos: PERSON
+  item_id: 1962
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &226 2018-06-21 14:11:15.069374000 Z
+    zone: *2
+    time: *226
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &227 2018-06-21 14:11:15.069374000 Z
+    zone: *2
+    time: *227
+Entity_114:
+  id: 2891
+  name: Down
+  pos: PERSON
+  item_id: 1962
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &228 2018-06-21 14:11:15.074131000 Z
+    zone: *2
+    time: *228
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &229 2018-06-21 14:11:15.074131000 Z
+    zone: *2
+    time: *229
+Entity_115:
+  id: 2892
+  name: England
+  pos: GPE
+  item_id: 1961
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &230 2018-06-21 14:11:16.181794000 Z
+    zone: *2
+    time: *230
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &231 2018-06-21 14:11:16.181794000 Z
+    zone: *2
+    time: *231
+Entity_116:
+  id: 2893
+  name: Nazi
+  pos: NORP
+  item_id: 1961
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &232 2018-06-21 14:11:16.192382000 Z
+    zone: *2
+    time: *232
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &233 2018-06-21 14:11:16.192382000 Z
+    zone: *2
+    time: *233
+Entity_117:
+  id: 2894
+  name: New Zealand
+  pos: GPE
+  item_id: 1960
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &234 2018-06-21 14:11:17.412185000 Z
+    zone: *2
+    time: *234
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &235 2018-06-21 14:11:17.412185000 Z
+    zone: *2
+    time: *235
+Entity_118:
+  id: 2895
+  name: Jacinda Ardern
+  pos: PERSON
+  item_id: 1960
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &236 2018-06-21 14:11:17.417898000 Z
+    zone: *2
+    time: *236
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &237 2018-06-21 14:11:17.417898000 Z
+    zone: *2
+    time: *237
+Entity_119:
+  id: 2896
+  name: Panama
+  pos: GPE
+  item_id: 1959
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &238 2018-06-21 14:11:18.731379000 Z
+    zone: *2
+    time: *238
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &239 2018-06-21 14:11:18.731379000 Z
+    zone: *2
+    time: *239
+Entity_120:
+  id: 2897
+  name: 75%
+  pos: PERCENT
+  item_id: 1959
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &240 2018-06-21 14:11:18.739529000 Z
+    zone: *2
+    time: *240
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &241 2018-06-21 14:11:18.739529000 Z
+    zone: *2
+    time: *241
+Entity_121:
+  id: 2898
+  name: '15'
+  pos: CARDINAL
+  item_id: 1957
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &242 2018-06-21 14:11:21.050381000 Z
+    zone: *2
+    time: *242
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &243 2018-06-21 14:11:21.050381000 Z
+    zone: *2
+    time: *243
+Entity_122:
+  id: 2899
+  name: Leslie Grantham
+  pos: PERSON
+  item_id: 1956
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &244 2018-06-21 14:11:22.196311000 Z
+    zone: *2
+    time: *244
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &245 2018-06-21 14:11:22.196311000 Z
+    zone: *2
+    time: *245
+Entity_123:
+  id: 2900
+  name: America
+  pos: GPE
+  item_id: 1955
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &246 2018-06-21 14:11:23.292618000 Z
+    zone: *2
+    time: *246
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &247 2018-06-21 14:11:23.292618000 Z
+    zone: *2
+    time: *247
+Entity_124:
+  id: 2901
+  name: today
+  pos: DATE
+  item_id: 1955
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &248 2018-06-21 14:11:23.304356000 Z
+    zone: *2
+    time: *248
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &249 2018-06-21 14:11:23.304356000 Z
+    zone: *2
+    time: *249
+Entity_125:
+  id: 2902
+  name: North Korean
+  pos: NORP
+  item_id: 1954
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &250 2018-06-21 14:11:24.475058000 Z
+    zone: *2
+    time: *250
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &251 2018-06-21 14:11:24.475058000 Z
+    zone: *2
+    time: *251
+Entity_126:
+  id: 2903
+  name: FBI
+  pos: ORG
+  item_id: 1953
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &252 2018-06-21 14:11:25.592989000 Z
+    zone: *2
+    time: *252
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &253 2018-06-21 14:11:25.592989000 Z
+    zone: *2
+    time: *253
+Entity_127:
+  id: 2904
+  name: World Cup
+  pos: EVENT
+  item_id: 1952
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &254 2018-06-21 14:11:26.743622000 Z
+    zone: *2
+    time: *254
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &255 2018-06-21 14:11:26.743622000 Z
+    zone: *2
+    time: *255
+Entity_128:
+  id: 2905
+  name: Iran
+  pos: GPE
+  item_id: 1952
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &256 2018-06-21 14:11:26.753625000 Z
+    zone: *2
+    time: *256
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &257 2018-06-21 14:11:26.753625000 Z
+    zone: *2
+    time: *257
+Entity_129:
+  id: 2906
+  name: Spain
+  pos: GPE
+  item_id: 1952
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &258 2018-06-21 14:11:26.758232000 Z
+    zone: *2
+    time: *258
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &259 2018-06-21 14:11:26.758232000 Z
+    zone: *2
+    time: *259
+Entity_130:
+  id: 2907
+  name: World Cup
+  pos: EVENT
+  item_id: 1951
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &260 2018-06-21 14:11:27.875968000 Z
+    zone: *2
+    time: *260
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &261 2018-06-21 14:11:27.875968000 Z
+    zone: *2
+    time: *261
+Entity_131:
+  id: 2908
+  name: '2018'
+  pos: DATE
+  item_id: 1951
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &262 2018-06-21 14:11:27.882584000 Z
+    zone: *2
+    time: *262
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &263 2018-06-21 14:11:27.882584000 Z
+    zone: *2
+    time: *263
+Entity_132:
+  id: 2909
+  name: Indian
+  pos: NORP
+  item_id: 1951
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &264 2018-06-21 14:11:27.887082000 Z
+    zone: *2
+    time: *264
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &265 2018-06-21 14:11:27.887082000 Z
+    zone: *2
+    time: *265
+Entity_133:
+  id: 2910
+  name: Russia
+  pos: GPE
+  item_id: 1951
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &266 2018-06-21 14:11:27.891292000 Z
+    zone: *2
+    time: *266
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &267 2018-06-21 14:11:27.891292000 Z
+    zone: *2
+    time: *267
+Entity_134:
+  id: 2911
+  name: First
+  pos: ORDINAL
+  item_id: 1950
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &268 2018-06-21 14:11:29.030354000 Z
+    zone: *2
+    time: *268
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &269 2018-06-21 14:11:29.030354000 Z
+    zone: *2
+    time: *269
+Entity_135:
+  id: 2912
+  name: World Cup
+  pos: EVENT
+  item_id: 1950
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &270 2018-06-21 14:11:29.039861000 Z
+    zone: *2
+    time: *270
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &271 2018-06-21 14:11:29.039861000 Z
+    zone: *2
+    time: *271
+Entity_136:
+  id: 2913
+  name: World Cup
+  pos: EVENT
+  item_id: 1949
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &272 2018-06-21 14:11:30.133061000 Z
+    zone: *2
+    time: *272
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &273 2018-06-21 14:11:30.133061000 Z
+    zone: *2
+    time: *273
+Entity_137:
+  id: 2914
+  name: '2018'
+  pos: DATE
+  item_id: 1949
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &274 2018-06-21 14:11:30.138781000 Z
+    zone: *2
+    time: *274
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &275 2018-06-21 14:11:30.138781000 Z
+    zone: *2
+    time: *275
+Entity_138:
+  id: 2915
+  name: Russia
+  pos: GPE
+  item_id: 1949
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &276 2018-06-21 14:11:30.144830000 Z
+    zone: *2
+    time: *276
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &277 2018-06-21 14:11:30.144830000 Z
+    zone: *2
+    time: *277
+Entity_139:
+  id: 2916
+  name: World Cup
+  pos: EVENT
+  item_id: 1948
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &278 2018-06-21 14:11:31.261236000 Z
+    zone: *2
+    time: *278
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &279 2018-06-21 14:11:31.261236000 Z
+    zone: *2
+    time: *279
+Entity_140:
+  id: 2917
+  name: '2018'
+  pos: DATE
+  item_id: 1948
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &280 2018-06-21 14:11:31.271566000 Z
+    zone: *2
+    time: *280
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &281 2018-06-21 14:11:31.271566000 Z
+    zone: *2
+    time: *281
+Entity_141:
+  id: 2918
+  name: England
+  pos: GPE
+  item_id: 1948
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &282 2018-06-21 14:11:31.276585000 Z
+    zone: *2
+    time: *282
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &283 2018-06-21 14:11:31.276585000 Z
+    zone: *2
+    time: *283
+Entity_142:
+  id: 2919
+  name: Gareth Southgate
+  pos: PERSON
+  item_id: 1948
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &284 2018-06-21 14:11:31.281206000 Z
+    zone: *2
+    time: *284
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &285 2018-06-21 14:11:31.281206000 Z
+    zone: *2
+    time: *285
+Entity_143:
+  id: 2920
+  name: World Cup Catch
+  pos: EVENT
+  item_id: 1947
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &286 2018-06-21 14:11:32.382485000 Z
+    zone: *2
+    time: *286
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &287 2018-06-21 14:11:32.382485000 Z
+    zone: *2
+    time: *287
+Entity_144:
+  id: 2921
+  name: World Cup
+  pos: EVENT
+  item_id: 1946
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &288 2018-06-21 14:11:33.500769000 Z
+    zone: *2
+    time: *288
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &289 2018-06-21 14:11:33.500769000 Z
+    zone: *2
+    time: *289
+Entity_145:
+  id: 2922
+  name: '2018'
+  pos: DATE
+  item_id: 1946
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &290 2018-06-21 14:11:33.511472000 Z
+    zone: *2
+    time: *290
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &291 2018-06-21 14:11:33.511472000 Z
+    zone: *2
+    time: *291
+Entity_146:
+  id: 2923
+  name: Dele Alli
+  pos: ORG
+  item_id: 1946
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &292 2018-06-21 14:11:33.521886000 Z
+    zone: *2
+    time: *292
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &293 2018-06-21 14:11:33.521886000 Z
+    zone: *2
+    time: *293
+Entity_147:
+  id: 2924
+  name: England
+  pos: GPE
+  item_id: 1946
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &294 2018-06-21 14:11:33.526258000 Z
+    zone: *2
+    time: *294
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &295 2018-06-21 14:11:33.526258000 Z
+    zone: *2
+    time: *295
+Entity_148:
+  id: 2925
+  name: World Cup
+  pos: EVENT
+  item_id: 1945
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &296 2018-06-21 14:11:34.646253000 Z
+    zone: *2
+    time: *296
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &297 2018-06-21 14:11:34.646253000 Z
+    zone: *2
+    time: *297
+Entity_149:
+  id: 2926
+  name: '2018'
+  pos: DATE
+  item_id: 1945
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &298 2018-06-21 14:11:34.656520000 Z
+    zone: *2
+    time: *298
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &299 2018-06-21 14:11:34.656520000 Z
+    zone: *2
+    time: *299
+Entity_150:
+  id: 2927
+  name: Chris Froome
+  pos: PERSON
+  item_id: 1944
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &300 2018-06-21 14:11:35.791953000 Z
+    zone: *2
+    time: *300
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &301 2018-06-21 14:11:35.791953000 Z
+    zone: *2
+    time: *301
+Entity_151:
+  id: 2928
+  name: Team Sky
+  pos: GPE
+  item_id: 1944
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &302 2018-06-21 14:11:35.798913000 Z
+    zone: *2
+    time: *302
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &303 2018-06-21 14:11:35.798913000 Z
+    zone: *2
+    time: *303
+Entity_152:
+  id: 2929
+  name: Hinault
+  pos: ORG
+  item_id: 1944
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &304 2018-06-21 14:11:35.803040000 Z
+    zone: *2
+    time: *304
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &305 2018-06-21 14:11:35.803040000 Z
+    zone: *2
+    time: *305
+Entity_153:
+  id: 2930
+  name: Tour de France
+  pos: PERSON
+  item_id: 1944
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &306 2018-06-21 14:11:35.807160000 Z
+    zone: *2
+    time: *306
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &307 2018-06-21 14:11:35.807160000 Z
+    zone: *2
+    time: *307
+Entity_154:
+  id: 2931
+  name: Argentina
+  pos: GPE
+  item_id: 1943
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &308 2018-06-21 14:11:36.948002000 Z
+    zone: *2
+    time: *308
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &309 2018-06-21 14:11:36.948002000 Z
+    zone: *2
+    time: *309
+Entity_155:
+  id: 2932
+  name: Scotland
+  pos: GPE
+  item_id: 1943
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &310 2018-06-21 14:11:36.958562000 Z
+    zone: *2
+    time: *310
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &311 2018-06-21 14:11:36.958562000 Z
+    zone: *2
+    time: *311
+Entity_156:
+  id: 2933
+  name: Stuart McInally
+  pos: PERSON
+  item_id: 1943
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &312 2018-06-21 14:11:36.963370000 Z
+    zone: *2
+    time: *312
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &313 2018-06-21 14:11:36.963370000 Z
+    zone: *2
+    time: *313
+Entity_157:
+  id: 2934
+  name: eight
+  pos: CARDINAL
+  item_id: 1943
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &314 2018-06-21 14:11:36.968347000 Z
+    zone: *2
+    time: *314
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &315 2018-06-21 14:11:36.968347000 Z
+    zone: *2
+    time: *315
+Entity_158:
+  id: 2935
+  name: South Africa
+  pos: GPE
+  item_id: 1942
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &316 2018-06-21 14:11:38.131742000 Z
+    zone: *2
+    time: *316
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &317 2018-06-21 14:11:38.131742000 Z
+    zone: *2
+    time: *317
+Entity_159:
+  id: 2936
+  name: England
+  pos: GPE
+  item_id: 1942
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &318 2018-06-21 14:11:38.141891000 Z
+    zone: *2
+    time: *318
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &319 2018-06-21 14:11:38.141891000 Z
+    zone: *2
+    time: *319
+Entity_160:
+  id: 2937
+  name: Danny Cipriani
+  pos: PERSON
+  item_id: 1942
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &320 2018-06-21 14:11:38.151553000 Z
+    zone: *2
+    time: *320
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &321 2018-06-21 14:11:38.151553000 Z
+    zone: *2
+    time: *321
+Entity_161:
+  id: 2938
+  name: '2008'
+  pos: DATE
+  item_id: 1942
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &322 2018-06-21 14:11:38.162164000 Z
+    zone: *2
+    time: *322
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &323 2018-06-21 14:11:38.162164000 Z
+    zone: *2
+    time: *323
+Entity_162:
+  id: 2939
+  name: Manchester United
+  pos: ORG
+  item_id: 1941
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &324 2018-06-21 14:11:39.319125000 Z
+    zone: *2
+    time: *324
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &325 2018-06-21 14:11:39.319125000 Z
+    zone: *2
+    time: *325
+Entity_163:
+  id: 2940
+  name: Brazilian
+  pos: NORP
+  item_id: 1941
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &326 2018-06-21 14:11:39.466817000 Z
+    zone: *2
+    time: *326
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &327 2018-06-21 14:11:39.466817000 Z
+    zone: *2
+    time: *327
+Entity_164:
+  id: 2941
+  name: Shakhtar Donetsk
+  pos: PERSON
+  item_id: 1941
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &328 2018-06-21 14:11:39.477128000 Z
+    zone: *2
+    time: *328
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &329 2018-06-21 14:11:39.477128000 Z
+    zone: *2
+    time: *329
+Entity_165:
+  id: 2942
+  name: "£47m"
+  pos: MONEY
+  item_id: 1941
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &330 2018-06-21 14:11:39.486950000 Z
+    zone: *2
+    time: *330
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &331 2018-06-21 14:11:39.486950000 Z
+    zone: *2
+    time: *331
+Entity_166:
+  id: 2943
+  name: World Cup
+  pos: EVENT
+  item_id: 1940
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &332 2018-06-21 14:11:40.776973000 Z
+    zone: *2
+    time: *332
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &333 2018-06-21 14:11:40.776973000 Z
+    zone: *2
+    time: *333
+Entity_167:
+  id: 2944
+  name: '2018'
+  pos: DATE
+  item_id: 1940
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &334 2018-06-21 14:11:40.789080000 Z
+    zone: *2
+    time: *334
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &335 2018-06-21 14:11:40.789080000 Z
+    zone: *2
+    time: *335
+Entity_168:
+  id: 2945
+  name: England
+  pos: GPE
+  item_id: 1940
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &336 2018-06-21 14:11:40.799484000 Z
+    zone: *2
+    time: *336
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &337 2018-06-21 14:11:40.799484000 Z
+    zone: *2
+    time: *337
+Entity_169:
+  id: 2946
+  name: XI
+  pos: GPE
+  item_id: 1940
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &338 2018-06-21 14:11:40.809490000 Z
+    zone: *2
+    time: *338
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &339 2018-06-21 14:11:40.809490000 Z
+    zone: *2
+    time: *339
+Entity_170:
+  id: 2947
+  name: Panama
+  pos: GPE
+  item_id: 1940
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &340 2018-06-21 14:11:40.814535000 Z
+    zone: *2
+    time: *340
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &341 2018-06-21 14:11:40.814535000 Z
+    zone: *2
+    time: *341
+Entity_171:
+  id: 2948
+  name: Johnny Marr
+  pos: PERSON
+  item_id: 1939
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &342 2018-06-21 14:11:42.020907000 Z
+    zone: *2
+    time: *342
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &343 2018-06-21 14:11:42.020907000 Z
+    zone: *2
+    time: *343
+Entity_172:
+  id: 2949
+  name: Baby
+  pos: WORK_OF_ART
+  item_id: 1938
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &344 2018-06-21 14:11:43.192689000 Z
+    zone: *2
+    time: *344
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &345 2018-06-21 14:11:43.192689000 Z
+    zone: *2
+    time: *345
+Entity_173:
+  id: 2950
+  name: Turkey
+  pos: GPE
+  item_id: 1937
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &346 2018-06-21 14:11:44.372329000 Z
+    zone: *2
+    time: *346
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &347 2018-06-21 14:11:44.372329000 Z
+    zone: *2
+    time: *347
+Entity_174:
+  id: 2951
+  name: Erdogan
+  pos: PERSON
+  item_id: 1937
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &348 2018-06-21 14:11:44.382498000 Z
+    zone: *2
+    time: *348
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &349 2018-06-21 14:11:44.382498000 Z
+    zone: *2
+    time: *349
+Entity_175:
+  id: 2952
+  name: US
+  pos: GPE
+  item_id: 1935
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &350 2018-06-21 14:11:46.911747000 Z
+    zone: *2
+    time: *350
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &351 2018-06-21 14:11:46.911747000 Z
+    zone: *2
+    time: *351
+Entity_176:
+  id: 2953
+  name: A&E
+  pos: ORG
+  item_id: 1932
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &352 2018-06-21 14:11:50.351150000 Z
+    zone: *2
+    time: *352
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &353 2018-06-21 14:11:50.351150000 Z
+    zone: *2
+    time: *353
+Entity_177:
+  id: 2954
+  name: '10'
+  pos: CARDINAL
+  item_id: 1932
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &354 2018-06-21 14:11:50.357720000 Z
+    zone: *2
+    time: *354
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &355 2018-06-21 14:11:50.357720000 Z
+    zone: *2
+    time: *355
+Entity_178:
+  id: 2955
+  name: under-30s
+  pos: GPE
+  item_id: 1932
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &356 2018-06-21 14:11:50.362712000 Z
+    zone: *2
+    time: *356
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &357 2018-06-21 14:11:50.362712000 Z
+    zone: *2
+    time: *357
+Entity_179:
+  id: 2956
+  name: NHS
+  pos: ORG
+  item_id: 1932
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &358 2018-06-21 14:11:50.367071000 Z
+    zone: *2
+    time: *358
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &359 2018-06-21 14:11:50.367071000 Z
+    zone: *2
+    time: *359
+Entity_180:
+  id: 2957
+  name: UK
+  pos: GPE
+  item_id: 1931
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &360 2018-06-21 14:11:51.484035000 Z
+    zone: *2
+    time: *360
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &361 2018-06-21 14:11:51.484035000 Z
+    zone: *2
+    time: *361
+Entity_181:
+  id: 2958
+  name: Kenyan
+  pos: NORP
+  item_id: 1930
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &362 2018-06-21 14:11:52.625781000 Z
+    zone: *2
+    time: *362
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &363 2018-06-21 14:11:52.625781000 Z
+    zone: *2
+    time: *363
+Entity_182:
+  id: 2959
+  name: US
+  pos: GPE
+  item_id: 1929
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &364 2018-06-21 14:17:12.667914000 Z
+    zone: *2
+    time: *364
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &365 2018-06-21 14:17:12.667914000 Z
+    zone: *2
+    time: *365
+Entity_183:
+  id: 2960
+  name: Valley
+  pos: LOC
+  item_id: 1928
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &366 2018-06-21 14:17:13.800020000 Z
+    zone: *2
+    time: *366
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &367 2018-06-21 14:17:13.800020000 Z
+    zone: *2
+    time: *367
+Entity_184:
+  id: 2961
+  name: the 80s
+  pos: DATE
+  item_id: 1928
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &368 2018-06-21 14:17:13.811386000 Z
+    zone: *2
+    time: *368
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &369 2018-06-21 14:17:13.811386000 Z
+    zone: *2
+    time: *369
+Entity_185:
+  id: 2962
+  name: Windrush
+  pos: ORG
+  item_id: 1927
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &370 2018-06-21 14:17:14.972209000 Z
+    zone: *2
+    time: *370
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &371 2018-06-21 14:17:14.972209000 Z
+    zone: *2
+    time: *371
+Entity_186:
+  id: 2963
+  name: Gosport
+  pos: GPE
+  item_id: 1926
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &372 2018-06-21 14:17:16.064443000 Z
+    zone: *2
+    time: *372
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &373 2018-06-21 14:17:16.064443000 Z
+    zone: *2
+    time: *373
+Entity_187:
+  id: 2964
+  name: Janet Jackson
+  pos: PERSON
+  item_id: 1925
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &374 2018-06-21 14:17:17.187389000 Z
+    zone: *2
+    time: *374
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &375 2018-06-21 14:17:17.187389000 Z
+    zone: *2
+    time: *375
+Entity_188:
+  id: 2965
+  name: Wimbledon
+  pos: ORG
+  item_id: 1924
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &376 2018-06-21 14:17:18.318549000 Z
+    zone: *2
+    time: *376
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &377 2018-06-21 14:17:18.318549000 Z
+    zone: *2
+    time: *377
+Entity_189:
+  id: 2966
+  name: '4'
+  pos: CARDINAL
+  item_id: 1924
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &378 2018-06-21 14:17:18.329732000 Z
+    zone: *2
+    time: *378
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &379 2018-06-21 14:17:18.329732000 Z
+    zone: *2
+    time: *379
+Entity_190:
+  id: 2967
+  name: HDR
+  pos: ORG
+  item_id: 1924
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &380 2018-06-21 14:17:18.334017000 Z
+    zone: *2
+    time: *380
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &381 2018-06-21 14:17:18.334017000 Z
+    zone: *2
+    time: *381
+Entity_191:
+  id: 2968
+  name: BBC
+  pos: ORG
+  item_id: 1924
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &382 2018-06-21 14:17:18.338775000 Z
+    zone: *2
+    time: *382
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &383 2018-06-21 14:17:18.338775000 Z
+    zone: *2
+    time: *383
+Entity_192:
+  id: 2969
+  name: Canadians
+  pos: NORP
+  item_id: 1923
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &384 2018-06-21 14:17:19.468362000 Z
+    zone: *2
+    time: *384
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &385 2018-06-21 14:17:19.468362000 Z
+    zone: *2
+    time: *385
+Entity_193:
+  id: 2970
+  name: Trump
+  pos: ORG
+  item_id: 1923
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &386 2018-06-21 14:17:19.478533000 Z
+    zone: *2
+    time: *386
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &387 2018-06-21 14:17:19.478533000 Z
+    zone: *2
+    time: *387
+Entity_194:
+  id: 2971
+  name: Minds
+  pos: PERSON
+  item_id: 1922
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &388 2018-06-21 14:17:20.695133000 Z
+    zone: *2
+    time: *388
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &389 2018-06-21 14:17:20.695133000 Z
+    zone: *2
+    time: *389
+Entity_195:
+  id: 2972
+  name: World Cup
+  pos: EVENT
+  item_id: 1920
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &390 2018-06-21 14:17:22.941124000 Z
+    zone: *2
+    time: *390
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &391 2018-06-21 14:17:22.941124000 Z
+    zone: *2
+    time: *391
+Entity_196:
+  id: 2973
+  name: '2018'
+  pos: DATE
+  item_id: 1920
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &392 2018-06-21 14:17:22.951187000 Z
+    zone: *2
+    time: *392
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &393 2018-06-21 14:17:22.951187000 Z
+    zone: *2
+    time: *393
+Entity_197:
+  id: 2974
+  name: Iranian
+  pos: NORP
+  item_id: 1920
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &394 2018-06-21 14:17:22.955781000 Z
+    zone: *2
+    time: *394
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &395 2018-06-21 14:17:22.955781000 Z
+    zone: *2
+    time: *395
+Entity_198:
+  id: 2975
+  name: Jacinda Ardern
+  pos: PERSON
+  item_id: 1919
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &396 2018-06-21 14:17:24.032519000 Z
+    zone: *2
+    time: *396
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &397 2018-06-21 14:17:24.032519000 Z
+    zone: *2
+    time: *397
+Entity_199:
+  id: 2976
+  name: New Zealand
+  pos: GPE
+  item_id: 1919
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &398 2018-06-21 14:17:24.042467000 Z
+    zone: *2
+    time: *398
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &399 2018-06-21 14:17:24.042467000 Z
+    zone: *2
+    time: *399
+Entity_200:
+  id: 2977
+  name: Summer
+  pos: DATE
+  item_id: 1918
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &400 2018-06-21 14:17:25.153060000 Z
+    zone: *2
+    time: *400
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &401 2018-06-21 14:17:25.153060000 Z
+    zone: *2
+    time: *401
+Entity_201:
+  id: 2978
+  name: winter
+  pos: DATE
+  item_id: 1918
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &402 2018-06-21 14:17:25.163568000 Z
+    zone: *2
+    time: *402
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &403 2018-06-21 14:17:25.163568000 Z
+    zone: *2
+    time: *403
+Entity_202:
+  id: 2979
+  name: winter
+  pos: DATE
+  item_id: 1917
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &404 2018-06-21 14:17:26.264073000 Z
+    zone: *2
+    time: *404
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &405 2018-06-21 14:17:26.264073000 Z
+    zone: *2
+    time: *405
+Entity_203:
+  id: 2980
+  name: Antarctica
+  pos: LOC
+  item_id: 1917
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &406 2018-06-21 14:17:26.274580000 Z
+    zone: *2
+    time: *406
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &407 2018-06-21 14:17:26.274580000 Z
+    zone: *2
+    time: *407
+Entity_204:
+  id: 2981
+  name: John
+  pos: PERSON
+  item_id: 1916
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &408 2018-06-21 14:17:27.466126000 Z
+    zone: *2
+    time: *408
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &409 2018-06-21 14:17:27.466126000 Z
+    zone: *2
+    time: *409
+Entity_205:
+  id: 2982
+  name: Goldfinger
+  pos: PERSON
+  item_id: 1916
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &410 2018-06-21 14:17:27.477215000 Z
+    zone: *2
+    time: *410
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &411 2018-06-21 14:17:27.477215000 Z
+    zone: *2
+    time: *411
+Entity_206:
+  id: 2983
+  name: Killer
+  pos: PERSON
+  item_id: 1916
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &412 2018-06-21 14:17:27.487436000 Z
+    zone: *2
+    time: *412
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &413 2018-06-21 14:17:27.487436000 Z
+    zone: *2
+    time: *413
+Entity_207:
+  id: 2984
+  name: David Black
+  pos: PERSON
+  item_id: 1914
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &414 2018-06-21 14:17:29.833222000 Z
+    zone: *2
+    time: *414
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &415 2018-06-21 14:17:29.833222000 Z
+    zone: *2
+    time: *415
+Entity_208:
+  id: 2985
+  name: Jeffrey Barry
+  pos: PERSON
+  item_id: 1913
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &416 2018-06-21 14:17:31.018341000 Z
+    zone: *2
+    time: *416
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &417 2018-06-21 14:17:31.018341000 Z
+    zone: *2
+    time: *417
+Entity_209:
+  id: 2986
+  name: Ahmad
+  pos: PERSON
+  item_id: 1913
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &418 2018-06-21 14:17:31.028383000 Z
+    zone: *2
+    time: *418
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &419 2018-06-21 14:17:31.028383000 Z
+    zone: *2
+    time: *419
+Entity_210:
+  id: 2987
+  name: Mum
+  pos: PERSON
+  item_id: 1912
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &420 2018-06-21 14:17:32.147647000 Z
+    zone: *2
+    time: *420
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &421 2018-06-21 14:17:32.147647000 Z
+    zone: *2
+    time: *421
+Entity_211:
+  id: 2988
+  name: Naz Shah
+  pos: PERSON
+  item_id: 1911
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &422 2018-06-21 14:17:33.330484000 Z
+    zone: *2
+    time: *422
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &423 2018-06-21 14:17:33.330484000 Z
+    zone: *2
+    time: *423
+Entity_212:
+  id: 2989
+  name: 'Addenbrooke '
+  pos: ORG
+  item_id: 1910
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &424 2018-06-21 14:17:34.662051000 Z
+    zone: *2
+    time: *424
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &425 2018-06-21 14:17:34.662051000 Z
+    zone: *2
+    time: *425
+Entity_213:
+  id: 2990
+  name: Debbie
+  pos: PERSON
+  item_id: 1910
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &426 2018-06-21 14:17:34.669551000 Z
+    zone: *2
+    time: *426
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &427 2018-06-21 14:17:34.669551000 Z
+    zone: *2
+    time: *427
+Entity_214:
+  id: 2991
+  name: Sophie Gradon
+  pos: PERSON
+  item_id: 1909
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &428 2018-06-21 14:17:36.016573000 Z
+    zone: *2
+    time: *428
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &429 2018-06-21 14:17:36.016573000 Z
+    zone: *2
+    time: *429
+Entity_215:
+  id: 2992
+  name: Love Island
+  pos: LOC
+  item_id: 1909
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &430 2018-06-21 14:17:36.030853000 Z
+    zone: *2
+    time: *430
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &431 2018-06-21 14:17:36.030853000 Z
+    zone: *2
+    time: *431
+Entity_216:
+  id: 2993
+  name: Heathrow
+  pos: FAC
+  item_id: 1908
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &432 2018-06-21 14:17:37.301714000 Z
+    zone: *2
+    time: *432
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &433 2018-06-21 14:17:37.301714000 Z
+    zone: *2
+    time: *433
+Entity_217:
+  id: 2994
+  name: Three
+  pos: CARDINAL
+  item_id: 1907
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &434 2018-06-21 14:17:38.557325000 Z
+    zone: *2
+    time: *434
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &435 2018-06-21 14:17:38.557325000 Z
+    zone: *2
+    time: *435
+Entity_218:
+  id: 2995
+  name: EU
+  pos: ORG
+  item_id: 1907
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &436 2018-06-21 14:17:38.569358000 Z
+    zone: *2
+    time: *436
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &437 2018-06-21 14:17:38.569358000 Z
+    zone: *2
+    time: *437
+Entity_219:
+  id: 2996
+  name: UK
+  pos: GPE
+  item_id: 1907
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &438 2018-06-21 14:17:38.580834000 Z
+    zone: *2
+    time: *438
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &439 2018-06-21 14:17:38.580834000 Z
+    zone: *2
+    time: *439
+Entity_220:
+  id: 2997
+  name: John McCain
+  pos: PERSON
+  item_id: 1906
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &440 2018-06-21 14:17:39.775923000 Z
+    zone: *2
+    time: *440
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &441 2018-06-21 14:17:39.775923000 Z
+    zone: *2
+    time: *441
+Entity_221:
+  id: 2998
+  name: Strategist
+  pos: NORP
+  item_id: 1906
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &442 2018-06-21 14:17:39.782066000 Z
+    zone: *2
+    time: *442
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &443 2018-06-21 14:17:39.782066000 Z
+    zone: *2
+    time: *443
+Entity_222:
+  id: 2999
+  name: Steve Schmidt
+  pos: PERSON
+  item_id: 1906
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &444 2018-06-21 14:17:39.787324000 Z
+    zone: *2
+    time: *444
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &445 2018-06-21 14:17:39.787324000 Z
+    zone: *2
+    time: *445
+Entity_223:
+  id: 3000
+  name: GOP
+  pos: ORG
+  item_id: 1906
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &446 2018-06-21 14:17:39.792856000 Z
+    zone: *2
+    time: *446
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &447 2018-06-21 14:17:39.792856000 Z
+    zone: *2
+    time: *447
+Entity_224:
+  id: 3001
+  name: Leaves Party
+  pos: ORG
+  item_id: 1906
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &448 2018-06-21 14:17:39.798833000 Z
+    zone: *2
+    time: *448
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &449 2018-06-21 14:17:39.798833000 Z
+    zone: *2
+    time: *449
+Entity_225:
+  id: 3002
+  name: Democrats
+  pos: NORP
+  item_id: 1906
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &450 2018-06-21 14:17:39.803222000 Z
+    zone: *2
+    time: *450
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &451 2018-06-21 14:17:39.803222000 Z
+    zone: *2
+    time: *451
+Entity_226:
+  id: 3003
+  name: Donald Trump Jr. Torches
+  pos: PERSON
+  item_id: 1905
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &452 2018-06-21 14:17:41.168337000 Z
+    zone: *2
+    time: *452
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &453 2018-06-21 14:17:41.168337000 Z
+    zone: *2
+    time: *453
+Entity_227:
+  id: 3004
+  name: Peter Fonda
+  pos: PERSON
+  item_id: 1905
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &454 2018-06-21 14:17:41.180931000 Z
+    zone: *2
+    time: *454
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &455 2018-06-21 14:17:41.180931000 Z
+    zone: *2
+    time: *455
+Entity_228:
+  id: 3005
+  name: Vile Attack
+  pos: PERSON
+  item_id: 1905
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &456 2018-06-21 14:17:41.192178000 Z
+    zone: *2
+    time: *456
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &457 2018-06-21 14:17:41.192178000 Z
+    zone: *2
+    time: *457
+Entity_229:
+  id: 3006
+  name: 12-Year-Old Barron
+  pos: DATE
+  item_id: 1905
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &458 2018-06-21 14:17:41.197658000 Z
+    zone: *2
+    time: *458
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &459 2018-06-21 14:17:41.197658000 Z
+    zone: *2
+    time: *459
+Entity_230:
+  id: 3007
+  name: 20 Hours
+  pos: TIME
+  item_id: 1904
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &460 2018-06-21 14:17:42.524735000 Z
+    zone: *2
+    time: *460
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &461 2018-06-21 14:17:42.524735000 Z
+    zone: *2
+    time: *461
+Entity_231:
+  id: 3008
+  name: Remove Tweet Advocating Murder of ICE Agents
+  pos: FAC
+  item_id: 1904
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &462 2018-06-21 14:17:42.532256000 Z
+    zone: *2
+    time: *462
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &463 2018-06-21 14:17:42.532256000 Z
+    zone: *2
+    time: *463
+Entity_232:
+  id: 3009
+  name: John Lewis
+  pos: PERSON
+  item_id: 1903
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &464 2018-06-21 14:17:43.848044000 Z
+    zone: *2
+    time: *464
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &465 2018-06-21 14:17:43.848044000 Z
+    zone: *2
+    time: *465
+Entity_233:
+  id: 3010
+  name: Any Peace in America
+  pos: ORG
+  item_id: 1903
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &466 2018-06-21 14:17:43.855459000 Z
+    zone: *2
+    time: *466
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &467 2018-06-21 14:17:43.855459000 Z
+    zone: *2
+    time: *467
+Entity_234:
+  id: 3011
+  name: Child Border Policy Ends
+  pos: WORK_OF_ART
+  item_id: 1903
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &468 2018-06-21 14:17:43.861805000 Z
+    zone: *2
+    time: *468
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &469 2018-06-21 14:17:43.861805000 Z
+    zone: *2
+    time: *469
+Entity_235:
+  id: 3012
+  name: Arnold Schwarzenegger
+  pos: PERSON
+  item_id: 1902
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &470 2018-06-21 14:17:45.023255000 Z
+    zone: *2
+    time: *470
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &471 2018-06-21 14:17:45.023255000 Z
+    zone: *2
+    time: *471
+Entity_236:
+  id: 3013
+  name: Cages
+  pos: GPE
+  item_id: 1902
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &472 2018-06-21 14:17:45.034625000 Z
+    zone: *2
+    time: *472
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &473 2018-06-21 14:17:45.034625000 Z
+    zone: *2
+    time: *473
+Entity_237:
+  id: 3014
+  name: San Francisco Protest
+  pos: GPE
+  item_id: 1901
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &474 2018-06-21 14:17:46.124953000 Z
+    zone: *2
+    time: *474
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &475 2018-06-21 14:17:46.124953000 Z
+    zone: *2
+    time: *475
+Entity_238:
+  id: 3015
+  name: American Gestapo
+  pos: ORG
+  item_id: 1901
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &476 2018-06-21 14:17:46.137612000 Z
+    zone: *2
+    time: *476
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &477 2018-06-21 14:17:46.137612000 Z
+    zone: *2
+    time: *477
+Entity_239:
+  id: 3016
+  name: Machine
+  pos: ORG
+  item_id: 1900
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &478 2018-06-21 14:17:47.197696000 Z
+    zone: *2
+    time: *478
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &479 2018-06-21 14:17:47.197696000 Z
+    zone: *2
+    time: *479
+Entity_240:
+  id: 3017
+  name: 'Tom Morello Proposes '
+  pos: PERSON
+  item_id: 1900
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &480 2018-06-21 14:17:47.208675000 Z
+    zone: *2
+    time: *480
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &481 2018-06-21 14:17:47.208675000 Z
+    zone: *2
+    time: *481
+Entity_241:
+  id: 3018
+  name: Children Liberation Army
+  pos: ORG
+  item_id: 1900
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &482 2018-06-21 14:17:47.212907000 Z
+    zone: *2
+    time: *482
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &483 2018-06-21 14:17:47.212907000 Z
+    zone: *2
+    time: *483
+Entity_242:
+  id: 3019
+  name: Attack ICE Agents
+  pos: PRODUCT
+  item_id: 1900
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &484 2018-06-21 14:17:47.217407000 Z
+    zone: *2
+    time: *484
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &485 2018-06-21 14:17:47.217407000 Z
+    zone: *2
+    time: *485
+Entity_243:
+  id: 3020
+  name: Peter Fonda
+  pos: PERSON
+  item_id: 1899
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &486 2018-06-21 14:17:48.332287000 Z
+    zone: *2
+    time: *486
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &487 2018-06-21 14:17:48.332287000 Z
+    zone: *2
+    time: *487
+Entity_244:
+  id: 3021
+  name: Rip Barron Trump From His Mother
+  pos: WORK_OF_ART
+  item_id: 1899
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &488 2018-06-21 14:17:48.343042000 Z
+    zone: *2
+    time: *488
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &489 2018-06-21 14:17:48.343042000 Z
+    zone: *2
+    time: *489
+Entity_245:
+  id: 3022
+  name: Pedophiles
+  pos: PERSON
+  item_id: 1899
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &490 2018-06-21 14:17:48.352778000 Z
+    zone: *2
+    time: *490
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &491 2018-06-21 14:17:48.352778000 Z
+    zone: *2
+    time: *491
+Entity_246:
+  id: 3023
+  name: Devin Nunes Gives DOJ
+  pos: PERSON
+  item_id: 1897
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &492 2018-06-21 14:17:50.597970000 Z
+    zone: *2
+    time: *492
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &493 2018-06-21 14:17:50.597970000 Z
+    zone: *2
+    time: *493
+Entity_247:
+  id: 3024
+  name: FBI Deadline
+  pos: ORG
+  item_id: 1897
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &494 2018-06-21 14:17:50.609280000 Z
+    zone: *2
+    time: *494
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &495 2018-06-21 14:17:50.609280000 Z
+    zone: *2
+    time: *495
+Entity_248:
+  id: 3025
+  name: Subpoena Requests
+  pos: PERSON
+  item_id: 1897
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &496 2018-06-21 14:17:50.615161000 Z
+    zone: *2
+    time: *496
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &497 2018-06-21 14:17:50.615161000 Z
+    zone: *2
+    time: *497
+Entity_249:
+  id: 3026
+  name: IG Report
+  pos: ORG
+  item_id: 1896
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &498 2018-06-21 14:17:51.758065000 Z
+    zone: *2
+    time: *498
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &499 2018-06-21 14:17:51.758065000 Z
+    zone: *2
+    time: *499
+Entity_250:
+  id: 3027
+  name: FBI
+  pos: ORG
+  item_id: 1896
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &500 2018-06-21 14:17:51.769929000 Z
+    zone: *2
+    time: *500
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &501 2018-06-21 14:17:51.769929000 Z
+    zone: *2
+    time: *501
+Entity_251:
+  id: 3028
+  name: Peter Navarro
+  pos: PERSON
+  item_id: 1895
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &502 2018-06-21 14:17:52.899951000 Z
+    zone: *2
+    time: *502
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &503 2018-06-21 14:17:52.899951000 Z
+    zone: *2
+    time: *503
+Entity_252:
+  id: 3029
+  name: China Underestimated Trump’s
+  pos: ORG
+  item_id: 1895
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &504 2018-06-21 14:17:52.911135000 Z
+    zone: *2
+    time: *504
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &505 2018-06-21 14:17:52.911135000 Z
+    zone: *2
+    time: *505
+Entity_253:
+  id: 3030
+  name: Resolve
+  pos: PERSON
+  item_id: 1895
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &506 2018-06-21 14:17:52.917540000 Z
+    zone: *2
+    time: *506
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &507 2018-06-21 14:17:52.917540000 Z
+    zone: *2
+    time: *507
+Entity_254:
+  id: 3031
+  name: the Battle for Our High-Tech Future
+  pos: EVENT
+  item_id: 1895
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &508 2018-06-21 14:17:52.922608000 Z
+    zone: *2
+    time: *508
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &509 2018-06-21 14:17:52.922608000 Z
+    zone: *2
+    time: *509
+Entity_255:
+  id: 3032
+  name: Trump Migration E.O
+  pos: ORG
+  item_id: 1894
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &510 2018-06-21 14:17:54.016000000 Z
+    zone: *2
+    time: *510
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &511 2018-06-21 14:17:54.016000000 Z
+    zone: *2
+    time: *511
+Entity_256:
+  id: 3033
+  name: Prosecute Migrants
+  pos: ORG
+  item_id: 1894
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &512 2018-06-21 14:17:54.028321000 Z
+    zone: *2
+    time: *512
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &513 2018-06-21 14:17:54.028321000 Z
+    zone: *2
+    time: *513
+Entity_257:
+  id: 3034
+  name: Challenge Flores
+  pos: ORG
+  item_id: 1894
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &514 2018-06-21 14:17:54.034465000 Z
+    zone: *2
+    time: *514
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &515 2018-06-21 14:17:54.034465000 Z
+    zone: *2
+    time: *515
+Entity_258:
+  id: 3035
+  name: Loophole
+  pos: PERSON
+  item_id: 1894
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &516 2018-06-21 14:17:54.040711000 Z
+    zone: *2
+    time: *516
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &517 2018-06-21 14:17:54.040711000 Z
+    zone: *2
+    time: *517
+Entity_259:
+  id: 3036
+  name: UK
+  pos: GPE
+  item_id: 1893
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &518 2018-06-21 14:17:55.184033000 Z
+    zone: *2
+    time: *518
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &519 2018-06-21 14:17:55.184033000 Z
+    zone: *2
+    time: *519
+Entity_260:
+  id: 3037
+  name: Trump
+  pos: PERSON
+  item_id: 1893
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &520 2018-06-21 14:17:55.195721000 Z
+    zone: *2
+    time: *520
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &521 2018-06-21 14:17:55.195721000 Z
+    zone: *2
+    time: *521
+Entity_261:
+  id: 3038
+  name: Mexican Border State Offers Cash
+  pos: ORG
+  item_id: 1892
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &522 2018-06-21 14:17:56.274971000 Z
+    zone: *2
+    time: *522
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &523 2018-06-21 14:17:56.274971000 Z
+    zone: *2
+    time: *523
+Entity_262:
+  id: 3039
+  name: George
+  pos: PERSON
+  item_id: 1891
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &524 2018-06-21 14:17:57.491936000 Z
+    zone: *2
+    time: *524
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &525 2018-06-21 14:17:57.491936000 Z
+    zone: *2
+    time: *525
+Entity_263:
+  id: 3040
+  name: '00,000'
+  pos: CARDINAL
+  item_id: 1891
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &526 2018-06-21 14:17:57.503937000 Z
+    zone: *2
+    time: *526
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &527 2018-06-21 14:17:57.503937000 Z
+    zone: *2
+    time: *527
+Entity_264:
+  id: 3041
+  name: Fight Trump Immigration Enforcement
+  pos: ORG
+  item_id: 1891
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &528 2018-06-21 14:17:57.510599000 Z
+    zone: *2
+    time: *528
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &529 2018-06-21 14:17:57.510599000 Z
+    zone: *2
+    time: *529
+Entity_265:
+  id: 3042
+  name: Twitter Remains
+  pos: PERSON
+  item_id: 1890
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &530 2018-06-21 14:17:58.679724000 Z
+    zone: *2
+    time: *530
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &531 2018-06-21 14:17:58.679724000 Z
+    zone: *2
+    time: *531
+Entity_266:
+  id: 3043
+  name: Peter Fonda
+  pos: PERSON
+  item_id: 1890
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &532 2018-06-21 14:17:58.691501000 Z
+    zone: *2
+    time: *532
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &533 2018-06-21 14:17:58.691501000 Z
+    zone: *2
+    time: *533
+Entity_267:
+  id: 3044
+  name: Jada Pinkett Smith
+  pos: PERSON
+  item_id: 1889
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &534 2018-06-21 14:17:59.826031000 Z
+    zone: *2
+    time: *534
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &535 2018-06-21 14:17:59.826031000 Z
+    zone: *2
+    time: *535
+Entity_268:
+  id: 3045
+  name: 'My Vagina '
+  pos: PERSON
+  item_id: 1889
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &536 2018-06-21 14:17:59.837828000 Z
+    zone: *2
+    time: *536
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &537 2018-06-21 14:17:59.837828000 Z
+    zone: *2
+    time: *537
+Entity_269:
+  id: 3046
+  name: Peter Fonda
+  pos: PERSON
+  item_id: 1888
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &538 2018-06-21 14:18:00.955754000 Z
+    zone: *2
+    time: *538
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &539 2018-06-21 14:18:00.955754000 Z
+    zone: *2
+    time: *539
+Entity_270:
+  id: 3047
+  name: Lying Gash
+  pos: PERSON
+  item_id: 1888
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &540 2018-06-21 14:18:00.963661000 Z
+    zone: *2
+    time: *540
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &541 2018-06-21 14:18:00.963661000 Z
+    zone: *2
+    time: *541
+Entity_271:
+  id: 3048
+  name: Kirstjen Nielsen
+  pos: PERSON
+  item_id: 1888
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &542 2018-06-21 14:18:00.968582000 Z
+    zone: *2
+    time: *542
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &543 2018-06-21 14:18:00.968582000 Z
+    zone: *2
+    time: *543
+Entity_272:
+  id: 3049
+  name: Melania
+  pos: GPE
+  item_id: 1887
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &544 2018-06-21 14:18:02.105586000 Z
+    zone: *2
+    time: *544
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &545 2018-06-21 14:18:02.105586000 Z
+    zone: *2
+    time: *545
+Entity_273:
+  id: 3050
+  name: Peter Fonda
+  pos: PERSON
+  item_id: 1887
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &546 2018-06-21 14:18:02.117423000 Z
+    zone: *2
+    time: *546
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &547 2018-06-21 14:18:02.117423000 Z
+    zone: *2
+    time: *547
+Entity_274:
+  id: 3051
+  name: Secret Service
+  pos: ORG
+  item_id: 1887
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &548 2018-06-21 14:18:02.123230000 Z
+    zone: *2
+    time: *548
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &549 2018-06-21 14:18:02.123230000 Z
+    zone: *2
+    time: *549
+Entity_275:
+  id: 3052
+  name: Against Barron
+  pos: PERSON
+  item_id: 1887
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &550 2018-06-21 14:18:02.129270000 Z
+    zone: *2
+    time: *550
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &551 2018-06-21 14:18:02.129270000 Z
+    zone: *2
+    time: *551
+Entity_276:
+  id: 3053
+  name: 'Trump EO '
+  pos: ORG
+  item_id: 1886
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &552 2018-06-21 14:18:03.254015000 Z
+    zone: *2
+    time: *552
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &553 2018-06-21 14:18:03.254015000 Z
+    zone: *2
+    time: *553
+Entity_277:
+  id: 3054
+  name: Could Lead to Family Internment Camps
+  pos: WORK_OF_ART
+  item_id: 1886
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &554 2018-06-21 14:18:03.260325000 Z
+    zone: *2
+    time: *554
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &555 2018-06-21 14:18:03.260325000 Z
+    zone: *2
+    time: *555
+Entity_278:
+  id: 3055
+  name: Donald Trump
+  pos: PERSON
+  item_id: 1885
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &556 2018-06-21 14:18:04.341791000 Z
+    zone: *2
+    time: *556
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &557 2018-06-21 14:18:04.341791000 Z
+    zone: *2
+    time: *557
+Entity_279:
+  id: 3056
+  name: Civil Rights Groups
+  pos: EVENT
+  item_id: 1884
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &558 2018-06-21 14:18:05.412351000 Z
+    zone: *2
+    time: *558
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &559 2018-06-21 14:18:05.412351000 Z
+    zone: *2
+    time: *559
+Entity_280:
+  id: 3057
+  name: NFL
+  pos: ORG
+  item_id: 1884
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &560 2018-06-21 14:18:05.427763000 Z
+    zone: *2
+    time: *560
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &561 2018-06-21 14:18:05.427763000 Z
+    zone: *2
+    time: *561
+Entity_281:
+  id: 3058
+  name: Wrong Side of History
+  pos: FAC
+  item_id: 1884
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &562 2018-06-21 14:18:05.472721000 Z
+    zone: *2
+    time: *562
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &563 2018-06-21 14:18:05.472721000 Z
+    zone: *2
+    time: *563
+Entity_282:
+  id: 3059
+  name: North Korea
+  pos: GPE
+  item_id: 1883
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &564 2018-06-21 14:18:06.554508000 Z
+    zone: *2
+    time: *564
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &565 2018-06-21 14:18:06.554508000 Z
+    zone: *2
+    time: *565
+Entity_283:
+  id: 3060
+  name: Five Years
+  pos: DATE
+  item_id: 1883
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &566 2018-06-21 14:18:06.564635000 Z
+    zone: *2
+    time: *566
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &567 2018-06-21 14:18:06.564635000 Z
+    zone: *2
+    time: *567
+Entity_284:
+  id: 3061
+  name: Canadian
+  pos: NORP
+  item_id: 1882
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &568 2018-06-21 14:18:07.680515000 Z
+    zone: *2
+    time: *568
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &569 2018-06-21 14:18:07.680515000 Z
+    zone: *2
+    time: *569
+Entity_285:
+  id: 3062
+  name: Intimacy of Human-Fish Relations
+  pos: ORG
+  item_id: 1882
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &570 2018-06-21 14:18:07.691191000 Z
+    zone: *2
+    time: *570
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &571 2018-06-21 14:18:07.691191000 Z
+    zone: *2
+    time: *571
+Entity_286:
+  id: 3063
+  name: Democrat
+  pos: NORP
+  item_id: 1881
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &572 2018-06-21 14:18:08.877701000 Z
+    zone: *2
+    time: *572
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &573 2018-06-21 14:18:08.877701000 Z
+    zone: *2
+    time: *573
+Entity_287:
+  id: 3064
+  name: Kansas AG
+  pos: ORG
+  item_id: 1881
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &574 2018-06-21 14:18:08.888726000 Z
+    zone: *2
+    time: *574
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &575 2018-06-21 14:18:08.888726000 Z
+    zone: *2
+    time: *575
+Entity_288:
+  id: 3065
+  name: Lassoing Cop
+  pos: PERSON
+  item_id: 1881
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &576 2018-06-21 14:18:08.893684000 Z
+    zone: *2
+    time: *576
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &577 2018-06-21 14:18:08.893684000 Z
+    zone: *2
+    time: *577
+Entity_289:
+  id: 3066
+  name: ABC News Chyron
+  pos: ORG
+  item_id: 1880
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &578 2018-06-21 14:18:10.324597000 Z
+    zone: *2
+    time: *578
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &579 2018-06-21 14:18:10.324597000 Z
+    zone: *2
+    time: *579
+Entity_290:
+  id: 3067
+  name: Paul Manafort Pleads Guilty
+  pos: PERSON
+  item_id: 1880
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &580 2018-06-21 14:18:10.372347000 Z
+    zone: *2
+    time: *580
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &581 2018-06-21 14:18:10.372347000 Z
+    zone: *2
+    time: *581
+Entity_291:
+  id: 3068
+  name: Killing Five
+  pos: ORG
+  item_id: 1880
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &582 2018-06-21 14:18:10.382707000 Z
+    zone: *2
+    time: *582
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &583 2018-06-21 14:18:10.382707000 Z
+    zone: *2
+    time: *583
+Entity_292:
+  id: 3069
+  name: Disability Applications Plunge
+  pos: ORG
+  item_id: 1879
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &584 2018-06-21 14:18:11.883963000 Z
+    zone: *2
+    time: *584
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &585 2018-06-21 14:18:11.883963000 Z
+    zone: *2
+    time: *585
+Entity_293:
+  id: 3070
+  name: Strong Economy
+  pos: PERSON
+  item_id: 1879
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &586 2018-06-21 14:18:11.893038000 Z
+    zone: *2
+    time: *586
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &587 2018-06-21 14:18:11.893038000 Z
+    zone: *2
+    time: *587
+Entity_294:
+  id: 3071
+  name: the Universe Rally Against Trump in Immigration Debate
+  pos: ORG
+  item_id: 1878
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &588 2018-06-21 14:18:13.401182000 Z
+    zone: *2
+    time: *588
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &589 2018-06-21 14:18:13.401182000 Z
+    zone: *2
+    time: *589
+Entity_295:
+  id: 3072
+  name: '2014'
+  pos: DATE
+  item_id: 1877
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &590 2018-06-21 14:18:14.605752000 Z
+    zone: *2
+    time: *590
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &591 2018-06-21 14:18:14.605752000 Z
+    zone: *2
+    time: *591
+Entity_296:
+  id: 3073
+  name: Smugglers
+  pos: PERSON
+  item_id: 1877
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &592 2018-06-21 14:18:14.616863000 Z
+    zone: *2
+    time: *592
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &593 2018-06-21 14:18:14.616863000 Z
+    zone: *2
+    time: *593
+Entity_297:
+  id: 3074
+  name: Get Sent Back
+  pos: WORK_OF_ART
+  item_id: 1877
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &594 2018-06-21 14:18:14.621845000 Z
+    zone: *2
+    time: *594
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &595 2018-06-21 14:18:14.621845000 Z
+    zone: *2
+    time: *595
+Entity_298:
+  id: 3075
+  name: Trump Rallies
+  pos: ORG
+  item_id: 1876
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &596 2018-06-21 14:18:15.776701000 Z
+    zone: *2
+    time: *596
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &597 2018-06-21 14:18:15.776701000 Z
+    zone: *2
+    time: *597
+Entity_299:
+  id: 3076
+  name: Angel Moms’
+  pos: ORG
+  item_id: 1876
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &598 2018-06-21 14:18:15.789322000 Z
+    zone: *2
+    time: *598
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &599 2018-06-21 14:18:15.789322000 Z
+    zone: *2
+    time: *599
+Entity_300:
+  id: 3077
+  name: Three Airlines Oppose Flying Migrants
+  pos: ORG
+  item_id: 1875
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &600 2018-06-21 14:18:16.920382000 Z
+    zone: *2
+    time: *600
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &601 2018-06-21 14:18:16.920382000 Z
+    zone: *2
+    time: *601
+Entity_301:
+  id: 3078
+  name: Dick Durbin
+  pos: PERSON
+  item_id: 1874
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &602 2018-06-21 14:18:17.996002000 Z
+    zone: *2
+    time: *602
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &603 2018-06-21 14:18:17.996002000 Z
+    zone: *2
+    time: *603
+Entity_302:
+  id: 3079
+  name: GOP
+  pos: ORG
+  item_id: 1874
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &604 2018-06-21 14:18:18.006805000 Z
+    zone: *2
+    time: *604
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &605 2018-06-21 14:18:18.006805000 Z
+    zone: *2
+    time: *605
+Entity_303:
+  id: 3080
+  name: Be Unafraid of Breitbart
+  pos: WORK_OF_ART
+  item_id: 1874
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &606 2018-06-21 14:18:18.011484000 Z
+    zone: *2
+    time: *606
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &607 2018-06-21 14:18:18.011484000 Z
+    zone: *2
+    time: *607
+Entity_304:
+  id: 3081
+  name: Florida
+  pos: GPE
+  item_id: 1873
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &608 2018-06-21 14:18:19.096585000 Z
+    zone: *2
+    time: *608
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &609 2018-06-21 14:18:19.096585000 Z
+    zone: *2
+    time: *609
+Entity_305:
+  id: 3082
+  name: Kill
+  pos: ORG
+  item_id: 1873
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &610 2018-06-21 14:18:19.107495000 Z
+    zone: *2
+    time: *610
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &611 2018-06-21 14:18:19.107495000 Z
+    zone: *2
+    time: *611
+Entity_306:
+  id: 3083
+  name: Brian Mast
+  pos: PERSON
+  item_id: 1873
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &612 2018-06-21 14:18:19.113010000 Z
+    zone: *2
+    time: *612
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &613 2018-06-21 14:18:19.113010000 Z
+    zone: *2
+    time: *613
+Entity_307:
+  id: 3084
+  name: Mark Smith
+  pos: PERSON
+  item_id: 1872
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &614 2018-06-21 14:18:20.347104000 Z
+    zone: *2
+    time: *614
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &615 2018-06-21 14:18:20.347104000 Z
+    zone: *2
+    time: *615
+Entity_308:
+  id: 3085
+  name: Evil Strikes
+  pos: PERSON
+  item_id: 1872
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &616 2018-06-21 14:18:20.358004000 Z
+    zone: *2
+    time: *616
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &617 2018-06-21 14:18:20.358004000 Z
+    zone: *2
+    time: *617
+Entity_309:
+  id: 3086
+  name: Mexican
+  pos: NORP
+  item_id: 1871
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &618 2018-06-21 14:18:21.449805000 Z
+    zone: *2
+    time: *618
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &619 2018-06-21 14:18:21.449805000 Z
+    zone: *2
+    time: *619
+Entity_310:
+  id: 3087
+  name: Congress
+  pos: ORG
+  item_id: 1871
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &620 2018-06-21 14:18:21.460945000 Z
+    zone: *2
+    time: *620
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &621 2018-06-21 14:18:21.460945000 Z
+    zone: *2
+    time: *621
+Entity_311:
+  id: 3088
+  name: 'Trump '
+  pos: ORG
+  item_id: 1870
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &622 2018-06-21 14:18:22.678401000 Z
+    zone: *2
+    time: *622
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &623 2018-06-21 14:18:22.678401000 Z
+    zone: *2
+    time: *623
+Entity_312:
+  id: 3089
+  name: Zero Tolerance Policy Deterring Foreign Nationals from Entering U.S.
+  pos: WORK_OF_ART
+  item_id: 1870
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &624 2018-06-21 14:18:22.689760000 Z
+    zone: *2
+    time: *624
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &625 2018-06-21 14:18:22.689760000 Z
+    zone: *2
+    time: *625
+Entity_313:
+  id: 3090
+  name: Trump Holds
+  pos: ORG
+  item_id: 1869
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &626 2018-06-21 14:18:23.917912000 Z
+    zone: *2
+    time: *626
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &627 2018-06-21 14:18:23.917912000 Z
+    zone: *2
+    time: *627
+Entity_314:
+  id: 3091
+  name: American Workers
+  pos: ORG
+  item_id: 1869
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &628 2018-06-21 14:18:23.931543000 Z
+    zone: *2
+    time: *628
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &629 2018-06-21 14:18:23.931543000 Z
+    zone: *2
+    time: *629
+Entity_315:
+  id: 3092
+  name: Donald Trump Holds
+  pos: PERSON
+  item_id: 1868
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &630 2018-06-21 14:18:25.075975000 Z
+    zone: *2
+    time: *630
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &631 2018-06-21 14:18:25.075975000 Z
+    zone: *2
+    time: *631
+Entity_316:
+  id: 3093
+  name: Duluth
+  pos: PERSON
+  item_id: 1868
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &632 2018-06-21 14:18:25.088342000 Z
+    zone: *2
+    time: *632
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &633 2018-06-21 14:18:25.088342000 Z
+    zone: *2
+    time: *633
+Entity_317:
+  id: 3094
+  name: Mark Meadows
+  pos: PERSON
+  item_id: 1867
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &634 2018-06-21 14:18:26.282205000 Z
+    zone: *2
+    time: *634
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &635 2018-06-21 14:18:26.282205000 Z
+    zone: *2
+    time: *635
+Entity_318:
+  id: 3095
+  name: Throws Down
+  pos: PERSON
+  item_id: 1867
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &636 2018-06-21 14:18:26.293894000 Z
+    zone: *2
+    time: *636
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &637 2018-06-21 14:18:26.293894000 Z
+    zone: *2
+    time: *637
+Entity_319:
+  id: 3096
+  name: Paul Ryan
+  pos: PERSON
+  item_id: 1867
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &638 2018-06-21 14:18:26.299478000 Z
+    zone: *2
+    time: *638
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &639 2018-06-21 14:18:26.299478000 Z
+    zone: *2
+    time: *639
+Entity_320:
+  id: 3097
+  name: Heated Immigration House Floor Exchange
+  pos: ORG
+  item_id: 1867
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &640 2018-06-21 14:18:26.306100000 Z
+    zone: *2
+    time: *640
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &641 2018-06-21 14:18:26.306100000 Z
+    zone: *2
+    time: *641
+Entity_321:
+  id: 3098
+  name: Donald Trump Faces Presidency-Defining Moment
+  pos: PERSON
+  item_id: 1866
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &642 2018-06-21 14:18:27.444386000 Z
+    zone: *2
+    time: *642
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &643 2018-06-21 14:18:27.444386000 Z
+    zone: *2
+    time: *643
+Entity_322:
+  id: 3099
+  name: House
+  pos: ORG
+  item_id: 1866
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &644 2018-06-21 14:18:27.454579000 Z
+    zone: *2
+    time: *644
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &645 2018-06-21 14:18:27.454579000 Z
+    zone: *2
+    time: *645
+Entity_323:
+  id: 3100
+  name: Leaders Struggle
+  pos: PERSON
+  item_id: 1866
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &646 2018-06-21 14:18:27.459892000 Z
+    zone: *2
+    time: *646
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &647 2018-06-21 14:18:27.459892000 Z
+    zone: *2
+    time: *647
+Entity_324:
+  id: 3101
+  name: Find Votes
+  pos: PERSON
+  item_id: 1866
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &648 2018-06-21 14:18:27.464236000 Z
+    zone: *2
+    time: *648
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &649 2018-06-21 14:18:27.464236000 Z
+    zone: *2
+    time: *649
+Entity_325:
+  id: 3102
+  name: Paul Ryan
+  pos: PERSON
+  item_id: 1866
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &650 2018-06-21 14:18:27.468678000 Z
+    zone: *2
+    time: *650
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &651 2018-06-21 14:18:27.468678000 Z
+    zone: *2
+    time: *651
+Entity_326:
+  id: 3103
+  name: Wilbur Ross Schools Michael Bennet
+  pos: PERSON
+  item_id: 1865
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &652 2018-06-21 14:18:28.619932000 Z
+    zone: *2
+    time: *652
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &653 2018-06-21 14:18:28.619932000 Z
+    zone: *2
+    time: *653
+Entity_327:
+  id: 3104
+  name: Trump Admin
+  pos: ORG
+  item_id: 1865
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &654 2018-06-21 14:18:28.630880000 Z
+    zone: *2
+    time: *654
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &655 2018-06-21 14:18:28.630880000 Z
+    zone: *2
+    time: *655
+Entity_328:
+  id: 3105
+  name: Counter China’s
+  pos: ORG
+  item_id: 1865
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &656 2018-06-21 14:18:28.635614000 Z
+    zone: *2
+    time: *656
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &657 2018-06-21 14:18:28.635614000 Z
+    zone: *2
+    time: *657
+Entity_329:
+  id: 3106
+  name: Dumping
+  pos: GPE
+  item_id: 1865
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &658 2018-06-21 14:18:28.640853000 Z
+    zone: *2
+    time: *658
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &659 2018-06-21 14:18:28.640853000 Z
+    zone: *2
+    time: *659
+Entity_330:
+  id: 3107
+  name: Trump Rally
+  pos: ORG
+  item_id: 1864
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &660 2018-06-21 14:18:29.765792000 Z
+    zone: *2
+    time: *660
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &661 2018-06-21 14:18:29.765792000 Z
+    zone: *2
+    time: *661
+Entity_331:
+  id: 3108
+  name: GOP
+  pos: ORG
+  item_id: 1864
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &662 2018-06-21 14:18:29.771903000 Z
+    zone: *2
+    time: *662
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &663 2018-06-21 14:18:29.771903000 Z
+    zone: *2
+    time: *663
+Entity_332:
+  id: 3109
+  name: Win Minnesota
+  pos: PERSON
+  item_id: 1864
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &664 2018-06-21 14:18:29.776754000 Z
+    zone: *2
+    time: *664
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &665 2018-06-21 14:18:29.776754000 Z
+    zone: *2
+    time: *665
+Entity_333:
+  id: 3110
+  name: '2018'
+  pos: DATE
+  item_id: 1864
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &666 2018-06-21 14:18:29.782211000 Z
+    zone: *2
+    time: *666
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &667 2018-06-21 14:18:29.782211000 Z
+    zone: *2
+    time: *667
+Entity_334:
+  id: 3111
+  name: '2020'
+  pos: DATE
+  item_id: 1864
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &668 2018-06-21 14:18:29.787161000 Z
+    zone: *2
+    time: *668
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &669 2018-06-21 14:18:29.787161000 Z
+    zone: *2
+    time: *669
+Entity_335:
+  id: 3112
+  name: America
+  pos: GPE
+  item_id: 1863
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &670 2018-06-21 14:18:30.945691000 Z
+    zone: *2
+    time: *670
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &671 2018-06-21 14:18:30.945691000 Z
+    zone: *2
+    time: *671
+Entity_336:
+  id: 3113
+  name: Obama
+  pos: PERSON
+  item_id: 1863
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &672 2018-06-21 14:18:30.956332000 Z
+    zone: *2
+    time: *672
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &673 2018-06-21 14:18:30.956332000 Z
+    zone: *2
+    time: *673
+Entity_337:
+  id: 3114
+  name: Gutierrez
+  pos: PERSON
+  item_id: 1862
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &674 2018-06-21 14:18:32.101758000 Z
+    zone: *2
+    time: *674
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &675 2018-06-21 14:18:32.101758000 Z
+    zone: *2
+    time: *675
+Entity_338:
+  id: 3115
+  name: Family Detention
+  pos: ORG
+  item_id: 1862
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &676 2018-06-21 14:18:32.112413000 Z
+    zone: *2
+    time: *676
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &677 2018-06-21 14:18:32.112413000 Z
+    zone: *2
+    time: *677
+Entity_339:
+  id: 3116
+  name: Soul
+  pos: WORK_OF_ART
+  item_id: 1862
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &678 2018-06-21 14:18:32.116987000 Z
+    zone: *2
+    time: *678
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &679 2018-06-21 14:18:32.116987000 Z
+    zone: *2
+    time: *679
+Entity_340:
+  id: 3117
+  name: Hispanic
+  pos: NORP
+  item_id: 1861
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &680 2018-06-21 14:18:33.286518000 Z
+    zone: *2
+    time: *680
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &681 2018-06-21 14:18:33.286518000 Z
+    zone: *2
+    time: *681
+Entity_341:
+  id: 3118
+  name: Media Hides Influence
+  pos: PERSON
+  item_id: 1860
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &682 2018-06-21 14:18:34.388132000 Z
+    zone: *2
+    time: *682
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &683 2018-06-21 14:18:34.388132000 Z
+    zone: *2
+    time: *683
+Entity_342:
+  id: 3119
+  name: Celebs
+  pos: GPE
+  item_id: 1859
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &684 2018-06-21 14:18:35.480806000 Z
+    zone: *2
+    time: *684
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &685 2018-06-21 14:18:35.480806000 Z
+    zone: *2
+    time: *685
+Entity_343:
+  id: 3120
+  name: Trump’s Border Order
+  pos: ORG
+  item_id: 1859
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &686 2018-06-21 14:18:35.492838000 Z
+    zone: *2
+    time: *686
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &687 2018-06-21 14:18:35.492838000 Z
+    zone: *2
+    time: *687
+Entity_344:
+  id: 3121
+  name: Donald Trump Jr.
+  pos: PERSON
+  item_id: 1858
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &688 2018-06-21 14:18:36.691045000 Z
+    zone: *2
+    time: *688
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &689 2018-06-21 14:18:36.691045000 Z
+    zone: *2
+    time: *689
+Entity_345:
+  id: 3122
+  name: Democrat
+  pos: NORP
+  item_id: 1856
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &690 2018-06-21 14:18:38.882374000 Z
+    zone: *2
+    time: *690
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &691 2018-06-21 14:18:38.882374000 Z
+    zone: *2
+    time: *691
+Entity_346:
+  id: 3123
+  name: Congress
+  pos: ORG
+  item_id: 1856
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &692 2018-06-21 14:18:38.892770000 Z
+    zone: *2
+    time: *692
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &693 2018-06-21 14:18:38.892770000 Z
+    zone: *2
+    time: *693
+Entity_347:
+  id: 3124
+  name: '5'
+  pos: CARDINAL
+  item_id: 1856
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &694 2018-06-21 14:18:38.897229000 Z
+    zone: *2
+    time: *694
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &695 2018-06-21 14:18:38.897229000 Z
+    zone: *2
+    time: *695
+Entity_348:
+  id: 3125
+  name: Democrat
+  pos: NORP
+  item_id: 1855
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &696 2018-06-21 14:18:39.992936000 Z
+    zone: *2
+    time: *696
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &697 2018-06-21 14:18:39.992936000 Z
+    zone: *2
+    time: *697
+Entity_349:
+  id: 3126
+  name: Philadelphia
+  pos: GPE
+  item_id: 1855
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &698 2018-06-21 14:18:40.003112000 Z
+    zone: *2
+    time: *698
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &699 2018-06-21 14:18:40.003112000 Z
+    zone: *2
+    time: *699
+Entity_350:
+  id: 3127
+  name: one
+  pos: CARDINAL
+  item_id: 1855
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &700 2018-06-21 14:18:40.007580000 Z
+    zone: *2
+    time: *700
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &701 2018-06-21 14:18:40.007580000 Z
+    zone: *2
+    time: *701
+Entity_351:
+  id: 3128
+  name: House
+  pos: ORG
+  item_id: 1854
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &702 2018-06-21 14:18:41.114389000 Z
+    zone: *2
+    time: *702
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &703 2018-06-21 14:18:41.114389000 Z
+    zone: *2
+    time: *703
+Entity_352:
+  id: 3129
+  name: GOP
+  pos: ORG
+  item_id: 1854
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &704 2018-06-21 14:18:41.125354000 Z
+    zone: *2
+    time: *704
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &705 2018-06-21 14:18:41.125354000 Z
+    zone: *2
+    time: *705
+Entity_353:
+  id: 3130
+  name: Republicans
+  pos: NORP
+  item_id: 1854
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &706 2018-06-21 14:18:41.130465000 Z
+    zone: *2
+    time: *706
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &707 2018-06-21 14:18:41.130465000 Z
+    zone: *2
+    time: *707
+Entity_354:
+  id: 3131
+  name: Nielsen
+  pos: PERSON
+  item_id: 1853
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &708 2018-06-21 14:18:42.360660000 Z
+    zone: *2
+    time: *708
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &709 2018-06-21 14:18:42.360660000 Z
+    zone: *2
+    time: *709
+Entity_355:
+  id: 3132
+  name: Ivanka
+  pos: ORG
+  item_id: 1852
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &710 2018-06-21 14:18:43.662958000 Z
+    zone: *2
+    time: *710
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &711 2018-06-21 14:18:43.662958000 Z
+    zone: *2
+    time: *711
+Entity_356:
+  id: 3133
+  name: DC
+  pos: GPE
+  item_id: 1851
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &712 2018-06-21 14:18:44.860903000 Z
+    zone: *2
+    time: *712
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &713 2018-06-21 14:18:44.860903000 Z
+    zone: *2
+    time: *713
+Entity_357:
+  id: 3134
+  name: House
+  pos: ORG
+  item_id: 1850
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &714 2018-06-21 14:18:45.929295000 Z
+    zone: *2
+    time: *714
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &715 2018-06-21 14:18:45.929295000 Z
+    zone: *2
+    time: *715
+Entity_358:
+  id: 3135
+  name: Mumia Abu-Jamal
+  pos: PERSON
+  item_id: 1850
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &716 2018-06-21 14:18:45.935878000 Z
+    zone: *2
+    time: *716
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &717 2018-06-21 14:18:45.935878000 Z
+    zone: *2
+    time: *717
+Entity_359:
+  id: 3136
+  name: Michael Bloomberg
+  pos: PERSON
+  item_id: 1849
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &718 2018-06-21 14:18:47.046711000 Z
+    zone: *2
+    time: *718
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &719 2018-06-21 14:18:47.046711000 Z
+    zone: *2
+    time: *719
+Entity_360:
+  id: 3137
+  name: Democrats
+  pos: NORP
+  item_id: 1849
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &720 2018-06-21 14:18:47.057651000 Z
+    zone: *2
+    time: *720
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &721 2018-06-21 14:18:47.057651000 Z
+    zone: *2
+    time: *721
+Entity_361:
+  id: 3138
+  name: Dems
+  pos: ORG
+  item_id: 1848
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &722 2018-06-21 14:18:48.178640000 Z
+    zone: *2
+    time: *722
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &723 2018-06-21 14:18:48.178640000 Z
+    zone: *2
+    time: *723
+Entity_362:
+  id: 3139
+  name: Trump-
+  pos: ORG
+  item_id: 1848
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &724 2018-06-21 14:18:48.189666000 Z
+    zone: *2
+    time: *724
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &725 2018-06-21 14:18:48.189666000 Z
+    zone: *2
+    time: *725
+Entity_363:
+  id: 3140
+  name: Israel
+  pos: GPE
+  item_id: 1847
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &726 2018-06-21 14:18:49.312564000 Z
+    zone: *2
+    time: *726
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &727 2018-06-21 14:18:49.312564000 Z
+    zone: *2
+    time: *727
+Entity_364:
+  id: 3141
+  name: Oscar Health
+  pos: ORG
+  item_id: 1846
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &728 2018-06-21 14:18:50.486124000 Z
+    zone: *2
+    time: *728
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &729 2018-06-21 14:18:50.486124000 Z
+    zone: *2
+    time: *729
+Entity_365:
+  id: 3142
+  name: '2019'
+  pos: DATE
+  item_id: 1846
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &730 2018-06-21 14:18:50.497413000 Z
+    zone: *2
+    time: *730
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &731 2018-06-21 14:18:50.497413000 Z
+    zone: *2
+    time: *731
+Entity_366:
+  id: 3143
+  name: 47 million
+  pos: CARDINAL
+  item_id: 1845
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &732 2018-06-21 14:18:51.634129000 Z
+    zone: *2
+    time: *732
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &733 2018-06-21 14:18:51.634129000 Z
+    zone: *2
+    time: *733
+Entity_367:
+  id: 3144
+  name: US
+  pos: GPE
+  item_id: 1845
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &734 2018-06-21 14:18:51.645161000 Z
+    zone: *2
+    time: *734
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &735 2018-06-21 14:18:51.645161000 Z
+    zone: *2
+    time: *735
+Entity_368:
+  id: 3145
+  name: July Fourth holiday
+  pos: DATE
+  item_id: 1845
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &736 2018-06-21 14:18:51.650191000 Z
+    zone: *2
+    time: *736
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &737 2018-06-21 14:18:51.650191000 Z
+    zone: *2
+    time: *737
+Entity_369:
+  id: 3146
+  name: China
+  pos: GPE
+  item_id: 1844
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &738 2018-06-21 14:18:52.713643000 Z
+    zone: *2
+    time: *738
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &739 2018-06-21 14:18:52.713643000 Z
+    zone: *2
+    time: *739
+Entity_370:
+  id: 3147
+  name: 'Trump '
+  pos: ORG
+  item_id: 1844
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &740 2018-06-21 14:18:52.724732000 Z
+    zone: *2
+    time: *740
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &741 2018-06-21 14:18:52.724732000 Z
+    zone: *2
+    time: *741
+Entity_371:
+  id: 3148
+  name: US
+  pos: GPE
+  item_id: 1844
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &742 2018-06-21 14:18:52.729186000 Z
+    zone: *2
+    time: *742
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &743 2018-06-21 14:18:52.729186000 Z
+    zone: *2
+    time: *743
+Entity_372:
+  id: 3149
+  name: AT&T
+  pos: ORG
+  item_id: 1843
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &744 2018-06-21 14:18:53.791664000 Z
+    zone: *2
+    time: *744
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &745 2018-06-21 14:18:53.791664000 Z
+    zone: *2
+    time: *745
+Entity_373:
+  id: 3150
+  name: Time Warner
+  pos: ORG
+  item_id: 1843
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &746 2018-06-21 14:18:53.796732000 Z
+    zone: *2
+    time: *746
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &747 2018-06-21 14:18:53.796732000 Z
+    zone: *2
+    time: *747
+Entity_374:
+  id: 3151
+  name: GE
+  pos: ORG
+  item_id: 1842
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &748 2018-06-21 14:18:54.852047000 Z
+    zone: *2
+    time: *748
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &749 2018-06-21 14:18:54.852047000 Z
+    zone: *2
+    time: *749
+Entity_375:
+  id: 3152
+  name: Bossa Nova
+  pos: PERSON
+  item_id: 1840
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &750 2018-06-21 14:18:56.975152000 Z
+    zone: *2
+    time: *750
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &751 2018-06-21 14:18:56.975152000 Z
+    zone: *2
+    time: *751
+Entity_376:
+  id: 3153
+  name: 9 million
+  pos: CARDINAL
+  item_id: 1840
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &752 2018-06-21 14:18:56.982133000 Z
+    zone: *2
+    time: *752
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &753 2018-06-21 14:18:56.982133000 Z
+    zone: *2
+    time: *753
+Entity_377:
+  id: 3154
+  name: Walmart
+  pos: GPE
+  item_id: 1840
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &754 2018-06-21 14:18:56.987195000 Z
+    zone: *2
+    time: *754
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &755 2018-06-21 14:18:56.987195000 Z
+    zone: *2
+    time: *755
+Entity_378:
+  id: 3155
+  name: Bank of England
+  pos: ORG
+  item_id: 1839
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &756 2018-06-21 14:18:58.048998000 Z
+    zone: *2
+    time: *756
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &757 2018-06-21 14:18:58.048998000 Z
+    zone: *2
+    time: *757
+Entity_379:
+  id: 3156
+  name: Commerce
+  pos: ORG
+  item_id: 1838
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &758 2018-06-21 14:18:59.110274000 Z
+    zone: *2
+    time: *758
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &759 2018-06-21 14:18:59.110274000 Z
+    zone: *2
+    time: *759
+Entity_380:
+  id: 3157
+  name: Wilbur Ross
+  pos: PERSON
+  item_id: 1838
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &760 2018-06-21 14:18:59.121203000 Z
+    zone: *2
+    time: *760
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &761 2018-06-21 14:18:59.121203000 Z
+    zone: *2
+    time: *761
+Entity_381:
+  id: 3158
+  name: Russia
+  pos: GPE
+  item_id: 1838
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &762 2018-06-21 14:18:59.125968000 Z
+    zone: *2
+    time: *762
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &763 2018-06-21 14:18:59.125968000 Z
+    zone: *2
+    time: *763
+Entity_382:
+  id: 3159
+  name: second
+  pos: ORDINAL
+  item_id: 1837
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &764 2018-06-21 14:19:00.185006000 Z
+    zone: *2
+    time: *764
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &765 2018-06-21 14:19:00.185006000 Z
+    zone: *2
+    time: *765
+Entity_383:
+  id: 3160
+  name: '00'
+  pos: CARDINAL
+  item_id: 1837
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &766 2018-06-21 14:19:00.195726000 Z
+    zone: *2
+    time: *766
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &767 2018-06-21 14:19:00.195726000 Z
+    zone: *2
+    time: *767
+Entity_384:
+  id: 3161
+  name: this week
+  pos: DATE
+  item_id: 1837
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &768 2018-06-21 14:19:00.200132000 Z
+    zone: *2
+    time: *768
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &769 2018-06-21 14:19:00.200132000 Z
+    zone: *2
+    time: *769
+Entity_385:
+  id: 3162
+  name: Commerce
+  pos: ORG
+  item_id: 1836
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &770 2018-06-21 14:19:01.253964000 Z
+    zone: *2
+    time: *770
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &771 2018-06-21 14:19:01.253964000 Z
+    zone: *2
+    time: *771
+Entity_386:
+  id: 3163
+  name: Ross
+  pos: PERSON
+  item_id: 1836
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &772 2018-06-21 14:19:01.265436000 Z
+    zone: *2
+    time: *772
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &773 2018-06-21 14:19:01.265436000 Z
+    zone: *2
+    time: *773
+Entity_387:
+  id: 3164
+  name: Trump
+  pos: ORG
+  item_id: 1835
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &774 2018-06-21 14:19:02.364230000 Z
+    zone: *2
+    time: *774
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &775 2018-06-21 14:19:02.364230000 Z
+    zone: *2
+    time: *775
+Entity_388:
+  id: 3165
+  name: Congress
+  pos: ORG
+  item_id: 1835
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &776 2018-06-21 14:19:02.374922000 Z
+    zone: *2
+    time: *776
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &777 2018-06-21 14:19:02.374922000 Z
+    zone: *2
+    time: *777
+Entity_389:
+  id: 3166
+  name: three
+  pos: CARDINAL
+  item_id: 1834
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &778 2018-06-21 14:19:03.597787000 Z
+    zone: *2
+    time: *778
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &779 2018-06-21 14:19:03.597787000 Z
+    zone: *2
+    time: *779
+Entity_390:
+  id: 3167
+  name: Saudi Arabia
+  pos: GPE
+  item_id: 1833
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &780 2018-06-21 14:19:04.677426000 Z
+    zone: *2
+    time: *780
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &781 2018-06-21 14:19:04.677426000 Z
+    zone: *2
+    time: *781
+Entity_391:
+  id: 3168
+  name: 1 million barrels
+  pos: QUANTITY
+  item_id: 1833
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &782 2018-06-21 14:19:04.688081000 Z
+    zone: *2
+    time: *782
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &783 2018-06-21 14:19:04.688081000 Z
+    zone: *2
+    time: *783
+Entity_392:
+  id: 3169
+  name: OPEC
+  pos: ORG
+  item_id: 1833
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &784 2018-06-21 14:19:04.693222000 Z
+    zone: *2
+    time: *784
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &785 2018-06-21 14:19:04.693222000 Z
+    zone: *2
+    time: *785
+Entity_393:
+  id: 3170
+  name: Goldman Sachs
+  pos: ORG
+  item_id: 1832
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &786 2018-06-21 14:19:05.781782000 Z
+    zone: *2
+    time: *786
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &787 2018-06-21 14:19:05.781782000 Z
+    zone: *2
+    time: *787
+Entity_394:
+  id: 3171
+  name: Verizon
+  pos: ORG
+  item_id: 1832
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &788 2018-06-21 14:19:05.793457000 Z
+    zone: *2
+    time: *788
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &789 2018-06-21 14:19:05.793457000 Z
+    zone: *2
+    time: *789
+Entity_395:
+  id: 3172
+  name: Charter
+  pos: LAW
+  item_id: 1832
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &790 2018-06-21 14:19:05.799342000 Z
+    zone: *2
+    time: *790
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &791 2018-06-21 14:19:05.799342000 Z
+    zone: *2
+    time: *791
+Entity_396:
+  id: 3173
+  name: Oprah Winfrey
+  pos: PERSON
+  item_id: 1831
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &792 2018-06-21 14:19:06.954538000 Z
+    zone: *2
+    time: *792
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &793 2018-06-21 14:19:06.954538000 Z
+    zone: *2
+    time: *793
+Entity_397:
+  id: 3174
+  name: " billion"
+  pos: ORG
+  item_id: 1831
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &794 2018-06-21 14:19:06.965100000 Z
+    zone: *2
+    time: *794
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &795 2018-06-21 14:19:06.965100000 Z
+    zone: *2
+    time: *795
+Entity_398:
+  id: 3175
+  name: '500'
+  pos: CARDINAL
+  item_id: 1831
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &796 2018-06-21 14:19:06.970783000 Z
+    zone: *2
+    time: *796
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &797 2018-06-21 14:19:06.970783000 Z
+    zone: *2
+    time: *797
+Entity_399:
+  id: 3176
+  name: a fourth-straight week
+  pos: DATE
+  item_id: 1830
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &798 2018-06-21 14:19:08.055532000 Z
+    zone: *2
+    time: *798
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &799 2018-06-21 14:19:08.055532000 Z
+    zone: *2
+    time: *799
+Entity_400:
+  id: 3177
+  name: Tim Cook
+  pos: PERSON
+  item_id: 1829
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &800 2018-06-21 14:19:09.194346000 Z
+    zone: *2
+    time: *800
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &801 2018-06-21 14:19:09.194346000 Z
+    zone: *2
+    time: *801
+Entity_401:
+  id: 3178
+  name: Steve Jobs
+  pos: PERSON
+  item_id: 1829
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &802 2018-06-21 14:19:09.208300000 Z
+    zone: *2
+    time: *802
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &803 2018-06-21 14:19:09.208300000 Z
+    zone: *2
+    time: *803
+Entity_402:
+  id: 3179
+  name: Amazon Fire TV Cube
+  pos: ORG
+  item_id: 1828
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &804 2018-06-21 14:19:10.465168000 Z
+    zone: *2
+    time: *804
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &805 2018-06-21 14:19:10.465168000 Z
+    zone: *2
+    time: *805
+Entity_403:
+  id: 3180
+  name: one
+  pos: CARDINAL
+  item_id: 1828
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &806 2018-06-21 14:19:10.477673000 Z
+    zone: *2
+    time: *806
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &807 2018-06-21 14:19:10.477673000 Z
+    zone: *2
+    time: *807
+Entity_404:
+  id: 3181
+  name: CarMax
+  pos: ORG
+  item_id: 1827
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &808 2018-06-21 14:19:11.833506000 Z
+    zone: *2
+    time: *808
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &809 2018-06-21 14:19:11.833506000 Z
+    zone: *2
+    time: *809
+Entity_405:
+  id: 3182
+  name: Friday
+  pos: DATE
+  item_id: 1827
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &810 2018-06-21 14:19:11.845886000 Z
+    zone: *2
+    time: *810
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &811 2018-06-21 14:19:11.845886000 Z
+    zone: *2
+    time: *811
+Entity_406:
+  id: 3183
+  name: two
+  pos: CARDINAL
+  item_id: 1827
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &812 2018-06-21 14:19:11.850280000 Z
+    zone: *2
+    time: *812
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &813 2018-06-21 14:19:11.850280000 Z
+    zone: *2
+    time: *813
+Entity_407:
+  id: 3184
+  name: Intel
+  pos: ORG
+  item_id: 1826
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &814 2018-06-21 14:19:12.999733000 Z
+    zone: *2
+    time: *814
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &815 2018-06-21 14:19:12.999733000 Z
+    zone: *2
+    time: *815
+Entity_408:
+  id: 3185
+  name: Brian Krzanich
+  pos: PERSON
+  item_id: 1826
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &816 2018-06-21 14:19:13.009885000 Z
+    zone: *2
+    time: *816
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &817 2018-06-21 14:19:13.009885000 Z
+    zone: *2
+    time: *817
+Entity_409:
+  id: 3186
+  name: the 1 percent
+  pos: PERCENT
+  item_id: 1825
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &818 2018-06-21 14:19:14.343943000 Z
+    zone: *2
+    time: *818
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &819 2018-06-21 14:19:14.343943000 Z
+    zone: *2
+    time: *819
+Entity_410:
+  id: 3187
+  name: NFL
+  pos: ORG
+  item_id: 1824
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &820 2018-06-21 14:19:15.677863000 Z
+    zone: *2
+    time: *820
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &821 2018-06-21 14:19:15.677863000 Z
+    zone: *2
+    time: *821
+Entity_411:
+  id: 3188
+  name: Trump
+  pos: ORG
+  item_id: 1824
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &822 2018-06-21 14:19:15.690919000 Z
+    zone: *2
+    time: *822
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &823 2018-06-21 14:19:15.690919000 Z
+    zone: *2
+    time: *823
+Entity_412:
+  id: 3189
+  name: House
+  pos: ORG
+  item_id: 1823
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &824 2018-06-21 14:19:17.314260000 Z
+    zone: *2
+    time: *824
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &825 2018-06-21 14:19:17.314260000 Z
+    zone: *2
+    time: *825
+Entity_413:
+  id: 3190
+  name: only hours
+  pos: TIME
+  item_id: 1823
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &826 2018-06-21 14:19:17.326093000 Z
+    zone: *2
+    time: *826
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &827 2018-06-21 14:19:17.326093000 Z
+    zone: *2
+    time: *827
+Entity_414:
+  id: 3191
+  name: Amazon
+  pos: ORG
+  item_id: 1822
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &828 2018-06-21 14:19:18.612210000 Z
+    zone: *2
+    time: *828
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &829 2018-06-21 14:19:18.612210000 Z
+    zone: *2
+    time: *829
+Entity_415:
+  id: 3192
+  name: Prime Day
+  pos: DATE
+  item_id: 1822
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &830 2018-06-21 14:19:18.620966000 Z
+    zone: *2
+    time: *830
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &831 2018-06-21 14:19:18.620966000 Z
+    zone: *2
+    time: *831
+Entity_416:
+  id: 3193
+  name: Iraq
+  pos: GPE
+  item_id: 1821
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &832 2018-06-21 14:19:19.750552000 Z
+    zone: *2
+    time: *832
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &833 2018-06-21 14:19:19.750552000 Z
+    zone: *2
+    time: *833
+Entity_417:
+  id: 3194
+  name: billion-dollar
+  pos: MONEY
+  item_id: 1820
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &834 2018-06-21 14:19:20.942382000 Z
+    zone: *2
+    time: *834
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &835 2018-06-21 14:19:20.942382000 Z
+    zone: *2
+    time: *835
+Entity_418:
+  id: 3195
+  name: Micron
+  pos: PERSON
+  item_id: 1819
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &836 2018-06-21 14:19:22.184247000 Z
+    zone: *2
+    time: *836
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &837 2018-06-21 14:19:22.184247000 Z
+    zone: *2
+    time: *837
+Entity_419:
+  id: 3196
+  name: Olive Garden
+  pos: ORG
+  item_id: 1818
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &838 2018-06-21 14:19:23.490012000 Z
+    zone: *2
+    time: *838
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &839 2018-06-21 14:19:23.490012000 Z
+    zone: *2
+    time: *839
+Entity_420:
+  id: 3197
+  name: May
+  pos: DATE
+  item_id: 1817
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &840 2018-06-21 14:19:24.799422000 Z
+    zone: *2
+    time: *840
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &841 2018-06-21 14:19:24.799422000 Z
+    zone: *2
+    time: *841
+Entity_421:
+  id: 3198
+  name: Russia
+  pos: GPE
+  item_id: 1816
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &842 2018-06-21 14:19:26.203059000 Z
+    zone: *2
+    time: *842
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &843 2018-06-21 14:19:26.203059000 Z
+    zone: *2
+    time: *843
+Entity_422:
+  id: 3199
+  name: Illinois
+  pos: GPE
+  item_id: 1815
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &844 2018-06-21 14:19:27.276605000 Z
+    zone: *2
+    time: *844
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &845 2018-06-21 14:19:27.276605000 Z
+    zone: *2
+    time: *845
+Entity_423:
+  id: 3200
+  name: Republicans
+  pos: NORP
+  item_id: 1815
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &846 2018-06-21 14:19:27.283390000 Z
+    zone: *2
+    time: *846
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &847 2018-06-21 14:19:27.283390000 Z
+    zone: *2
+    time: *847
+Entity_424:
+  id: 3201
+  name: Trump over Blagojevich
+  pos: ORG
+  item_id: 1815
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &848 2018-06-21 14:19:27.287437000 Z
+    zone: *2
+    time: *848
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &849 2018-06-21 14:19:27.287437000 Z
+    zone: *2
+    time: *849
+Entity_425:
+  id: 3202
+  name: D.C.
+  pos: GPE
+  item_id: 1814
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &850 2018-06-21 14:19:28.498645000 Z
+    zone: *2
+    time: *850
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &851 2018-06-21 14:19:28.498645000 Z
+    zone: *2
+    time: *851
+Entity_426:
+  id: 3203
+  name: '2017'
+  pos: DATE
+  item_id: 1814
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &852 2018-06-21 14:19:28.509312000 Z
+    zone: *2
+    time: *852
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &853 2018-06-21 14:19:28.509312000 Z
+    zone: *2
+    time: *853
+Entity_427:
+  id: 3204
+  name: Democrats
+  pos: NORP
+  item_id: 1813
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &854 2018-06-21 14:19:29.835520000 Z
+    zone: *2
+    time: *854
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &855 2018-06-21 14:19:29.835520000 Z
+    zone: *2
+    time: *855
+Entity_428:
+  id: 3205
+  name: Hollywood
+  pos: GPE
+  item_id: 1813
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &856 2018-06-21 14:19:29.846600000 Z
+    zone: *2
+    time: *856
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &857 2018-06-21 14:19:29.846600000 Z
+    zone: *2
+    time: *857
+Entity_429:
+  id: 3206
+  name: Republicans
+  pos: NORP
+  item_id: 1812
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &858 2018-06-21 14:19:31.252091000 Z
+    zone: *2
+    time: *858
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &859 2018-06-21 14:19:31.252091000 Z
+    zone: *2
+    time: *859
+Entity_430:
+  id: 3207
+  name: Trump
+  pos: ORG
+  item_id: 1812
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &860 2018-06-21 14:19:31.263384000 Z
+    zone: *2
+    time: *860
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &861 2018-06-21 14:19:31.263384000 Z
+    zone: *2
+    time: *861
+Entity_431:
+  id: 3208
+  name: Massachusetts
+  pos: GPE
+  item_id: 1811
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &862 2018-06-21 14:19:32.510467000 Z
+    zone: *2
+    time: *862
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &863 2018-06-21 14:19:32.510467000 Z
+    zone: *2
+    time: *863
+Entity_432:
+  id: 3209
+  name: 66 percent
+  pos: PERCENT
+  item_id: 1810
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &864 2018-06-21 14:19:33.747264000 Z
+    zone: *2
+    time: *864
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &865 2018-06-21 14:19:33.747264000 Z
+    zone: *2
+    time: *865
+Entity_433:
+  id: 3210
+  name: U.S.
+  pos: GPE
+  item_id: 1810
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &866 2018-06-21 14:19:33.753382000 Z
+    zone: *2
+    time: *866
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &867 2018-06-21 14:19:33.753382000 Z
+    zone: *2
+    time: *867
+Entity_434:
+  id: 3211
+  name: Koch
+  pos: PERSON
+  item_id: 1809
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &868 2018-06-21 14:19:35.033980000 Z
+    zone: *2
+    time: *868
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &869 2018-06-21 14:19:35.033980000 Z
+    zone: *2
+    time: *869
+Entity_435:
+  id: 3212
+  name: Trump
+  pos: PERSON
+  item_id: 1809
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &870 2018-06-21 14:19:35.045578000 Z
+    zone: *2
+    time: *870
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &871 2018-06-21 14:19:35.045578000 Z
+    zone: *2
+    time: *871
+Entity_436:
+  id: 3213
+  name: House
+  pos: ORG
+  item_id: 1809
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &872 2018-06-21 14:19:35.051391000 Z
+    zone: *2
+    time: *872
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &873 2018-06-21 14:19:35.051391000 Z
+    zone: *2
+    time: *873
+Entity_437:
+  id: 3214
+  name: Longtime Trump
+  pos: PERSON
+  item_id: 1807
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &874 2018-06-21 14:19:37.593531000 Z
+    zone: *2
+    time: *874
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &875 2018-06-21 14:19:37.593531000 Z
+    zone: *2
+    time: *875
+Entity_438:
+  id: 3215
+  name: Michael Cohen
+  pos: PERSON
+  item_id: 1807
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &876 2018-06-21 14:19:37.605842000 Z
+    zone: *2
+    time: *876
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &877 2018-06-21 14:19:37.605842000 Z
+    zone: *2
+    time: *877
+Entity_439:
+  id: 3216
+  name: RNC
+  pos: ORG
+  item_id: 1807
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &878 2018-06-21 14:19:37.611828000 Z
+    zone: *2
+    time: *878
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &879 2018-06-21 14:19:37.611828000 Z
+    zone: *2
+    time: *879
+Entity_440:
+  id: 3217
+  name: U.S.
+  pos: GPE
+  item_id: 1806
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &880 2018-06-21 14:19:38.819652000 Z
+    zone: *2
+    time: *880
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &881 2018-06-21 14:19:38.819652000 Z
+    zone: *2
+    time: *881
+Entity_441:
+  id: 3218
+  name: North Korea
+  pos: GPE
+  item_id: 1805
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &882 2018-06-21 14:19:40.082732000 Z
+    zone: *2
+    time: *882
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &883 2018-06-21 14:19:40.082732000 Z
+    zone: *2
+    time: *883
+Entity_442:
+  id: 3219
+  name: '200'
+  pos: CARDINAL
+  item_id: 1805
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &884 2018-06-21 14:19:40.094236000 Z
+    zone: *2
+    time: *884
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &885 2018-06-21 14:19:40.094236000 Z
+    zone: *2
+    time: *885
+Entity_443:
+  id: 3220
+  name: U.S.
+  pos: GPE
+  item_id: 1805
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &886 2018-06-21 14:19:40.100083000 Z
+    zone: *2
+    time: *886
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &887 2018-06-21 14:19:40.100083000 Z
+    zone: *2
+    time: *887
+Entity_444:
+  id: 3221
+  name: Washington
+  pos: GPE
+  item_id: 1804
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &888 2018-06-21 14:19:41.350895000 Z
+    zone: *2
+    time: *888
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &889 2018-06-21 14:19:41.350895000 Z
+    zone: *2
+    time: *889
+Entity_445:
+  id: 3222
+  name: U.S.
+  pos: GPE
+  item_id: 1804
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &890 2018-06-21 14:19:41.362511000 Z
+    zone: *2
+    time: *890
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &891 2018-06-21 14:19:41.362511000 Z
+    zone: *2
+    time: *891
+Entity_446:
+  id: 3223
+  name: China
+  pos: GPE
+  item_id: 1804
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &892 2018-06-21 14:19:41.367744000 Z
+    zone: *2
+    time: *892
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &893 2018-06-21 14:19:41.367744000 Z
+    zone: *2
+    time: *893
+Entity_447:
+  id: 3224
+  name: OPEC
+  pos: ORG
+  item_id: 1803
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &894 2018-06-21 14:19:42.692360000 Z
+    zone: *2
+    time: *894
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &895 2018-06-21 14:19:42.692360000 Z
+    zone: *2
+    time: *895
+Entity_448:
+  id: 3225
+  name: Iran
+  pos: GPE
+  item_id: 1803
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &896 2018-06-21 14:19:42.700136000 Z
+    zone: *2
+    time: *896
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &897 2018-06-21 14:19:42.700136000 Z
+    zone: *2
+    time: *897
+Entity_449:
+  id: 3226
+  name: U.S.
+  pos: GPE
+  item_id: 1802
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &898 2018-06-21 14:19:43.974121000 Z
+    zone: *2
+    time: *898
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &899 2018-06-21 14:19:43.974121000 Z
+    zone: *2
+    time: *899
+Entity_450:
+  id: 3227
+  name: mid-Atlantic
+  pos: LOC
+  item_id: 1802
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &900 2018-06-21 14:19:43.981175000 Z
+    zone: *2
+    time: *900
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &901 2018-06-21 14:19:43.981175000 Z
+    zone: *2
+    time: *901
+Entity_451:
+  id: 3228
+  name: New Zealand
+  pos: GPE
+  item_id: 1801
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &902 2018-06-21 14:19:45.124544000 Z
+    zone: *2
+    time: *902
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &903 2018-06-21 14:19:45.124544000 Z
+    zone: *2
+    time: *903
+Entity_452:
+  id: 3229
+  name: Ardern
+  pos: PERSON
+  item_id: 1801
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &904 2018-06-21 14:19:45.135118000 Z
+    zone: *2
+    time: *904
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &905 2018-06-21 14:19:45.135118000 Z
+    zone: *2
+    time: *905
+Entity_453:
+  id: 3230
+  name: U.S.
+  pos: GPE
+  item_id: 1800
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &906 2018-06-21 14:19:46.223777000 Z
+    zone: *2
+    time: *906
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &907 2018-06-21 14:19:46.223777000 Z
+    zone: *2
+    time: *907
+Entity_454:
+  id: 3231
+  name: North Korea
+  pos: GPE
+  item_id: 1800
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &908 2018-06-21 14:19:46.234483000 Z
+    zone: *2
+    time: *908
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &909 2018-06-21 14:19:46.234483000 Z
+    zone: *2
+    time: *909
+Entity_455:
+  id: 3232
+  name: Kim
+  pos: PERSON
+  item_id: 1800
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &910 2018-06-21 14:19:46.239041000 Z
+    zone: *2
+    time: *910
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &911 2018-06-21 14:19:46.239041000 Z
+    zone: *2
+    time: *911
+Entity_456:
+  id: 3233
+  name: Intel
+  pos: ORG
+  item_id: 1799
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &912 2018-06-21 14:19:47.289507000 Z
+    zone: *2
+    time: *912
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &913 2018-06-21 14:19:47.289507000 Z
+    zone: *2
+    time: *913
+Entity_457:
+  id: 3234
+  name: House
+  pos: ORG
+  item_id: 1798
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &914 2018-06-21 14:19:48.354731000 Z
+    zone: *2
+    time: *914
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &915 2018-06-21 14:19:48.354731000 Z
+    zone: *2
+    time: *915
+Entity_458:
+  id: 3235
+  name: Republicans
+  pos: NORP
+  item_id: 1798
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &916 2018-06-21 14:19:48.365405000 Z
+    zone: *2
+    time: *916
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &917 2018-06-21 14:19:48.365405000 Z
+    zone: *2
+    time: *917
+Entity_459:
+  id: 3236
+  name: Chinese
+  pos: NORP
+  item_id: 1797
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &918 2018-06-21 14:19:49.419834000 Z
+    zone: *2
+    time: *918
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &919 2018-06-21 14:19:49.419834000 Z
+    zone: *2
+    time: *919
+Entity_460:
+  id: 3237
+  name: Bernie Sanders
+  pos: PERSON
+  item_id: 1796
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &920 2018-06-21 14:19:50.468507000 Z
+    zone: *2
+    time: *920
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &921 2018-06-21 14:19:50.468507000 Z
+    zone: *2
+    time: *921
+Entity_461:
+  id: 3238
+  name: NFL
+  pos: ORG
+  item_id: 1795
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &922 2018-06-21 14:19:51.554985000 Z
+    zone: *2
+    time: *922
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &923 2018-06-21 14:19:51.554985000 Z
+    zone: *2
+    time: *923
+Entity_462:
+  id: 3239
+  name: Trump
+  pos: ORG
+  item_id: 1795
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &924 2018-06-21 14:19:51.561918000 Z
+    zone: *2
+    time: *924
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &925 2018-06-21 14:19:51.561918000 Z
+    zone: *2
+    time: *925
+Entity_463:
+  id: 3240
+  name: Schumer
+  pos: PERSON
+  item_id: 1794
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &926 2018-06-21 14:19:52.746252000 Z
+    zone: *2
+    time: *926
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &927 2018-06-21 14:19:52.746252000 Z
+    zone: *2
+    time: *927
+Entity_464:
+  id: 3241
+  name: Pelosi
+  pos: PERSON
+  item_id: 1794
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &928 2018-06-21 14:19:52.757757000 Z
+    zone: *2
+    time: *928
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &929 2018-06-21 14:19:52.757757000 Z
+    zone: *2
+    time: *929
+Entity_465:
+  id: 3242
+  name: deal’
+  pos: PRODUCT
+  item_id: 1794
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &930 2018-06-21 14:19:52.767779000 Z
+    zone: *2
+    time: *930
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &931 2018-06-21 14:19:52.767779000 Z
+    zone: *2
+    time: *931
+Entity_466:
+  id: 3243
+  name: New Zealand
+  pos: GPE
+  item_id: 1793
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &932 2018-06-21 14:19:53.966493000 Z
+    zone: *2
+    time: *932
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &933 2018-06-21 14:19:53.966493000 Z
+    zone: *2
+    time: *933
+Entity_467:
+  id: 3244
+  name: GOP
+  pos: ORG
+  item_id: 1792
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &934 2018-06-21 14:19:55.206098000 Z
+    zone: *2
+    time: *934
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &935 2018-06-21 14:19:55.206098000 Z
+    zone: *2
+    time: *935
+Entity_468:
+  id: 3245
+  name: South Carolina
+  pos: GPE
+  item_id: 1791
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &936 2018-06-21 14:19:56.375145000 Z
+    zone: *2
+    time: *936
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &937 2018-06-21 14:19:56.375145000 Z
+    zone: *2
+    time: *937
+Entity_469:
+  id: 3246
+  name: GOP
+  pos: ORG
+  item_id: 1790
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &938 2018-06-21 14:19:57.540780000 Z
+    zone: *2
+    time: *938
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &939 2018-06-21 14:19:57.540780000 Z
+    zone: *2
+    time: *939
+Entity_470:
+  id: 3247
+  name: American
+  pos: NORP
+  item_id: 1789
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &940 2018-06-21 14:19:58.599207000 Z
+    zone: *2
+    time: *940
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &941 2018-06-21 14:19:58.599207000 Z
+    zone: *2
+    time: *941
+Entity_471:
+  id: 3248
+  name: McCaskill
+  pos: GPE
+  item_id: 1787
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &942 2018-06-21 14:20:00.770460000 Z
+    zone: *2
+    time: *942
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &943 2018-06-21 14:20:00.770460000 Z
+    zone: *2
+    time: *943
+Entity_472:
+  id: 3249
+  name: '101'
+  pos: CARDINAL
+  item_id: 1786
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &944 2018-06-21 14:20:01.832677000 Z
+    zone: *2
+    time: *944
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &945 2018-06-21 14:20:01.832677000 Z
+    zone: *2
+    time: *945
+Entity_473:
+  id: 3250
+  name: India
+  pos: GPE
+  item_id: 1785
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &946 2018-06-21 14:20:02.901265000 Z
+    zone: *2
+    time: *946
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &947 2018-06-21 14:20:02.901265000 Z
+    zone: *2
+    time: *947
+Entity_474:
+  id: 3251
+  name: Modi
+  pos: GPE
+  item_id: 1785
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &948 2018-06-21 14:20:02.912058000 Z
+    zone: *2
+    time: *948
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &949 2018-06-21 14:20:02.912058000 Z
+    zone: *2
+    time: *949
+Entity_475:
+  id: 3252
+  name: '456'
+  pos: CARDINAL
+  item_id: 1784
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &950 2018-06-21 14:20:04.101327000 Z
+    zone: *2
+    time: *950
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &951 2018-06-21 14:20:04.101327000 Z
+    zone: *2
+    time: *951
+Entity_476:
+  id: 3253
+  name: Michael Cohen
+  pos: PERSON
+  item_id: 1782
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &952 2018-06-21 14:20:06.581280000 Z
+    zone: *2
+    time: *952
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &953 2018-06-21 14:20:06.581280000 Z
+    zone: *2
+    time: *953
+Entity_477:
+  id: 3254
+  name: Republican National Committee
+  pos: ORG
+  item_id: 1782
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &954 2018-06-21 14:20:06.592035000 Z
+    zone: *2
+    time: *954
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &955 2018-06-21 14:20:06.592035000 Z
+    zone: *2
+    time: *955
+Entity_478:
+  id: 3255
+  name: Ex-CIA
+  pos: ORG
+  item_id: 1780
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &956 2018-06-21 14:20:08.977748000 Z
+    zone: *2
+    time: *956
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &957 2018-06-21 14:20:08.977748000 Z
+    zone: *2
+    time: *957
+Entity_479:
+  id: 3256
+  name: '4'
+  pos: CARDINAL
+  item_id: 1779
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &958 2018-06-21 14:20:10.217884000 Z
+    zone: *2
+    time: *958
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &959 2018-06-21 14:20:10.217884000 Z
+    zone: *2
+    time: *959
+Entity_480:
+  id: 3257
+  name: thousands
+  pos: CARDINAL
+  item_id: 1778
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &960 2018-06-21 14:20:11.457042000 Z
+    zone: *2
+    time: *960
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &961 2018-06-21 14:20:11.457042000 Z
+    zone: *2
+    time: *961
+Entity_481:
+  id: 3258
+  name: 7 years
+  pos: DATE
+  item_id: 1777
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &962 2018-06-21 14:20:12.637680000 Z
+    zone: *2
+    time: *962
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &963 2018-06-21 14:20:12.637680000 Z
+    zone: *2
+    time: *963
+Entity_482:
+  id: 3259
+  name: Obama
+  pos: PERSON
+  item_id: 1777
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &964 2018-06-21 14:20:12.651255000 Z
+    zone: *2
+    time: *964
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &965 2018-06-21 14:20:12.651255000 Z
+    zone: *2
+    time: *965
+Entity_483:
+  id: 3260
+  name: Libya
+  pos: GPE
+  item_id: 1777
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &966 2018-06-21 14:20:12.663282000 Z
+    zone: *2
+    time: *966
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &967 2018-06-21 14:20:12.663282000 Z
+    zone: *2
+    time: *967
+Entity_484:
+  id: 3261
+  name: America
+  pos: GPE
+  item_id: 1776
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &968 2018-06-21 14:20:14.140197000 Z
+    zone: *2
+    time: *968
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &969 2018-06-21 14:20:14.140197000 Z
+    zone: *2
+    time: *969
+Entity_485:
+  id: 3262
+  name: Protestants
+  pos: NORP
+  item_id: 1776
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &970 2018-06-21 14:20:14.148827000 Z
+    zone: *2
+    time: *970
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &971 2018-06-21 14:20:14.148827000 Z
+    zone: *2
+    time: *971
+Entity_486:
+  id: 3263
+  name: Lewandowski
+  pos: PERSON
+  item_id: 1775
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &972 2018-06-21 14:20:15.634991000 Z
+    zone: *2
+    time: *972
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &973 2018-06-21 14:20:15.634991000 Z
+    zone: *2
+    time: *973
+Entity_487:
+  id: 3264
+  name: Sudan
+  pos: GPE
+  item_id: 1774
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &974 2018-06-21 14:20:16.916090000 Z
+    zone: *2
+    time: *974
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &975 2018-06-21 14:20:16.916090000 Z
+    zone: *2
+    time: *975
+Entity_488:
+  id: 3265
+  name: JusticeForNoura
+  pos: MONEY
+  item_id: 1774
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &976 2018-06-21 14:20:16.929095000 Z
+    zone: *2
+    time: *976
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &977 2018-06-21 14:20:16.929095000 Z
+    zone: *2
+    time: *977
+Entity_489:
+  id: 3266
+  name: De Blasio
+  pos: PERSON
+  item_id: 1773
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &978 2018-06-21 14:20:18.149068000 Z
+    zone: *2
+    time: *978
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &979 2018-06-21 14:20:18.149068000 Z
+    zone: *2
+    time: *979
+Entity_490:
+  id: 3267
+  name: Trump
+  pos: ORG
+  item_id: 1773
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &980 2018-06-21 14:20:18.161466000 Z
+    zone: *2
+    time: *980
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &981 2018-06-21 14:20:18.161466000 Z
+    zone: *2
+    time: *981
+Entity_491:
+  id: 3268
+  name: Trump
+  pos: ORG
+  item_id: 1772
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &982 2018-06-21 14:20:19.348510000 Z
+    zone: *2
+    time: *982
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &983 2018-06-21 14:20:19.348510000 Z
+    zone: *2
+    time: *983
+Entity_492:
+  id: 3269
+  name: London
+  pos: GPE
+  item_id: 1770
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &984 2018-06-21 14:20:21.960790000 Z
+    zone: *2
+    time: *984
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &985 2018-06-21 14:20:21.960790000 Z
+    zone: *2
+    time: *985
+Entity_493:
+  id: 3270
+  name: Hyde Park
+  pos: LOC
+  item_id: 1770
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &986 2018-06-21 14:20:21.978507000 Z
+    zone: *2
+    time: *986
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &987 2018-06-21 14:20:21.978507000 Z
+    zone: *2
+    time: *987
+Entity_494:
+  id: 3271
+  name: Trump question
+  pos: ORG
+  item_id: 1769
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &988 2018-06-21 14:20:23.213915000 Z
+    zone: *2
+    time: *988
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &989 2018-06-21 14:20:23.213915000 Z
+    zone: *2
+    time: *989
+Entity_495:
+  id: 3272
+  name: McAuliffe
+  pos: PERSON
+  item_id: 1766
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &990 2018-06-21 14:20:27.171223000 Z
+    zone: *2
+    time: *990
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &991 2018-06-21 14:20:27.171223000 Z
+    zone: *2
+    time: *991
+Entity_496:
+  id: 3273
+  name: Gupta
+  pos: PERSON
+  item_id: 1763
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &992 2018-06-21 14:20:31.039624000 Z
+    zone: *2
+    time: *992
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &993 2018-06-21 14:20:31.039624000 Z
+    zone: *2
+    time: *993
+Entity_497:
+  id: 3274
+  name: the 2018 World Cup
+  pos: EVENT
+  item_id: 1762
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &994 2018-06-21 14:20:32.287263000 Z
+    zone: *2
+    time: *994
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &995 2018-06-21 14:20:32.287263000 Z
+    zone: *2
+    time: *995
+Entity_498:
+  id: 3275
+  name: Ronaldo
+  pos: GPE
+  item_id: 1761
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &996 2018-06-21 14:20:33.447102000 Z
+    zone: *2
+    time: *996
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &997 2018-06-21 14:20:33.447102000 Z
+    zone: *2
+    time: *997
+Entity_499:
+  id: 3276
+  name: 2,600 miles
+  pos: QUANTITY
+  item_id: 1760
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &998 2018-06-21 14:20:34.593809000 Z
+    zone: *2
+    time: *998
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &999 2018-06-21 14:20:34.593809000 Z
+    zone: *2
+    time: *999
+Entity_500:
+  id: 3277
+  name: World Cup
+  pos: EVENT
+  item_id: 1760
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1000 2018-06-21 14:20:34.599074000 Z
+    zone: *2
+    time: *1000
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1001 2018-06-21 14:20:34.599074000 Z
+    zone: *2
+    time: *1001
+Entity_501:
+  id: 3278
+  name: Australia
+  pos: GPE
+  item_id: 1759
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1002 2018-06-21 14:20:35.715199000 Z
+    zone: *2
+    time: *1002
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1003 2018-06-21 14:20:35.715199000 Z
+    zone: *2
+    time: *1003
+Entity_502:
+  id: 3279
+  name: Denmark
+  pos: GPE
+  item_id: 1759
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1004 2018-06-21 14:20:35.720204000 Z
+    zone: *2
+    time: *1004
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1005 2018-06-21 14:20:35.720204000 Z
+    zone: *2
+    time: *1005
+Entity_503:
+  id: 3280
+  name: Burger King
+  pos: ORG
+  item_id: 1758
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1006 2018-06-21 14:20:36.851440000 Z
+    zone: *2
+    time: *1006
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1007 2018-06-21 14:20:36.851440000 Z
+    zone: *2
+    time: *1007
+Entity_504:
+  id: 3281
+  name: World Cup
+  pos: EVENT
+  item_id: 1758
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1008 2018-06-21 14:20:36.858771000 Z
+    zone: *2
+    time: *1008
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1009 2018-06-21 14:20:36.858771000 Z
+    zone: *2
+    time: *1009
+Entity_505:
+  id: 3282
+  name: 401k
+  pos: CARDINAL
+  item_id: 1757
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1010 2018-06-21 14:20:37.989713000 Z
+    zone: *2
+    time: *1010
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1011 2018-06-21 14:20:37.989713000 Z
+    zone: *2
+    time: *1011
+Entity_506:
+  id: 3283
+  name: Vader
+  pos: PERSON
+  item_id: 1756
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1012 2018-06-21 14:20:39.128799000 Z
+    zone: *2
+    time: *1012
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1013 2018-06-21 14:20:39.128799000 Z
+    zone: *2
+    time: *1013
+Entity_507:
+  id: 3284
+  name: '63'
+  pos: CARDINAL
+  item_id: 1756
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1014 2018-06-21 14:20:39.134422000 Z
+    zone: *2
+    time: *1014
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1015 2018-06-21 14:20:39.134422000 Z
+    zone: *2
+    time: *1015
+Entity_508:
+  id: 3285
+  name: MLB
+  pos: ORG
+  item_id: 1754
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1016 2018-06-21 14:20:41.736116000 Z
+    zone: *2
+    time: *1016
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1017 2018-06-21 14:20:41.736116000 Z
+    zone: *2
+    time: *1017
+Entity_509:
+  id: 3286
+  name: Ex-
+  pos: ORG
+  item_id: 1753
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1018 2018-06-21 14:20:43.161039000 Z
+    zone: *2
+    time: *1018
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1019 2018-06-21 14:20:43.161039000 Z
+    zone: *2
+    time: *1019
+Entity_510:
+  id: 3287
+  name: '00,000'
+  pos: CARDINAL
+  item_id: 1749
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1020 2018-06-21 14:20:48.280739000 Z
+    zone: *2
+    time: *1020
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1021 2018-06-21 14:20:48.280739000 Z
+    zone: *2
+    time: *1021
+Entity_511:
+  id: 3288
+  name: SNL
+  pos: ORG
+  item_id: 1748
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1022 2018-06-21 14:20:49.624657000 Z
+    zone: *2
+    time: *1022
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1023 2018-06-21 14:20:49.624657000 Z
+    zone: *2
+    time: *1023
+Entity_512:
+  id: 3289
+  name: Don Lemon
+  pos: PERSON
+  item_id: 1746
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1024 2018-06-21 14:20:52.257790000 Z
+    zone: *2
+    time: *1024
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1025 2018-06-21 14:20:52.257790000 Z
+    zone: *2
+    time: *1025
+Entity_513:
+  id: 3290
+  name: America
+  pos: GPE
+  item_id: 1745
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1026 2018-06-21 14:20:53.421739000 Z
+    zone: *2
+    time: *1026
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1027 2018-06-21 14:20:53.421739000 Z
+    zone: *2
+    time: *1027
+Entity_514:
+  id: 3291
+  name: Kim Jong Un
+  pos: PERSON
+  item_id: 1744
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1028 2018-06-21 14:20:54.755295000 Z
+    zone: *2
+    time: *1028
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1029 2018-06-21 14:20:54.755295000 Z
+    zone: *2
+    time: *1029
+Entity_515:
+  id: 3292
+  name: China
+  pos: GPE
+  item_id: 1744
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1030 2018-06-21 14:20:54.767643000 Z
+    zone: *2
+    time: *1030
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1031 2018-06-21 14:20:54.767643000 Z
+    zone: *2
+    time: *1031
+Entity_516:
+  id: 3293
+  name: US
+  pos: GPE
+  item_id: 1744
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1032 2018-06-21 14:20:54.772674000 Z
+    zone: *2
+    time: *1032
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1033 2018-06-21 14:20:54.772674000 Z
+    zone: *2
+    time: *1033
+Entity_517:
+  id: 3294
+  name: National Enquirer
+  pos: ORG
+  item_id: 1743
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1034 2018-06-21 14:20:56.340007000 Z
+    zone: *2
+    time: *1034
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1035 2018-06-21 14:20:56.340007000 Z
+    zone: *2
+    time: *1035
+Entity_518:
+  id: 3295
+  name: Michael Cohen
+  pos: PERSON
+  item_id: 1743
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1036 2018-06-21 14:20:56.353335000 Z
+    zone: *2
+    time: *1036
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1037 2018-06-21 14:20:56.353335000 Z
+    zone: *2
+    time: *1037
+Entity_519:
+  id: 3296
+  name: Education
+  pos: ORG
+  item_id: 1742
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1038 2018-06-21 14:20:57.866493000 Z
+    zone: *2
+    time: *1038
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1039 2018-06-21 14:20:57.866493000 Z
+    zone: *2
+    time: *1039
+Entity_520:
+  id: 3297
+  name: Labor
+  pos: ORG
+  item_id: 1742
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1040 2018-06-21 14:20:57.873598000 Z
+    zone: *2
+    time: *1040
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1041 2018-06-21 14:20:57.873598000 Z
+    zone: *2
+    time: *1041
+Entity_521:
+  id: 3298
+  name: Putin
+  pos: PERSON
+  item_id: 1741
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1042 2018-06-21 14:20:59.457209000 Z
+    zone: *2
+    time: *1042
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1043 2018-06-21 14:20:59.457209000 Z
+    zone: *2
+    time: *1043
+Entity_522:
+  id: 3299
+  name: July
+  pos: DATE
+  item_id: 1741
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1044 2018-06-21 14:20:59.462430000 Z
+    zone: *2
+    time: *1044
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1045 2018-06-21 14:20:59.462430000 Z
+    zone: *2
+    time: *1045
+Entity_523:
+  id: 3300
+  name: NFL
+  pos: ORG
+  item_id: 1740
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1046 2018-06-21 14:21:03.027824000 Z
+    zone: *2
+    time: *1046
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1047 2018-06-21 14:21:03.027824000 Z
+    zone: *2
+    time: *1047
+Entity_524:
+  id: 3301
+  name: GOP
+  pos: ORG
+  item_id: 1739
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1048 2018-06-21 14:55:27.313299000 Z
+    zone: *2
+    time: *1048
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1049 2018-06-21 14:55:27.313299000 Z
+    zone: *2
+    time: *1049
+Entity_525:
+  id: 3302
+  name: House
+  pos: ORG
+  item_id: 1739
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1050 2018-06-21 14:55:27.325309000 Z
+    zone: *2
+    time: *1050
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1051 2018-06-21 14:55:27.325309000 Z
+    zone: *2
+    time: *1051
+Entity_526:
+  id: 3303
+  name: Paul Ryan
+  pos: PERSON
+  item_id: 1739
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1052 2018-06-21 14:55:27.341131000 Z
+    zone: *2
+    time: *1052
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1053 2018-06-21 14:55:27.341131000 Z
+    zone: *2
+    time: *1053
+Entity_527:
+  id: 3304
+  name: Charity
+  pos: ORG
+  item_id: 1738
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1054 2018-06-21 14:55:28.434770000 Z
+    zone: *2
+    time: *1054
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1055 2018-06-21 14:55:28.434770000 Z
+    zone: *2
+    time: *1055
+Entity_528:
+  id: 3305
+  name: Secret Service
+  pos: ORG
+  item_id: 1737
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1056 2018-06-21 14:55:29.619999000 Z
+    zone: *2
+    time: *1056
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1057 2018-06-21 14:55:29.619999000 Z
+    zone: *2
+    time: *1057
+Entity_529:
+  id: 3306
+  name: Peter Fonda
+  pos: PERSON
+  item_id: 1737
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1058 2018-06-21 14:55:29.632811000 Z
+    zone: *2
+    time: *1058
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1059 2018-06-21 14:55:29.632811000 Z
+    zone: *2
+    time: *1059
+Entity_530:
+  id: 3307
+  name: Barron Trump
+  pos: ORG
+  item_id: 1737
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1060 2018-06-21 14:55:29.639664000 Z
+    zone: *2
+    time: *1060
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1061 2018-06-21 14:55:29.639664000 Z
+    zone: *2
+    time: *1061
+Entity_531:
+  id: 3308
+  name: Late night
+  pos: TIME
+  item_id: 1736
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1062 2018-06-21 14:55:30.726328000 Z
+    zone: *2
+    time: *1062
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1063 2018-06-21 14:55:30.726328000 Z
+    zone: *2
+    time: *1063
+Entity_532:
+  id: 3309
+  name: Trump
+  pos: ORG
+  item_id: 1736
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1064 2018-06-21 14:55:30.737175000 Z
+    zone: *2
+    time: *1064
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1065 2018-06-21 14:55:30.737175000 Z
+    zone: *2
+    time: *1065
+Entity_533:
+  id: 3310
+  name: America
+  pos: GPE
+  item_id: 1735
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1066 2018-06-21 14:55:31.864849000 Z
+    zone: *2
+    time: *1066
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1067 2018-06-21 14:55:31.864849000 Z
+    zone: *2
+    time: *1067
+Entity_534:
+  id: 3311
+  name: TIME
+  pos: ORG
+  item_id: 1735
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1068 2018-06-21 14:55:31.875932000 Z
+    zone: *2
+    time: *1068
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1069 2018-06-21 14:55:31.875932000 Z
+    zone: *2
+    time: *1069
+Entity_535:
+  id: 3312
+  name: Us
+  pos: GPE
+  item_id: 1734
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1070 2018-06-21 14:55:33.230369000 Z
+    zone: *2
+    time: *1070
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1071 2018-06-21 14:55:33.230369000 Z
+    zone: *2
+    time: *1071
+Entity_536:
+  id: 3313
+  name: Australia
+  pos: GPE
+  item_id: 1734
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1072 2018-06-21 14:55:33.237318000 Z
+    zone: *2
+    time: *1072
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1073 2018-06-21 14:55:33.237318000 Z
+    zone: *2
+    time: *1073
+Entity_537:
+  id: 3314
+  name: Israeli
+  pos: NORP
+  item_id: 1733
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1074 2018-06-21 14:55:34.382911000 Z
+    zone: *2
+    time: *1074
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1075 2018-06-21 14:55:34.382911000 Z
+    zone: *2
+    time: *1075
+Entity_538:
+  id: 3315
+  name: Italy
+  pos: GPE
+  item_id: 1732
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1076 2018-06-21 14:55:35.467615000 Z
+    zone: *2
+    time: *1076
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1077 2018-06-21 14:55:35.467615000 Z
+    zone: *2
+    time: *1077
+Entity_539:
+  id: 3316
+  name: Macron
+  pos: ORG
+  item_id: 1731
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1078 2018-06-21 14:55:36.541423000 Z
+    zone: *2
+    time: *1078
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1079 2018-06-21 14:55:36.541423000 Z
+    zone: *2
+    time: *1079
+Entity_540:
+  id: 3317
+  name: first
+  pos: ORDINAL
+  item_id: 1728
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1080 2018-06-21 14:55:39.790823000 Z
+    zone: *2
+    time: *1080
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1081 2018-06-21 14:55:39.790823000 Z
+    zone: *2
+    time: *1081
+Entity_541:
+  id: 3318
+  name: '1990'
+  pos: DATE
+  item_id: 1728
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1082 2018-06-21 14:55:39.801089000 Z
+    zone: *2
+    time: *1082
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1083 2018-06-21 14:55:39.801089000 Z
+    zone: *2
+    time: *1083
+Entity_542:
+  id: 3319
+  name: Charlottesville
+  pos: GPE
+  item_id: 1727
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1084 2018-06-21 14:55:40.846565000 Z
+    zone: *2
+    time: *1084
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1085 2018-06-21 14:55:40.846565000 Z
+    zone: *2
+    time: *1085
+Entity_543:
+  id: 3320
+  name: White House
+  pos: ORG
+  item_id: 1727
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1086 2018-06-21 14:55:40.856949000 Z
+    zone: *2
+    time: *1086
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1087 2018-06-21 14:55:40.856949000 Z
+    zone: *2
+    time: *1087
+Entity_544:
+  id: 3321
+  name: Intel
+  pos: ORG
+  item_id: 1726
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1088 2018-06-21 14:55:41.913370000 Z
+    zone: *2
+    time: *1088
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1089 2018-06-21 14:55:41.913370000 Z
+    zone: *2
+    time: *1089
+Entity_545:
+  id: 3322
+  name: Navarro
+  pos: PERSON
+  item_id: 1724
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1090 2018-06-21 14:55:44.040612000 Z
+    zone: *2
+    time: *1090
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1091 2018-06-21 14:55:44.040612000 Z
+    zone: *2
+    time: *1091
+Entity_546:
+  id: 3323
+  name: Trump
+  pos: NORP
+  item_id: 1724
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1092 2018-06-21 14:55:44.050561000 Z
+    zone: *2
+    time: *1092
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1093 2018-06-21 14:55:44.050561000 Z
+    zone: *2
+    time: *1093
+Entity_547:
+  id: 3324
+  name: Trump
+  pos: ORG
+  item_id: 1722
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1094 2018-06-21 14:55:46.175403000 Z
+    zone: *2
+    time: *1094
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1095 2018-06-21 14:55:46.175403000 Z
+    zone: *2
+    time: *1095
+Entity_548:
+  id: 3325
+  name: Border Patrol
+  pos: PERSON
+  item_id: 1721
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1096 2018-06-21 14:55:47.232407000 Z
+    zone: *2
+    time: *1096
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1097 2018-06-21 14:55:47.232407000 Z
+    zone: *2
+    time: *1097
+Entity_549:
+  id: 3326
+  name: Dems
+  pos: NORP
+  item_id: 1720
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1098 2018-06-21 14:55:48.296440000 Z
+    zone: *2
+    time: *1098
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1099 2018-06-21 14:55:48.296440000 Z
+    zone: *2
+    time: *1099
+Entity_550:
+  id: 3327
+  name: hours
+  pos: TIME
+  item_id: 1720
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1100 2018-06-21 14:55:48.306909000 Z
+    zone: *2
+    time: *1100
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1101 2018-06-21 14:55:48.306909000 Z
+    zone: *2
+    time: *1101
+Entity_551:
+  id: 3328
+  name: House
+  pos: ORG
+  item_id: 1720
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1102 2018-06-21 14:55:48.317744000 Z
+    zone: *2
+    time: *1102
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1103 2018-06-21 14:55:48.317744000 Z
+    zone: *2
+    time: *1103

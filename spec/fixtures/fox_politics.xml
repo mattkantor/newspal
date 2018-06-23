@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.foxnews.com/~d/styles/itemcontent.css"?><rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+                    <title>FOX News</title>
+    <link>http://www.foxnews.com/</link>
+    <description><![CDATA[FOXNews.com - Breaking news and video. Latest Current News: U.S., World, Entertainment, Health, Business, Technology, Politics, Sports.]]></description>
+        <image>
+    	<url>http://tools.foxnews.com/sites/tools.foxnews.com/files/images/fox-news-logo.png</url>
+    	<title>FOX News</title>
+    	<link>http://www.foxnews.com/</link>
+    </image>
+            <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.foxnews.com/foxnews/politics" /><feedburner:info uri="foxnews/politics" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+                  <guid isPermaLink="false">http://www.foxnews.com/politics/2018/06/23/ashamed-comey-weighs-calling-himself-canadian-rips-trump-border-actions-during-ireland-visit.html</guid>
+      <link>http://feeds.foxnews.com/~r/foxnews/politics/~3/L9Ldbu-5H7s/ashamed-comey-weighs-calling-himself-canadian-rips-trump-border-actions-during-ireland-visit.html</link>
+                  <media:group>
+        <media:content url="http://www.foxnews.com/content/dam/fox-news/images/2018/06/23/ap18165463508823.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2018/06/23/60/60/ap18165463508823.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2018/06/23/60/60/ap18165463508823.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">2b38db1f-4719-422e-aa9f-fc1572c2d151</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/us/immigration</category>
+            <category domain="foxnews.com/taxonomy">fox-news/entertainment/genres/books</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/US/IMMIGRATION</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/ENTERTAINMENT/GENRES/Books</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>'Ashamed' Comey weighs calling himself Canadian, rips Trump border actions during Ireland visit</title>
+      <description>Former FBI Director James Comey is so ashamed of the United States’ immigration policies, that he’s begun telling people he’s Canadian.&lt;img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/L9Ldbu-5H7s" height="1" width="1" alt=""/&gt;</description>
+                  <dc:creator>Bradford Betz</dc:creator>
+                         <pubDate>Sat, 23 Jun 2018 20:45:00 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">FoxNews.com</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Bradford Betz</category>
+                            <feedburner:origLink>http://www.foxnews.com/politics/2018/06/23/ashamed-comey-weighs-calling-himself-canadian-rips-trump-border-actions-during-ireland-visit.html</feedburner:origLink></item>
+        <item>
+                  <guid isPermaLink="false">http://www.foxnews.com/politics/2018/06/23/katie-arrington-who-ousted-rep-mark-sanford-in-primary-seriously-injured-in-car-crash.html</guid>
+      <link>http://feeds.foxnews.com/~r/foxnews/politics/~3/L2pGSxUKuLE/katie-arrington-who-ousted-rep-mark-sanford-in-primary-seriously-injured-in-car-crash.html</link>
+                  <media:group>
+        <media:content url="http://media2.foxnews.com/BrightCove/694940094001/2018/06/19/694940094001_5799220831001_5799205201001-vs.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/06/19/60/60/694940094001_5799220831001_5799205201001-vs.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/06/19/60/60/694940094001_5799220831001_5799205201001-vs.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">794ef1b0-7d6b-41e8-a704-912ac4666743</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/politics/house-of-representatives/republicans</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS/HOUSE OF REPRESENTATIVES/Republicans</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Katie Arrington, who ousted Rep. Mark Sanford in primary, seriously injured in car crash</title>
+      <description>Katie Arrington, who ousted incumbent South Carolina Rep. Mark Sanford in a Republican congressional primary this month, was seriously injured in a car accident on Friday -- in a wreck that left one person dead.&lt;img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/L2pGSxUKuLE" height="1" width="1" alt=""/&gt;</description>
+                  <dc:creator>Adam Shaw</dc:creator>
+                         <pubDate>Sat, 23 Jun 2018 13:09:00 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">FoxNews.com</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Adam Shaw</category>
+                            <feedburner:origLink>http://www.foxnews.com/politics/2018/06/23/katie-arrington-who-ousted-rep-mark-sanford-in-primary-seriously-injured-in-car-crash.html</feedburner:origLink></item>
+        <item>
+                  <guid isPermaLink="false">http://www.foxnews.com/politics/2018/06/23/donald-trump-jr-stumps-for-montana-republican-looking-to-flip-us-senate-seat.html</guid>
+      <link>http://feeds.foxnews.com/~r/foxnews/politics/~3/482KSayKgJo/donald-trump-jr-stumps-for-montana-republican-looking-to-flip-us-senate-seat.html</link>
+                  <media:group>
+        <media:content url="http://www.foxnews.com/content/dam/fox-news/images/2018/06/23/ap18174119972951.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2018/06/23/60/60/ap18174119972951.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2018/06/23/60/60/ap18174119972951.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">69db33f0-22c1-425c-b55e-4d55015b4ac2</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/us/us-regions/west/montana</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics/elections/senate</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics/state-and-local</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/US/US REGIONS/West/Montana</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS/ELECTIONS/Senate</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS/STATE AND LOCAL</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Donald Trump Jr. stumps for Montana Republican looking to flip US Senate seat</title>
+      <description>Donald Trump Jr. headlined Montana's Republican Party convention on Friday, stumping for state auditor Matt Rosendale, a former state lawmaker now running for a U.S. Senate seat.&lt;img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/482KSayKgJo" height="1" width="1" alt=""/&gt;</description>
+                  <dc:creator>Amy Lieu</dc:creator>
+                         <pubDate>Sat, 23 Jun 2018 06:30:00 GMT</pubDate>
+                                    <category domain="foxnews.com/metadata/dc.creator">Amy Lieu</category>
+                            <feedburner:origLink>http://www.foxnews.com/politics/2018/06/23/donald-trump-jr-stumps-for-montana-republican-looking-to-flip-us-senate-seat.html</feedburner:origLink></item>
+        <item>
+                  <guid isPermaLink="false">http://www.foxnews.com/politics/2018/06/23/protesters-taunt-dhs-boss-kirstjen-nielsen-outside-her-home.html</guid>
+      <link>http://feeds.foxnews.com/~r/foxnews/politics/~3/K5AS2UP1q14/protesters-taunt-dhs-boss-kirstjen-nielsen-outside-her-home.html</link>
+                  <media:group>
+        <media:content url="http://media2.foxnews.com/BrightCove/694940094001/2018/06/22/694940094001_5800895502001_5800886582001-vs.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/06/22/60/60/694940094001_5800895502001_5800886582001-vs.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/06/22/60/60/694940094001_5800895502001_5800886582001-vs.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">5b78560e-704b-4c05-897c-a531e9fb5ee4</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/us/immigration</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/US/IMMIGRATION</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Protesters taunt DHS boss Kirstjen Nielsen outside her home</title>
+      <description>A cabal of protesters gathered outside Homeland Security Secretary Kirstjen Nielsen’s Virginia townhouse Friday morning, blasting audio of crying immigrant children and chanting “No justice, no sleep.”&lt;img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/K5AS2UP1q14" height="1" width="1" alt=""/&gt;</description>
+                  <dc:creator>Bradford Betz</dc:creator>
+                         <pubDate>Sat, 23 Jun 2018 05:15:00 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">FoxNews.com</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Bradford Betz</category>
+                            <feedburner:origLink>http://www.foxnews.com/politics/2018/06/23/protesters-taunt-dhs-boss-kirstjen-nielsen-outside-her-home.html</feedburner:origLink></item>
+        <item>
+                  <guid isPermaLink="false">http://www.foxnews.com/politics/2018/06/23/trumps-space-force-decree-followed-frustration-over-pentagons-rejection-plan.html</guid>
+      <link>http://feeds.foxnews.com/~r/foxnews/politics/~3/32ebzTcgoQk/trumps-space-force-decree-followed-frustration-over-pentagons-rejection-plan.html</link>
+                  <media:group>
+        <media:content url="http://media2.foxnews.com/BrightCove/694940094001/2018/06/20/694940094001_5799809607001_5799808052001-vs.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/06/20/60/60/694940094001_5799809607001_5799808052001-vs.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/06/20/60/60/694940094001_5799809607001_5799808052001-vs.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">bafa5631-4650-476f-b762-4b14eb7fbfef</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/us/military</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics/executive</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/US/MILITARY</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS/EXECUTIVE</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Trump's Space Force decree followed frustration over Pentagon's rejection of plan</title>
+      <description>President Donald Trump’s call this week for a separate U.S. “space force” was the culmination of months of frustration over what he felt was a lack of Pentagon action on his initial suggestions about the topic, according to people familiar with the decision.&lt;img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/32ebzTcgoQk" height="1" width="1" alt=""/&gt;</description>
+                  <dc:creator>Andy Pasztor, Gordon Lubold</dc:creator>
+                         <pubDate>Sat, 23 Jun 2018 04:30:00 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">The Wall Street Journal</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Andy Pasztor, Gordon Lubold</category>
+                            <feedburner:origLink>http://www.foxnews.com/politics/2018/06/23/trumps-space-force-decree-followed-frustration-over-pentagons-rejection-plan.html</feedburner:origLink></item>
+        <item>
+                  <guid isPermaLink="false">http://www.foxnews.com/politics/2018/06/22/title-ix-gender-discrimination-cases-get-faster-review-under-trump-data-show.html</guid>
+      <link>http://feeds.foxnews.com/~r/foxnews/politics/~3/B-Fabs_xiRQ/title-ix-gender-discrimination-cases-get-faster-review-under-trump-data-show.html</link>
+                  <media:group>
+        <media:content url="http://media2.foxnews.com/BrightCove/694940094001/2017/09/07/694940094001_5567693051001_5567681447001-vs.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2017/09/07/60/60/694940094001_5567693051001_5567681447001-vs.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2017/09/07/60/60/694940094001_5567693051001_5567681447001-vs.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">04fc47bf-a15a-4c15-84fd-4778cb778f47</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/politics</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Title IX gender-discrimination cases get faster review under Trump, data show</title>
+      <description>The Education Department under President Donald Trump has been closing Title IX gender-discrimination complaints against universities and colleges at a significantly faster clip than Obama officials, federal data show.&lt;img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/B-Fabs_xiRQ" height="1" width="1" alt=""/&gt;</description>
+                  <dc:creator>Michelle Hackman, Maya Sweedler</dc:creator>
+                         <pubDate>Sat, 23 Jun 2018 03:29:00 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">The Wall Street Journal</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Michelle Hackman, Maya Sweedler</category>
+                            <feedburner:origLink>http://www.foxnews.com/politics/2018/06/22/title-ix-gender-discrimination-cases-get-faster-review-under-trump-data-show.html</feedburner:origLink></item>
+        <item>
+                  <guid isPermaLink="false">http://www.foxnews.com/politics/2018/06/22/fbi-agent-peter-strzok-subpoenaed-to-testify-by-house-judiciary-committee.html</guid>
+      <link>http://feeds.foxnews.com/~r/foxnews/politics/~3/kwyVi2A8wUY/fbi-agent-peter-strzok-subpoenaed-to-testify-by-house-judiciary-committee.html</link>
+                  <media:group>
+        <media:content url="http://media2.foxnews.com/BrightCove/694940094001/2018/06/22/694940094001_5800678638001_5800680706001-vs.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/06/22/60/60/694940094001_5800678638001_5800680706001-vs.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/06/22/60/60/694940094001_5800678638001_5800680706001-vs.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">f40d1fa0-fd31-4192-bb13-eb5fdebc3b35</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/news-events/russia-investigation</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics/house-of-representatives/hearings</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS/HOUSE OF REPRESENTATIVES/Hearings</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>FBI agent Peter Strzok subpoenaed to testify by House Judiciary Committee</title>
+      <description>Peter Strzok, the FBI agent facing criticism following a series of anti-Trump text messages, was subpoenaed to appear before the House Judiciary Committee next week, Fox News confirmed Friday.&lt;img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/kwyVi2A8wUY" height="1" width="1" alt=""/&gt;</description>
+                  <dc:creator>Elizabeth Zwirz</dc:creator>
+                         <pubDate>Sat, 23 Jun 2018 01:30:00 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">FoxNews.com</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Elizabeth Zwirz</category>
+                            <feedburner:origLink>http://www.foxnews.com/politics/2018/06/22/fbi-agent-peter-strzok-subpoenaed-to-testify-by-house-judiciary-committee.html</feedburner:origLink></item>
+        <item>
+                  <guid isPermaLink="false">http://www.foxnews.com/politics/2018/06/22/white-house-donates-food-from-congressional-picnic-to-walter-reed-official-says.html</guid>
+      <link>http://feeds.foxnews.com/~r/foxnews/politics/~3/Hw15f9m4GRI/white-house-donates-food-from-congressional-picnic-to-walter-reed-official-says.html</link>
+                  <media:group>
+        <media:content url="http://media2.foxnews.com/BrightCove/694940094001/2018/06/21/694940094001_5800370604001_5800375970001-vs.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/06/21/60/60/694940094001_5800370604001_5800375970001-vs.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2018/06/21/60/60/694940094001_5800370604001_5800375970001-vs.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">93577995-fcb6-4f5d-9c14-c6811d682c34</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/politics</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics/executive/white-house</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics/executive/first-family</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS/EXECUTIVE/White House</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS/EXECUTIVE/First Family</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>White House donates food from congressional picnic to Walter Reed, official says</title>
+      <description>The White House donated some of the food readied for the recently-canceled White House congressional picnic, a rep for the first lady confirmed Friday.&lt;img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/Hw15f9m4GRI" height="1" width="1" alt=""/&gt;</description>
+                  <dc:creator>Elizabeth Zwirz</dc:creator>
+            <dc:creator>Serafin Gómez</dc:creator>
+                         <pubDate>Fri, 22 Jun 2018 23:00:00 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">FoxNews.com</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Elizabeth Zwirz</category>
+            <category domain="foxnews.com/metadata/dc.creator">Serafin Gómez</category>
+                            <feedburner:origLink>http://www.foxnews.com/politics/2018/06/22/white-house-donates-food-from-congressional-picnic-to-walter-reed-official-says.html</feedburner:origLink></item>
+        <item>
+                  <guid isPermaLink="false">http://www.foxnews.com/politics/2018/06/22/clinton-calls-putin-leader-xenophobic-movement-and-russian-meddling-threat-to-western-democracy.html</guid>
+      <link>http://feeds.foxnews.com/~r/foxnews/politics/~3/ChU4g0GZCq8/clinton-calls-putin-leader-xenophobic-movement-and-russian-meddling-threat-to-western-democracy.html</link>
+                  <media:group>
+        <media:content url="http://www.foxnews.com/content/dam/fox-news/images/2018/06/22/Putin%20Clinton%20Split.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2018/06/22/60/60/Putin%20Clinton%20Split.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2018/06/22/60/60/Putin%20Clinton%20Split.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">8f2275dd-19b8-41a0-b669-146e23a86d56</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/news-events/russia-investigation</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics/the-clintons</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>Clinton calls Putin leader of a 'xenophobic movement,'  and Russian meddling a threat to 'western democracy'</title>
+      <description>Hillary Clinton warned Friday that Russian interference in the 2016 election is a part of a “white- white-supremacist and xenophobic movement” headed by Vladimir Putin to undermine western democracy.&lt;img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/ChU4g0GZCq8" height="1" width="1" alt=""/&gt;</description>
+                  <dc:creator>Paulina Dedaj</dc:creator>
+                         <pubDate>Fri, 22 Jun 2018 22:49:00 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">FoxNews.com</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Paulina Dedaj</category>
+                            <feedburner:origLink>http://www.foxnews.com/politics/2018/06/22/clinton-calls-putin-leader-xenophobic-movement-and-russian-meddling-threat-to-western-democracy.html</feedburner:origLink></item>
+        <item>
+                  <guid isPermaLink="false">http://www.foxnews.com/politics/2018/06/22/msnbcs-joe-scarborough-slams-trump-and-supporters-as-openly-racist.html</guid>
+      <link>http://feeds.foxnews.com/~r/foxnews/politics/~3/SylOk6Jw4EQ/msnbcs-joe-scarborough-slams-trump-and-supporters-as-openly-racist.html</link>
+                  <media:group>
+        <media:content url="http://www.foxnews.com/content/dam/fox-news/images/2018/06/22/Joe%20Scarborough.jpg" medium="image" isDefault="true" />
+        <media:content url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2018/06/22/60/60/Joe%20Scarborough.jpg" medium="image" width="60" height="60" />
+      </media:group>
+      <media:thumbnail url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2018/06/22/60/60/Joe%20Scarborough.jpg" width="60" height="60" />
+            <category domain="foxnews.com/metadata/dc.identifier">9a2308df-add7-442f-9419-6f41dc3e3583</category>
+                  <category domain="foxnews.com/taxonomy">fox-news/us/immigration</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics</category>
+            <category domain="foxnews.com/taxonomy">fox-news/us/immigration/border-security</category>
+            <category domain="foxnews.com/taxonomy">fox-news/politics/executive/white-house</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/US/IMMIGRATION</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/US/IMMIGRATION/Border security</category>
+            <category domain="foxnews.com/taxonomy">/FOX NEWS/POLITICS/EXECUTIVE/White House</category>
+                        <category domain="foxnews.com/metadata/prism.channel">fnc</category>
+                        <category domain="foxnews.com/section-path">fnc/politics</category>
+                  <category domain="foxnews.com/content-type">article</category>
+      <title>MSNBC's Joe Scarborough slams Trump and supporters as 'openly racist'</title>
+      <description>MSNBC host Joe Scarborough took a shot at both President Trump and his supporters Friday.&lt;img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/SylOk6Jw4EQ" height="1" width="1" alt=""/&gt;</description>
+                  <dc:creator>Elizabeth Zwirz</dc:creator>
+                         <pubDate>Fri, 22 Jun 2018 22:17:00 GMT</pubDate>
+                        <category domain="foxnews.com/metadata/dc.source">FoxNews.com</category>
+                                    <category domain="foxnews.com/metadata/dc.creator">Elizabeth Zwirz</category>
+                            <feedburner:origLink>http://www.foxnews.com/politics/2018/06/22/msnbcs-joe-scarborough-slams-trump-and-supporters-as-openly-racist.html</feedburner:origLink></item>
+      </channel>
+</rss>

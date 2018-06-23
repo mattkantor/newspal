@@ -1,0 +1,25 @@
+---
+AdminUser_1:
+  id: 2
+  email: matthewkantor@gmail.com
+  encrypted_password: "$2a$11$HbU9M7FDx09T46jrqvf9Ku1aXaAklBno.FcpbUJJ5D/U7Zgv6V.v."
+  sign_in_count: 2
+  current_sign_in_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2018-05-29 15:34:31.894324000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  last_sign_in_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2018-05-18 12:07:56.447149000 Z
+    zone: *2
+    time: *3
+  current_sign_in_ip: 127.0.0.1
+  last_sign_in_ip: 127.0.0.1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2018-05-16 14:18:18.070480000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2018-05-29 15:34:31.895150000 Z
+    zone: *2
+    time: *5

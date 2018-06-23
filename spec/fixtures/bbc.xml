@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - Home]]></title>
+        <description><![CDATA[BBC News - Home]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Home</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 23 Jun 2018 15:42:29 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Brexit: Marchers demand final Brexit deal vote]]></title>
+            <description><![CDATA[Thousands of people march in London on the second anniversary of the UK's vote to leave the EU.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-44586638</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-44586638</guid>
+            <pubDate>Sat, 23 Jun 2018 14:37:40 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/E7C9/production/_102173395_0197b15e-704a-4169-8536-83a881ac4801.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Zimbabwe President Mnangagwa survives Bulawayo explosion]]></title>
+            <description><![CDATA[President Mnangagwa was leaving the stage in Bulawayo when the explosion hit but was not injured.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-44586218</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-44586218</guid>
+            <pubDate>Sat, 23 Jun 2018 15:17:14 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/7EB5/production/_102173423_mediaitem102173422.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Saudi Arabia's ban on women driving about to end]]></title>
+            <description><![CDATA[Women can drive from midnight local time (21:00 GMT) but there has been a crackdown on activists.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-44576795</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-44576795</guid>
+            <pubDate>Sat, 23 Jun 2018 11:13:33 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/17499/production/_102158359_mediaitem102158355.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Pantera drummer Vinnie Paul dies aged 54]]></title>
+            <description><![CDATA[Drummer's life was marked by tragedy when he saw his brother and bandmate killed on stage.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-44586238</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-44586238</guid>
+            <pubDate>Sat, 23 Jun 2018 10:23:39 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/13CDD/production/_102171118_paul_getty.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Crude oil pours into river from derailed train in US]]></title>
+            <description><![CDATA[Around 30 train cars came off the tracks, which are thought to have been weakened by recent flooding.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-44585882</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-44585882</guid>
+            <pubDate>Sat, 23 Jun 2018 13:17:36 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/74F1/production/_102173992_p06bx9g5.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Impressive Belgium put five past Tunisia]]></title>
+            <description><![CDATA[Premier League pair Romelu Lukaku and Eden Hazard both score twice as Belgium all but secure qualification with victory over Tunisia.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/44439152</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/44439152</guid>
+            <pubDate>Sat, 23 Jun 2018 15:02:13 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/5A07/production/_102174032_lukaku_rex2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Ethiopia: One dead and dozens hurt in grenade attack at pro-PM rally]]></title>
+            <description><![CDATA[Prime minister Abiy Ahmed was whisked away from the event attended by thousands in Addis Ababa.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-44586187</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-44586187</guid>
+            <pubDate>Sat, 23 Jun 2018 12:43:01 GMT</pubDate>
+            <media:thumbnail width="768" height="432" url="http://c.files.bbci.co.uk/7357/production/_102172592_mediaitem102172591.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA['This is what surviving Auschwitz taught me']]></title>
+            <description><![CDATA[Max Eisen arrived at the Nazi death camp aged 15 in 1944. Every year he returns to speak to people about his experience.]]></description>
+            <link>https://www.bbc.co.uk/news/world-44581271</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-44581271</guid>
+            <pubDate>Sat, 23 Jun 2018 06:29:49 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/170EE/production/_102164449_p06bvc7v.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Ireland win first Australia series in 39 years]]></title>
+            <description><![CDATA[Ireland cap their Grand Slam-winning season by clinching a first series victory in Australia for 39 years with a 20-16 win in Sydney.]]></description>
+            <link>https://www.bbc.co.uk/sport/rugby-union/44558938</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/rugby-union/44558938</guid>
+            <pubDate>Sat, 23 Jun 2018 12:05:02 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/F25F/production/_102174026_gettyimages-981957074.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Two-thirds of drivers 'unaware of mobile penalties']]></title>
+            <description><![CDATA[Only 36% of British motorists can correctly state the punishment, a RAC poll suggests.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-44584261</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-44584261</guid>
+            <pubDate>Sat, 23 Jun 2018 13:14:52 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/8F85/production/_99014763_phone_driving_pa.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Jose Enrique brain tumour: Ex-Liverpool & Newcastle defender recovering from surgery]]></title>
+            <description><![CDATA[Former Liverpool and Newcastle defender Jose Enrique is recovering from surgery to remove a brain tumour.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/44585769</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/44585769</guid>
+            <pubDate>Sat, 23 Jun 2018 09:56:16 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/840F/production/_102170833_enrique_getty.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Urgent appeal after Bournemouth food bank trashed]]></title>
+            <description><![CDATA[Burglars made off with a month's worth of food and other goods meant for families in need.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-dorset-44586993</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-dorset-44586993</guid>
+            <pubDate>Sat, 23 Jun 2018 12:57:05 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/D315/production/_102173045_foodbank4.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA['Don't swim with wild dolphins' warning after Cardigan Bay picture]]></title>
+            <description><![CDATA[A woman swims with wild dolphins prompting calls for the public to keep their distance.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-wales-mid-wales-44538778</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-wales-mid-wales-44538778</guid>
+            <pubDate>Sat, 23 Jun 2018 07:11:51 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/091E/production/_102143320_dolphin1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Who is Tommy Robinson and why is he in jail?]]></title>
+            <description><![CDATA[Tommy Robinson's 13-month prison sentence sparked #freetommy protests. We explain why he was arrested.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-44577573</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-44577573</guid>
+            <pubDate>Sat, 23 Jun 2018 00:57:15 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/12652/production/_102164357_p06btcww.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[ICYMI: Solstice and a strangling snake]]></title>
+            <description><![CDATA[Some of the stories you may have missed this week.]]></description>
+            <link>https://www.bbc.co.uk/news/world-44576950</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-44576950</guid>
+            <pubDate>Sat, 23 Jun 2018 12:46:54 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/9A0D/production/_102173493_p06bx8f1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Lost wedding ring found as Marine Lake drained]]></title>
+            <description><![CDATA[A pair of young boys spotted the ring in mud in Marine Lake during cleaning work at the site.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-somerset-44586662</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-somerset-44586662</guid>
+            <pubDate>Sat, 23 Jun 2018 12:24:20 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/129CD/production/_102173267_5b93af21-2195-40f9-a0b7-865800be7d62.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Game of Thrones stars marry in Scotland]]></title>
+            <description><![CDATA[Kit Harington and Rose Leslie - Jon Snow and Ygritte - exchange vows in the north east of Scotland on Saturday.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-scotland-north-east-orkney-shetland-44575014</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-scotland-north-east-orkney-shetland-44575014</guid>
+            <pubDate>Sat, 23 Jun 2018 14:41:33 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/7FA3/production/_102157623_haringtonleslie_gettyimages.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Abandoned seal pup rescued from Cambridgeshire river bank]]></title>
+            <description><![CDATA[The pup, only weeks old, had been abandoned and would have certainly died, rescuers say.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-cambridgeshire-44574679</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-cambridgeshire-44574679</guid>
+            <pubDate>Sat, 23 Jun 2018 09:36:01 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/A393/production/_102157814_seal_face.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Apology for Kingsbridge phone box nightclub damage]]></title>
+            <description><![CDATA[Police are sent a letter with £40 cash to cover damage done to the glitter ball by drunk visitors.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-devon-44586802</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-devon-44586802</guid>
+            <pubDate>Sat, 23 Jun 2018 10:11:12 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/171C6/production/_102126649_6f3e419f-5442-421d-a967-4994d80ea0a8.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Lost cat reunited with owner after 10 years]]></title>
+            <description><![CDATA[Harry disappeared from his home in Ipswich in 2008 but turned up at the Blue Cross last month.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-gloucestershire-44574129</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-gloucestershire-44574129</guid>
+            <pubDate>Sat, 23 Jun 2018 14:38:06 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/5375/production/_102156312_mediaitem102156311.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Migrant father describes moment his daughter was taken away]]></title>
+            <description><![CDATA[The BBC speaks to a detained migrant who has not spoken to his daughter since they were separated.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-44568408</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-44568408</guid>
+            <pubDate>Fri, 22 Jun 2018 22:01:21 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/7279/production/_102150392_p06bw20z.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[North Korean propaganda changes its tune]]></title>
+            <description><![CDATA[Pyongyang's propaganda changes from blasting the US as enemy to a much more conciliatory note.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-44557818</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-44557818</guid>
+            <pubDate>Fri, 22 Jun 2018 23:09:50 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/1202D/production/_102137737_posternk20180531-02-1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[100 Women: 'You are truly free while freediving']]></title>
+            <description><![CDATA[Egypt's record-breaking female freedivers explain their passion for the extreme sport.]]></description>
+            <link>https://www.bbc.co.uk/news/world-44537158</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-44537158</guid>
+            <pubDate>Fri, 22 Jun 2018 23:07:55 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/0669/production/_102114610_p06bjzlc.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Week in pictures: 16 - 22 June 2018]]></title>
+            <description><![CDATA[A selection of the best news photographs from around the world, taken over the past week.]]></description>
+            <link>https://www.bbc.co.uk/news/in-pictures-44575819</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-44575819</guid>
+            <pubDate>Fri, 22 Jun 2018 23:11:17 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/119A/production/_102160540_gettyimages-975937714.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Kashmiri art bringing Hindus and Muslims together]]></title>
+            <description><![CDATA[A rare exhibition prompted those who had fled their homes to return for the first time since they left.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-44572277</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-44572277</guid>
+            <pubDate>Fri, 22 Jun 2018 23:14:07 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/10865/production/_102158676_strugglingsmile2x2feetprintoncanvas.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Son surprises mum with sacrificed car after 12 years]]></title>
+            <description><![CDATA[A mum who sacrificed her car 12 years ago to help her struggling son gets a surprise replacement.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-cornwall-44567346</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-cornwall-44567346</guid>
+            <pubDate>Fri, 22 Jun 2018 12:02:13 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/14B27/production/_102157748_p06bqqtb.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[BBC News Channel]]></title>
+            <description><![CDATA[BBC coverage of latest developments]]></description>
+            <link>https://www.bbc.co.uk/news/10318089</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/10318089</guid>
+            <pubDate>Wed, 06 Jun 2018 16:05:19 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://news.bbcimg.co.uk/media/images/83122000/png/_83122356_globe_2048x1152.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Why many mums are better than one]]></title>
+            <description><![CDATA[They say you can't choose your family - but why not? Sometimes an extra mother figure is just what you need, says Sue Elliott-Nicholls.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-44497146</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-44497146</guid>
+            <pubDate>Sat, 23 Jun 2018 00:39:01 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/11C78/production/_102042827_976xwendycolour.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Teens on 9-1 GCSEs: 'Everyone's worried about grade boundaries']]></title>
+            <description><![CDATA[How have teenagers coped with taking the new 9-1 GCSE exams this summer?]]></description>
+            <link>https://www.bbc.co.uk/news/education-44560729</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/education-44560729</guid>
+            <pubDate>Sat, 23 Jun 2018 00:23:48 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/DBBE/production/_102145265_mediaitem102145151.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Meet Game of Thrones' woman of weapons]]></title>
+            <description><![CDATA[The show's only female armourer is in charge of swords, flaming arrows and giant catapults.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-44238236</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-44238236</guid>
+            <pubDate>Sat, 23 Jun 2018 00:26:41 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/496B/production/_102159781_n_lee_getty_thrones.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Park on the drive, and other tips for cheaper insurance]]></title>
+            <description><![CDATA[BBC News readers offer their, sometimes unexpected, suggestions for keeping premiums down.]]></description>
+            <link>https://www.bbc.co.uk/news/business-44483073</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-44483073</guid>
+            <pubDate>Fri, 22 Jun 2018 20:43:56 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/5ED9/production/_99718242_gettyimages-456512005.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Turkey's elections explained in 100 and 500 words]]></title>
+            <description><![CDATA[Turkey's elections will decide if President Erdogan will stay in power. Here's what you need to know.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-44562011</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-44562011</guid>
+            <pubDate>Fri, 22 Jun 2018 15:10:38 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/E942/production/_102141795_hi047599099.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Rockwell Kent, the Gaeltacht, Cold War and Annie McGinley]]></title>
+            <description><![CDATA[Curious about a picture in Donegal, BBC NI's Kevin Magee searched for lost Irish paintings of a controversial US artist.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-northern-ireland-44534911</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-northern-ireland-44534911</guid>
+            <pubDate>Sat, 23 Jun 2018 05:45:31 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/44C7/production/_102170671_kevinkent3.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[England women lose to South Africa by six wickets in T20 thriller]]></title>
+            <description><![CDATA[South Africa earn their first victory of the women's Twenty20 tri-series with a dramatic six-wicket win over England at Taunton.]]></description>
+            <link>https://www.bbc.co.uk/sport/cricket/44589156</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/44589156</guid>
+            <pubDate>Sat, 23 Jun 2018 15:36:49 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/183AF/production/_102174299_lizellelee1_getty.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Lewis Hamilton on pole position for French Grand Prix]]></title>
+            <description><![CDATA[Lewis Hamilton wins a battle with Mercedes team-mate Valtteri Bottas for pole position at the first French Grand Prix for 10 years.]]></description>
+            <link>https://www.bbc.co.uk/sport/formula1/44587424</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/formula1/44587424</guid>
+            <pubDate>Sat, 23 Jun 2018 15:10:26 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/5EC1/production/_102175242_ham_pole_reuters.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup 2018: South Korea v Mexico- rate the players]]></title>
+            <description><![CDATA[Give your player ratings out of 10 for South Korea and Mexico in the World Cup group match.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/44551754</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/44551754</guid>
+            <pubDate>Sat, 23 Jun 2018 15:37:57 GMT</pubDate>
+            <media:thumbnail width="1600" height="900" url="http://c.files.bbci.co.uk/4E88/production/_102040102_playerrater_wc.png"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup 2018: Watch Michy Batshuayi's incredible miss for Belgium v Tunisia]]></title>
+            <description><![CDATA[Belgium's Michy Batshuayi misses a glorious chance against Tunisia - hitting the crossbar from inside the six-yard box.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/44588037</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/44588037</guid>
+            <pubDate>Sat, 23 Jun 2018 14:06:36 GMT</pubDate>
+            <media:thumbnail width="1024" height="575" url="http://c.files.bbci.co.uk/4747/production/_102174281_p06bxc6v.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Noah Lyles runs fastest 100m of year in 9.88secs]]></title>
+            <description><![CDATA[American Noah Lyles runs the fastest 100m of the year to win the US national title in Iowa.]]></description>
+            <link>https://www.bbc.co.uk/sport/athletics/44585826</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/athletics/44585826</guid>
+            <pubDate>Sat, 23 Jun 2018 07:43:32 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/15E6B/production/_102170798_noahlylesindex_getty.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA['Double eagle' celebration provokes Serbs]]></title>
+            <description><![CDATA[Both Switzerland's goals in the victory over Serbia were scored by ethnic Kosovan Albanians.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-44586587</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-44586587</guid>
+            <pubDate>Sat, 23 Jun 2018 10:02:42 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/D74D/production/_102171155_mediaitem102171151.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The 'film star' defender leading Panama against England]]></title>
+            <description><![CDATA[How Roman Torres achieved film-star status after his goal took Panama to the World Cup - and why Harry Kane holds no fears for him.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/43292551</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/43292551</guid>
+            <pubDate>Sat, 23 Jun 2018 08:09:01 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/B035/production/_100390154_torres-index.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup 2018: England's Dele Alli likely to miss Panama match]]></title>
+            <description><![CDATA[Dele Alli returns to training but remains likely to miss England's second World Cup group game against Panama on Sunday.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/44439183</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/44439183</guid>
+            <pubDate>Sat, 23 Jun 2018 07:53:12 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/BB2C/production/_102161974_ali2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mapping England's World Cup squad: Northern players dominate the 23]]></title>
+            <description><![CDATA[Mapping England's World Cup squad - the northern dominance of Gareth Southgate's 23 players.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-44495550</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-44495550</guid>
+            <pubDate>Fri, 22 Jun 2018 23:16:05 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/1833E/production/_102043199_gettyimages-975319436.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup 2018: Ahmed Musa exquisite touch and finish puts Nigeria ahead]]></title>
+            <description><![CDATA[Ahmed Musa's exquisite touch and finish puts Nigeria 1-0 up against Iceland in their group D tie at the 2018 World Cup.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/44583101</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/44583101</guid>
+            <pubDate>Fri, 22 Jun 2018 16:28:08 GMT</pubDate>
+            <media:thumbnail width="1520" height="855" url="http://c.files.bbci.co.uk/120EE/production/_102166937_musa_reuters.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Shaqiri scores in 90th minute for Switzerland]]></title>
+            <description><![CDATA[Switzerland take a huge step towards the last 16 of the World Cup as Xherdan Shaqiri scores a 90th-minute winner against Serbia.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/44439145</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/44439145</guid>
+            <pubDate>Sat, 23 Jun 2018 10:35:03 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/11234/production/_102169107_hi047653100.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup: England boss Gareth Southgate says media must choose whether to help]]></title>
+            <description><![CDATA[The media must decide if they want to "help the team or not", says England boss Gareth Southgate, after pictures of training notes are published online.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/44576148</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/44576148</guid>
+            <pubDate>Fri, 22 Jun 2018 17:21:17 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/24C8/production/_102161490_afp_holland.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup 2018: Philippe Coutinho & Neymar late goals hand Brazil win]]></title>
+            <description><![CDATA[Philippe Coutinho and Neymar bail Brazil out with stoppage-time strikes against Costa Rica following another uninspiring display at the 2018 World Cup.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/44439131</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/44439131</guid>
+            <pubDate>Fri, 22 Jun 2018 16:39:13 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/174C2/production/_102162459_neymar_getty2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup: Binocular booze smuggling gets Colombian sacked]]></title>
+            <description><![CDATA[Colombian airline Avianca fires a man for smuggling alcohol in binoculars into a World Cup match.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-44561419</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-44561419</guid>
+            <pubDate>Fri, 22 Jun 2018 01:44:29 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/676A/production/_102147462_colombia1.png"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup 2018: Your England team to face Panama]]></title>
+            <description><![CDATA[Who should start for England in Sunday's World Cup match against Panama? Pick your XI and see the most popular team so far.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/44565595</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/44565595</guid>
+            <pubDate>Sat, 23 Jun 2018 09:22:03 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/365D/production/_102171931_marcusrashfordraheemsterlinggetty.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Selfie mistakes: Sorry, but that is not a celebrity]]></title>
+            <description><![CDATA[A Labour MP is thrilled to have his photo taken with Clean Bandit but he'd unfortunately posed with the wrong people.]]></description>
+            <link>https://www.bbc.co.uk/news/newsbeat-44520613</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-44520613</guid>
+            <pubDate>Mon, 18 Jun 2018 10:09:09 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/15201/production/_102092568_cb976.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[World Cup: Japan fans impress by cleaning up stadium]]></title>
+            <description><![CDATA[They've done it again - Japan fans amuse and impress by cleaning up after their team's opening match at the World Cup.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-44492611</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-44492611</guid>
+            <pubDate>Wed, 20 Jun 2018 08:35:41 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/78B6/production/_102120903_cbffbc82-f74e-4710-84db-a8337ec45dc1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[What makes people deeply dippy for dinosaurs?]]></title>
+            <description><![CDATA[Dippy the diplodocus is proving a huge draw on its UK-wide tour. Why are some people so fascinated with dinosaurs?]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-birmingham-44168810</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-birmingham-44168810</guid>
+            <pubDate>Thu, 21 Jun 2018 00:43:48 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/CD59/production/_101796525_gettyimages-182873046.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Mark Beaumont beats 127-year-old Penny Farthing record]]></title>
+            <description><![CDATA[Cyclist Mark Beaumont breaks the British record for distance ridden on a Penny Farthing in one hour.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-44503724</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-44503724</guid>
+            <pubDate>Fri, 15 Jun 2018 19:46:17 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/2DC5/production/_102071711_p06b79h2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Manchester's 125 bee swarm sculptures' art trail]]></title>
+            <description><![CDATA[Children and teenagers have made the colourful insects to go with 100 super-size bees.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-manchester-44506321</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-manchester-44506321</guid>
+            <pubDate>Sat, 16 Jun 2018 10:22:42 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/704B/production/_102074782_p06b8d8b.jpg"/>
+        </item>
+    </channel>
+</rss>

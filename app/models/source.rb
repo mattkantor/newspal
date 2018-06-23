@@ -41,7 +41,7 @@ class Source < ApplicationRecord
 
 
   def news_getter
-    begin
+    #begin
 
       rss_results = []
       Feedjira::Feed.add_common_feed_element 'image'
@@ -52,9 +52,16 @@ class Source < ApplicationRecord
 
       entries = feed.entries
 
+
+
+
       entries.each do |result|
-        i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:(result.published||=DateTime.now), url:result.url, body: result.summary)
-        i.save
+        title = result.title ||""
+        summary = result.summary||""
+        if title.length + summary.length > 50
+          i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:(result.published||=DateTime.now), url:result.url, body: result.summary)
+          i.save
+        end
       end
       if feed.respond_to? :title
         title = feed.title ||""
@@ -66,7 +73,13 @@ class Source < ApplicationRecord
       end
 
       if feed.respond_to? :image
-        image_url = feed.image.url || feed.image || ""
+        if feed.image.class.name=="String"
+          image_url = feed.image
+        elsif feed.image.respond_to? :url
+          image_url=feed.image.url
+        else
+          image_url=""
+        end
         if !image_url.blank? and self.logo_url.blank?
           self.update_attribute("rss_url", image_url)
         end
@@ -76,11 +89,11 @@ class Source < ApplicationRecord
 
 
 
-    rescue => exception
+    #rescue => exception
       #Raven.capture_exception(exception)
 
-    ensure
-    end
+    #ensure
+    #end
 
   end
 
