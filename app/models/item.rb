@@ -20,7 +20,7 @@ class Item < ApplicationRecord
       ProcessNewsWorker.perform_async(self.id)
     end
 
-    
+
     def get_ner
         sentence = self.title
         pyscript_path = Rails.root.join('python/main.py')
@@ -40,7 +40,7 @@ class Item < ApplicationRecord
     end
 
     def self.update_ner_raw
-      Item.where("items.entities_count=? and created_at > ?" ,0, (Time.now.to_date - 5)).order('created_at desc').limit(2000).all.each{|i| i.get_ner}
+      Item.where("items.entities_count=? and created_at > ?" ,0, (Time.now.to_date - 5)).order('created_at desc').limit(100).all.each{|i| i.get_ner}
     end
 
     def sentiment_anal

@@ -10,7 +10,7 @@ set :sentry_api, "https://app.getsentry.com"
 set :sentry_org, "propellerhead-zk"
 set :sentry_project, "newsy"
 set :sentry_api_key, "0895c9ac5360465aa513a47e1bcbe5bed81a3c7bc83a43c3af7d9e4b55670484"
-
+set :test_log, "logs/capistrano.test.log"
 set :application, "objectivity"
 
 set :repo_url, "http://github.com/mattkantor/newspal.git"
@@ -20,7 +20,7 @@ set :bundle_flags, '--deployment --quiet'
 #set ssh_options[:keys]="~/.ssh/id_rsa"
 
 set :ssh_options, {:forward_agent => true}
-
+before 'deploy:check_specs'
 after 'deploy:publishing', 'deploy:restart'
 # after 'deploy:published', 'sentry:notify_deployment'
 # after 'deploy:starting', 'sidekiq:quiet'
@@ -61,8 +61,26 @@ namespace :sidekiq do
   end
 end
 
+namespace :deploy do
 
+  desc "Make sure all specs pass"
+  task :check_specs do
+    begin
+      puts "Updating dependencies..."
+      run "cd #{release_path} && bundle install"
+      puts "Generating test database..."
+      run "cd #{release_path} && rake db:setup RAILS_ENV=test"
+      puts "Checking specs..."
+      system("cd #{release_path} && bundle exec rspec .") or raise "One or more specs are failing. Come back when they all pass."
+      @failed = false
+    rescue Exception => e
+      puts e
+      @failed = true
+    end
+    abort if @failed
+  end
 
+end
 namespace :deploy do
   task :restart do
     #invoke 'unicorn:restart'
