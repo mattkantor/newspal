@@ -9,4 +9,18 @@ RSpec.describe NewsController, type: :controller do
     end
   end
 
+  describe "GET #follow" do
+    it "adds a follow topic and redirects" do
+      refer = 'http://localhost:3000/?'
+      @request.headers['HTTP_REFERER'] = refer
+
+      get :follow, params: {topic:"Tom"}
+
+      expect(session[:follows]).to eq(["Tom"])
+      expect(response).to redirect_to(refer)
+    end
+  end
+
+
+
 end
