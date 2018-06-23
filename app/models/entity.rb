@@ -24,7 +24,7 @@ class Entity < ApplicationRecord
 
 
     ents = ents.collect{|c|c.name}
-    
+
     ents.uniq
   end
 

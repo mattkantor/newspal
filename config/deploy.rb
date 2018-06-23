@@ -20,7 +20,7 @@ set :bundle_flags, '--deployment --quiet'
 #set ssh_options[:keys]="~/.ssh/id_rsa"
 
 set :ssh_options, {:forward_agent => true}
-before 'deploy:check_specs'
+#before 'deploy:check_specs'
 after 'deploy:publishing', 'deploy:restart'
 # after 'deploy:published', 'sentry:notify_deployment'
 # after 'deploy:starting', 'sidekiq:quiet'

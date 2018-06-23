@@ -5,4 +5,9 @@ FactoryBot.define do
     leans -1
 
   end
+  # factory :source do
+  #   name "MSNBC"
+  #   rss_url "http://rss.msnbc.msn.com/id/3032091/device/rss/rss.xml"
+  #   leans -2
+  # end
 end

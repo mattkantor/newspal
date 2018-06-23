@@ -2,7 +2,7 @@ class Item < ApplicationRecord
     validates_uniqueness_of :title, :scope=>:source_id
 
     belongs_to :source
-    has_many :entities, dependent: :destroy, counter_cache:true
+    has_many :entities, dependent: :destroy
 
     def find_topics
 
@@ -11,6 +11,9 @@ class Item < ApplicationRecord
     before_save :sentiment_anal, :clean_body
     after_save :update_ner
 
+    def self.clean_old(days=30)
+        Item.where("created_at < ?", Time.now.to_date - days).destroy_all
+    end
 
     def clean_body
       self.body = ApplicationController.helpers.sanitize(self.body, :tags=>[])
