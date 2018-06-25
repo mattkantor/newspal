@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'home'=>'home#index'
   get 'api' => "api#index"
   get 'how'=>'news#how'
+  get 'contact'=>'home#contact'
 
 
   get 'follow' => 'news#follow'

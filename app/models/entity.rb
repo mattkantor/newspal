@@ -18,6 +18,10 @@ class Entity < ApplicationRecord
     name
   end
 
+  def self.get_daily_entities(date=Time.now.to_date - 1) #yesterday
+    Entity.select("*").where("date(item_date)=?", date).where("pos=?", "PERSON").all#.group("name").all
+  end
+
   def self.top(count=10, days_back=5)
 
       ents = Entity.select("name,count(*)").joins(:item).where("items.published > ?", DateTime.now-days_back).where("((pos=? or pos=? or pos=?) and name ~ ?) ", "PERSON","ORG","GPE"," ").group("entities.name").order("count desc").limit(count).all

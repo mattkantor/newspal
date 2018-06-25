@@ -10,6 +10,8 @@ RSpec.describe "News", type: :request do
     end
   end
 
+
+
   describe "GET /follow?topic=Tom" do
     it "Should add Tom to the session cookie and return" do
 
