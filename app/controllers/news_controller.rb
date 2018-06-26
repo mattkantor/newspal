@@ -10,7 +10,7 @@ class NewsController < ApplicationController
   end
 
   def get_top_keywords
-    @top_ents = (Entity.top(20) - @following)[0..9]
+    @top_ents = (Entity.top_strings(20,10) - @following)[0..9]
   end
   def refresh
     Source.get_all_news

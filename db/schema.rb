@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180623185112) do
+ActiveRecord::Schema.define(version: 20180626175549) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -81,6 +81,15 @@ ActiveRecord::Schema.define(version: 20180623185112) do
     t.index ["visit_token"], name: "index_ahoy_visits_on_visit_token", unique: true
   end
 
+  create_table "categories", force: :cascade do |t|
+    t.string "name"
+    t.text "alias_tags", default: [], array: true
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "cat_type"
+    t.integer "status", default: 0
+  end
+
   create_table "entities", force: :cascade do |t|
     t.string "name"
     t.string "pos"
@@ -88,13 +97,6 @@ ActiveRecord::Schema.define(version: 20180623185112) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.datetime "item_date"
-  end
-
-  create_table "item_categories", force: :cascade do |t|
-    t.string "name"
-    t.integer "item_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "items", force: :cascade do |t|
@@ -108,6 +110,15 @@ ActiveRecord::Schema.define(version: 20180623185112) do
     t.text "url"
     t.float "sentiment"
     t.integer "entities_count", default: 0
+  end
+
+  create_table "items_categories", force: :cascade do |t|
+    t.integer "item_id"
+    t.integer "category_id"
+    t.integer "count"
+    t.date "run_date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "sources", force: :cascade do |t|

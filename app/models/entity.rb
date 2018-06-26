@@ -22,14 +22,16 @@ class Entity < ApplicationRecord
     Entity.select("*").where("date(item_date)=?", date).where("pos=?", "PERSON").all#.group("name").all
   end
 
-  def self.top(count=10, days_back=5)
 
-      ents = Entity.select("name,count(*)").joins(:item).where("items.published > ?", DateTime.now-days_back).where("((pos=? or pos=? or pos=?) and name ~ ?) ", "PERSON","ORG","GPE"," ").group("entities.name").order("count desc").limit(count).all
-
-
-    ents = ents.collect{|c|c.name}
-
+  def self.top_strings(count,days_back)
+    tops = self.top(count, days_back)
+    ents = tops.collect{|c|c.name}
     ents.uniq
+  end
+
+  def self.top(count=10, days_back=5)
+      return Entity.select("name,pos,count(*)").joins(:item).where("items.published > ?", DateTime.now-days_back).where("((pos=? or pos=? or pos=?) and name ~ ?) ", "PERSON","ORG","GPE"," ").group("entities.name, entities.pos").order("count desc").limit(count).all
+      #return Entity.select("name,count(*)").joins(:item).where("items.published > ?", DateTime.now-days_back).where("((pos=? or pos=? or pos=?) and name ~ ?) ", "PERSON","ORG","GPE"," ").group("entities.name").order("count desc").limit(count).all
   end
 
 

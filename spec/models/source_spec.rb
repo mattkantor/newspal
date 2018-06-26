@@ -4,6 +4,8 @@ require 'rails_helper'
 describe Source  do
   fixtures :sources
     before :each do
+      Item.destroy_all
+      
       stub_request(:any, "http://rss.cnn.com/rss/cnn_topstories.rss").
       to_return(body: File.new(Rails.root.join('spec','fixtures', 'cnnrss.xml')), status: 200)
       stub_request(:any, "http://www.msnbc.com/feeds/latest").
