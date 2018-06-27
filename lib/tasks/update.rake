@@ -8,6 +8,10 @@ task :clean_update =>:environment do
   Source.clear_and_get
 end
 
+task :compute_categories_for_all_time =>:environment do
+  Category.compute_all_daily_trends
+end
+
 task :compute_daily_trends do
   items_per_day = Item.where("published > ? and published < ?",(DateTime.now).midnight,(DateTime.now+1).midnight)
   ents_per_day = []
@@ -24,7 +28,7 @@ desc "create categories"
 task create_categories: :environment do
   Category.build_from_entities
   puts "There are currently #{Category.count} categories total"
-  Category.compute_daily_trends 
+  Category.compute_daily_trends
 end
 
 

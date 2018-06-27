@@ -17,20 +17,35 @@ class Category < ApplicationRecord
     end
   end
 
-  def self.compute_daily_trends
-    the_date = Item.first.published.to_date
+  def self.compute_all_daily_trends
+    return if Item.count ==0
+    the_date = Item.order("id asc").first.published.to_date
+    end_date = Time.now.to_date-1
+
+
     loop do
-      Category.open.each do |cat|
-        Item.where("date(published)=?", the_date).where("lower(title) like ? or lower(body) like ?", cat.name, cat.name)
-        #todo - alias
-      end
+      puts the_date
+
+      break if the_date > end_date
       the_date = the_date + 1
-    break if the_date > Time.now_to_date - 1
-
-
+      Category.compute_daily_trends(the_date)
 
 
     end
+  end
+
+  def self.compute_daily_trends(the_date=Time.now.to_date-1)
+
+
+      Category.open.each do |cat|
+        items_count = Item.where("date(published)=?", the_date).where("? ~ lower(title) like or ? ~ lower(body)", cat.name, cat.name).count
+        #todo - alias
+        puts "#{cat.name} has #{items_count} for #{the_date}"
+        ItemsCategory.create( category_id:cat.id, count:items_count, run_date:the_date) if items_count > 0
+
+      end
+
+
   end
 
 end
