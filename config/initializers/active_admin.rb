@@ -1,10 +1,19 @@
 ActiveAdmin.setup do |config|
+
+  config.namespace :admin do |admin|
+    admin.build_menu :utility_navigation do |menu|
+      menu.add label: "Visit Site", url: "/",
+                                          html_options: { target: :blank }
+      admin.add_current_user_to_menu  menu
+      admin.add_logout_button_to_menu menu
+    end
+  end
   # == Site Title
   #
   # Set the title that is displayed on the main layout
   # for each of the active admin pages.
   #
-  config.site_title = "Objectivity"
+  config.site_title = "Small Story Labs"
 
   # Set the link url for the title. For example, to take
   # users to your main site. Defaults to no link.
@@ -282,7 +291,7 @@ ActiveAdmin.setup do |config|
   # By default, the footer shows the current Active Admin version. You can
   # override the content of the footer here.
   #
-  # config.footer = 'my custom footer text'
+  config.footer = '&copy; 2018 Small Story Labs'
 
   # == Sorting
   #

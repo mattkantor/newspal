@@ -21,3 +21,8 @@ How to run this thing
 
 * Deployment instructions
 cap production deploy
+
+Next:
+- create categories from entities, one time only.
+- add aliases to item_categories
+- create script tp build items_categories every day from the 2 days before 

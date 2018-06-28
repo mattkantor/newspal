@@ -41,6 +41,7 @@ gem 'devise'
 gem 'activeadmin'
 gem "sidekiq"
 gem "pg"
+gem 'rails_or'
 
 gem "unicorn"
 

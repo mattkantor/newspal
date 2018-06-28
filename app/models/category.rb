@@ -4,7 +4,7 @@ class Category < ApplicationRecord
 
   enum status: [:open, :flagged]
 
-  def cat_types
+  def self.cat_types
     ["PERSON", "ORG"]
   end
 
@@ -36,12 +36,26 @@ class Category < ApplicationRecord
 
   def self.compute_daily_trends(the_date=Time.now.to_date-1)
 
-
       Category.open.each do |cat|
-        items_count = Item.where("date(published)=?", the_date).where("? ~ lower(title) like or ? ~ lower(body)", cat.name, cat.name).count
-        #todo - alias
-        puts "#{cat.name} has #{items_count} for #{the_date}"
-        ItemsCategory.create( category_id:cat.id, count:items_count, run_date:the_date) if items_count > 0
+        qry = []
+        things = [cat.name] + cat.alias_tags
+
+        things.each do |aliaz|
+          qry <<  "(lower(title) ~ '#{ aliaz.downcase}' or lower(body) ~ '#{ aliaz.downcase}')" if !aliaz.blank?
+
+        end
+        compound = qry.join(" OR ")
+        items_qry = Item.where("date(published)=? and (#{compound})", the_date)
+
+        items = items_qry.all
+
+        items_count = items.count
+        
+        if items_count > 0
+          items_sent = (items.reduce(0) {|sum,i| sum + i.sentiment})/items_count
+          puts "#{cat.name} has #{items_count} for #{the_date}"
+          ItemsCategory.find_or_initialize_by(category_id:cat.id,run_date:the_date).update_attributes!(count:items_count,  avg_sent:items_sent)
+        end
 
       end
 

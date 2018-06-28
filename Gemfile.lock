@@ -248,6 +248,8 @@ GEM
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
     rails_layout (1.0.42)
+    rails_or (1.1.8)
+      activerecord (>= 3)
     railties (5.1.6)
       actionpack (= 5.1.6)
       activesupport (= 5.1.6)
@@ -403,6 +405,7 @@ DEPENDENCIES
   rack (~> 2.0.5)
   rails (~> 5.1.5)
   rails_layout
+  rails_or
   rspec-rails
   sass-rails (~> 5.0)
   selenium-webdriver

@@ -12,7 +12,18 @@ index do
   column :alias_tags do |d|
     d.alias_tags.join(", ")
   end
+
   actions
+end
+
+form do |f|
+   f.inputs 'Details' do
+     f.input :name
+     f.input :cat_type, label: "Category Type", as: :select, :collection =>Category.cat_types
+
+
+      
+  end
 end
 #
 # or

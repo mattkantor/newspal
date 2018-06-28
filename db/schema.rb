@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180626175549) do
+ActiveRecord::Schema.define(version: 20180628133453) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -119,6 +119,7 @@ ActiveRecord::Schema.define(version: 20180626175549) do
     t.date "run_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.float "avg_sent"
   end
 
   create_table "sources", force: :cascade do |t|
