@@ -17,8 +17,21 @@ task :compute_daily_trends=>:environment do
 
 end
 
+task do_all_the_things: :environment do
+  Source.get_all_news
+  Item.update_ner_raw
+  Category.build_from_entities
+  puts "There are currently #{Category.count} categories total"
+  Category.compute_all_daily_trends
+end
+
 desc "create categories"
 task create_categories: :environment do
+
+
+
+
+
   Category.build_from_entities
   puts "There are currently #{Category.count} categories total"
   Category.compute_daily_trends

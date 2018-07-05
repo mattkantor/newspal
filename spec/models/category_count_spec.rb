@@ -1,5 +1,5 @@
 require 'rails_helper'
 
-describe ItemsCategory, type: :model do
+describe CategoryCount, type: :model do
   pending "add some examples to (or delete) #{__FILE__}"
 end

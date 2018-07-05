@@ -8,7 +8,6 @@ describe Category, type: :model do
   end
 
 
-
   describe "Should create some categories from Entities"
   it "should add a category" do
     cats_count = Category.count
@@ -17,8 +16,10 @@ describe Category, type: :model do
   end
 
   it "should create some stats for multiple days" do
-
-      expect(1).to eq(0)
+      FactoryBot.create(:category)
+      start_count = CategoryCount.all.count
+      Category.compute_daily_trends(DateTime.new( 2018, 06, 23 ) )
+      expect(start_count).not_to eq(CategoryCount.count)
   end
   it "should not create cats from single word people names" do
 

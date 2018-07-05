@@ -1,6 +1,6 @@
 class Item < ApplicationRecord
     validates_uniqueness_of :title, :scope=>:source_id
-    has_many :item_categories
+    
     belongs_to :source
     has_many :entities, dependent: :destroy
 

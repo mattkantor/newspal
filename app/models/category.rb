@@ -1,5 +1,5 @@
 class Category < ApplicationRecord
-  has_many :items_categories
+  has_many :category_counts
   validates_uniqueness_of :name
 
   enum status: [:open, :flagged]
@@ -15,6 +15,34 @@ class Category < ApplicationRecord
       Category.create(name:t.name, cat_type:t.pos)
       #make sure the term isn't coined in an alias too
     end
+  end
+
+  def self.merge(name, ids_to_merge)
+    new_cat = Category.where(name:name).first_or_create
+    to_delete = []
+
+    batch_action_collection.find(ids).each do |cat|
+      new_alias_tags = new_cat.alias_tags << cat.name
+      new_cat.alias_tags = new_alias_tags.uniq
+      if new_cat.save?(validate:false)
+        cat.update_attributes({status:1})
+        #merge all the related tables
+        counts_to_merge = cat.items_categories
+        counts_to_merge.each do |count_obj|
+          #get the target object and increment, otherwise create
+          target_obj = CategoryCount.where(name:name, date:count_obj.date).first_or_create
+          target_obj.count = target_onj.count + count_obj.count
+          #need to re-calculate sentiment
+          if target_obj.save?(validate:false)
+            to_delete << count_obj
+          end
+        end
+
+
+      end
+      to_delete.destroy_all
+  end
+
   end
 
   def self.compute_all_daily_trends
@@ -50,11 +78,11 @@ class Category < ApplicationRecord
         items = items_qry.all
 
         items_count = items.count
-        
+
         if items_count > 0
           items_sent = (items.reduce(0) {|sum,i| sum + i.sentiment})/items_count
           puts "#{cat.name} has #{items_count} for #{the_date}"
-          ItemsCategory.find_or_initialize_by(category_id:cat.id,run_date:the_date).update_attributes!(count:items_count,  avg_sent:items_sent)
+          CategoryCount.find_or_initialize_by(category_id:cat.id,run_date:the_date).update_attributes!(count:items_count,  avg_sent:items_sent)
         end
 
       end
