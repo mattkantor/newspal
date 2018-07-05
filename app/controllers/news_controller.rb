@@ -11,7 +11,7 @@ class NewsController < ApplicationController
 
   end
 
-  
+
 
   def get_top_keywords
     @top_ents = (Entity.top_strings(20,10) - @following)[0..9]
@@ -64,10 +64,10 @@ class NewsController < ApplicationController
     layout = params[:layout] || session[:layout] || "list"
     session[:layout] = layout
     @items = Item
-    @filter = (params[:filter]||"").downcase
+    @filter = (params[:filter]||"")
     @lean = params[:l]||"A"
     @channel = params[:channel]
-    ahoy.track "home", {channel: @channel, lean:@lean, filter: @filter, layout:@layout}
+    ahoy.track "home", {channel: @channel, lean:@lean, filter: @filter.downcase, layout:@layout}
 
     if @channel and @channel!=""
       @source = Source.find(@channel.to_i)
@@ -91,7 +91,7 @@ class NewsController < ApplicationController
 
 
     if @filter and @filter!=""
-      @items = @items.where("lower(title) like ? or lower(body) like ?","%#{@filter}%","%#{@filter}%")
+      @items = @items.where("lower(title) like ? or lower(body) like ?","%#{@filter.downcase}%","%#{@filter.downcase}%")
       @page_title = "Search Results for '#{@filter}'"
       @add_follow = @filter
     end

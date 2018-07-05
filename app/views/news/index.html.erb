@@ -22,6 +22,30 @@
     </div>
     </div>
 
+    <%if @filter!="" %>
+
+<div id="grp"></div>
+
+  <script type="text/javascript">
+    var url = "/api/stats?name=<%=@filter.gsub(" ", "+")%>";
+
+    $.get(url, function(data){
+      var svg = dimple.newSvg("#grp", 800, 300);
+      console.log(data);
+      // var data = [
+      //   { "Word":"Hello", "Awesomeness":2000 },
+      //   { "Word":"World", "Awesomeness":3000 }
+      // ];
+      var chart = new dimple.chart(svg, data);
+      chart.addCategoryAxis("x", "run_date");
+      chart.addMeasureAxis("y", "count");
+      chart.addSeries(null, dimple.plot.bar);
+      chart.draw();
+    });
+  </script>
+
+
+    <%end%>
 
     <br>
 
