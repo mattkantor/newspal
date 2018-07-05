@@ -67,18 +67,13 @@ class Category < ApplicationRecord
       Category.open.each do |cat|
         qry = []
         things = [cat.name] + cat.alias_tags
-
         things.each do |aliaz|
           qry <<  "(lower(title) ~ '#{ aliaz.downcase}' or lower(body) ~ '#{ aliaz.downcase}')" if !aliaz.blank?
-
         end
         compound = qry.join(" OR ")
         items_qry = Item.where("date(published)=? and (#{compound})", the_date)
-
         items = items_qry.all
-
         items_count = items.count
-
         if items_count > 0
           items_sent = (items.reduce(0) {|sum,i| sum + i.sentiment})/items_count
           puts "#{cat.name} has #{items_count} for #{the_date}"

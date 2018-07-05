@@ -4,8 +4,16 @@ Rails.application.routes.draw do
   get 'news'=> 'news#index'
   get 'sources'=> 'news#sources'
   get 'refresh'=> 'news#refresh'
+
+
   get 'home'=>'home#index'
   get 'api' => "api#index"
+
+
+  get 'api/stats'=> 'api#stats'
+  get 'api/top_ten'=> 'api#top_ten'
+
+
   get 'how'=>'news#how'
   get 'contact'=>'home#contact'
 

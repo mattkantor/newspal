@@ -2,12 +2,16 @@ class NewsController < ApplicationController
 
   before_action :set_defaults
   before_action :get_top_keywords
+  include Response
+
 
   def set_defaults
     @page_title = "Scoopy News"
     @following = session[:follows]||[]
 
   end
+
+  
 
   def get_top_keywords
     @top_ents = (Entity.top_strings(20,10) - @following)[0..9]

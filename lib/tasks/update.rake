@@ -28,10 +28,6 @@ end
 desc "create categories"
 task create_categories: :environment do
 
-
-
-
-
   Category.build_from_entities
   puts "There are currently #{Category.count} categories total"
   Category.compute_daily_trends
