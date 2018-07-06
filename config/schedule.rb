@@ -18,9 +18,10 @@ every 10.minutes do
   runner "Item.update_ner_raw"
 end
 
-every 1.day do
+every 1.day at:['4:30 am'] do
 
   runner "Category.compute_daily_trends"
+
 end
 
 
