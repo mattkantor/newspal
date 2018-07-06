@@ -2,7 +2,7 @@
 
 <section class="content">
   <div class="container-fluid">
-    <div class="row">
+    <!--div class="row">
       <div class="col-sm-6">
       <i class="fa fa-filter"></i>
       <a href="/news?l=-4&filter=<%=@filter%>" class="btn btn-sm btn-primary">Very Left</a>
@@ -20,7 +20,7 @@
       <a href="/news?layout=list" class="btn btn-sm btn-default pull-right"><i class="fa fa-list"></i></a>
       <a href="/refresh" class="btn btn-sm btn-default pull-right"><i class="fa fa-refresh"></i></a>
     </div>
-    </div>
+  </div-->
 
     <%if @filter!="" %>
 
@@ -30,17 +30,22 @@
     var url = "/api/stats?name=<%=@filter.gsub(" ", "+")%>";
 
     $.get(url, function(data){
-      var svg = dimple.newSvg("#grp", 800, 300);
-      console.log(data);
+      var svg = dimple.newSvg("#grp", "100%", "100%");
+
       // var data = [
       //   { "Word":"Hello", "Awesomeness":2000 },
       //   { "Word":"World", "Awesomeness":3000 }
       // ];
-      var chart = new dimple.chart(svg, data);
-      chart.addCategoryAxis("x", "run_date");
-      chart.addMeasureAxis("y", "count");
-      chart.addSeries(null, dimple.plot.bar);
-      chart.draw();
+      if(data.length>0){
+        var chart = new dimple.chart(svg, data);
+
+        chart.addCategoryAxis("x", "run_date");
+        chart.addMeasureAxis("y", "count");
+        chart.addSeries(null, dimple.plot.bar);
+        chart.draw();
+      }else{
+        $("#grp").html("<h5>No data for <%=@filter%></h5>");
+      }
     });
   </script>
 

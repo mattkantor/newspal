@@ -14,8 +14,13 @@ class NewsController < ApplicationController
 
 
   def get_top_keywords
+    @top_ents = (Category.top_strings(20,10) - @following)[0..9]
+  end
+
+  def get_top_keywords_old
     @top_ents = (Entity.top_strings(20,10) - @following)[0..9]
   end
+
   def refresh
     Source.get_all_news
     ahoy.track "refresh"

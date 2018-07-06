@@ -17,6 +17,16 @@ class Category < ApplicationRecord
     end
   end
 
+  def self.top_strings(count,days_back)
+    tops = self.top(count, days_back)
+    ents = tops.collect{|c|c.name}
+    ents.uniq
+  end
+
+  def self.top(count=10, days_back=3)
+      CategoryCount.select("categories.*, *").joins(:category).where("categories.status!=1").where("run_date > ?", DateTime.now-days_back).order("count desc").limit(count).all
+  end
+
   def self.merge(name, ids_to_merge)
     new_cat = Category.where(name:name).first_or_create
     to_delete = []

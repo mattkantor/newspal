@@ -84,8 +84,6 @@ ActiveRecord::Schema.define(version: 20180628133453) do
   create_table "categories", force: :cascade do |t|
     t.string "name"
     t.text "alias_tags", default: [], array: true
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.string "cat_type"
     t.integer "status", default: 0
   end

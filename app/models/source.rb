@@ -60,7 +60,15 @@ class Source < ApplicationRecord
         title = result.title ||""
         summary = result.summary||""
         if title.length + summary.length > 50
-          i = Item.new(source_id: self.id,title:result.title, image_url:result.image, published:(result.published||=DateTime.now), url:result.url, body: result.summary)
+          if result.instance_of?(Feedjira::Parser::RSSFeedBurnerEntry) or result.instance_of?(Feedjira::Parser::ITunesRSSItem)
+            
+            image = ""
+          else
+
+            image = result.image
+          end
+          i = Item.new(source_id: self.id,title:result.title, image_url:image, published:(result.published||=DateTime.now), url:result.url, body: result.summary)
+
           i.save
         end
       end
