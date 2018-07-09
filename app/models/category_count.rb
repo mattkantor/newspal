@@ -2,7 +2,7 @@ class CategoryCount < ApplicationRecord
   self.table_name="items_categories"
   belongs_to :category
 
-  def self.get_counts(cat, days_back=90)
+  def self.get_counts(cat, days_back=30)
     out = []
     count_hash_array = cat.category_counts.order("run_date asc").all.collect do
       |f| {run_date:f.run_date, count:f.count, avg_sent:f.avg_sent}
