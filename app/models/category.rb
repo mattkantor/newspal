@@ -31,7 +31,7 @@ class Category < ApplicationRecord
     new_cat = Category.where(name:name).first_or_create
     to_delete = []
 
-    Category.find(ids).each do |cat|
+    Category.find(ids_to_merge).each do |cat|
       new_alias_tags = new_cat.alias_tags << cat.name
       new_cat.alias_tags = new_alias_tags.uniq
       if new_cat.save(validate:false)
@@ -42,8 +42,6 @@ class Category < ApplicationRecord
           #get the target object and increment, otherwise create
           target_obj = CategoryCount.where(category_id:cat.id, run_date:count_obj.run_date).first_or_create
           target_obj.count = target_obj.count + count_obj.count
-
-
 
           #need to re-calculate sentiment
           if target_obj.save(validate:false)
@@ -91,7 +89,7 @@ class Category < ApplicationRecord
       CategoryCount.find_or_initialize_by(category_id:self.id,run_date:the_date).update_attributes!(count:items_count,  avg_sent:items_sent)
     else
       cat_count = CategoryCount.where(category_id:self.id).where(run_date:the_date).first
-      
+
     end
   end
 

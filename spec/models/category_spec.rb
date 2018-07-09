@@ -9,6 +9,8 @@ describe Category, type: :model do
 
   describe "Merge categories"
   it "shouls be able to merge 2 categories and stats without making a mess" do
+    active_categories = Category.where("status=?", 0).count
+
     merge_name="Donald Trump"
     old_name = "Trump "
     cat = Category.where(name:old_name).first
@@ -18,8 +20,8 @@ describe Category, type: :model do
     merged_cat = Category.where(name:old_name).first
     expect(merged_cat.status).to eq("flagged")
     expect(dest_cat.alias_tags).to eq(["Trump "])
-
-
+    new_active_categories = Category.where("status=?", 0).count
+    expect(active_categories -1).to eq(new_active_categories)
   end
 
   describe "Should create some categories from Entities"
@@ -34,7 +36,7 @@ describe Category, type: :model do
       FactoryBot.create(:category)
       start_count = CategoryCount.all.count
       Category.compute_daily_trends(DateTime.new( 2018, 06, 23 ) )
-      expect(start_count).not_to eq(CategoryCount.count)
+      expect(CategoryCount.count).to eq(29)
   end
 
   it "should not create duplicate categories" do
@@ -44,10 +46,10 @@ describe Category, type: :model do
     expect(start_count).to eq(CategoryCount.count)
   end
 
-  it "should not create cats from single word people names" do
+  pending "should not create cats from single word people names" do
       expect(1).to eq(0)
   end
-  it "handle alias terms for computing numbers" do
+  pending "handle alias terms for computing numbers" do
       expect(1).to eq(0)
   end
 
