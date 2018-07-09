@@ -13,11 +13,11 @@ class NewsController < ApplicationController
 
 
 
-  def get_top_keywords_new
+  def get_top_keywords
     @top_ents = (Category.top_strings(20,10) - @following)[0..9]
   end
 
-  def get_top_keywords
+  def get_top_keywords_old
     @top_ents = (Entity.top_strings(20,10) - @following)[0..9]
   end
 
