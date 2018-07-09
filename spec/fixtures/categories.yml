@@ -30,7 +30,7 @@ Category_5:
   id: 56
   name: 'Trump '
   alias_tags: []
-  cat_type: ORG
+  cat_type: PERSON
   status: open
 Category_6:
   id: 57

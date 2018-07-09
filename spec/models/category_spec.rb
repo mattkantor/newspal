@@ -2,10 +2,7 @@ require 'rails_helper'
 
 describe Category, type: :model do
   fixtures :sources, :items, :entities, :categories, :category_counts
-  before do
 
-
-  end
 
   describe "Merge categories"
   it "shouls be able to merge 2 categories and stats without making a mess" do
@@ -14,6 +11,7 @@ describe Category, type: :model do
     merge_name="Donald Trump"
     old_name = "Trump "
     cat = Category.where(name:old_name).first
+    cc = CategoryCount.where("category_id=?", 55).where("run_date=?", "2018-07-05").first
 
     Category.merge(merge_name, [cat.id])
     dest_cat = Category.where(name:merge_name).first
@@ -22,6 +20,19 @@ describe Category, type: :model do
     expect(dest_cat.alias_tags).to eq(["Trump "])
     new_active_categories = Category.where("status=?", 0).count
     expect(active_categories -1).to eq(new_active_categories)
+    cc_new = CategoryCount.where("category_id=?", 55).where("run_date=?", "2018-07-05").first
+    expect(cc_new.count).not_to eq(cc.count)
+  end
+
+  it "should create new totals and avg sentiment when merging 2 categories" do
+
+    #date based beforre
+
+    #date-based after
+
+
+
+
   end
 
   describe "Should create some categories from Entities"
@@ -36,7 +47,7 @@ describe Category, type: :model do
       FactoryBot.create(:category)
       start_count = CategoryCount.all.count
       Category.compute_daily_trends(DateTime.new( 2018, 06, 23 ) )
-      expect(CategoryCount.count).to eq(29)
+      expect(CategoryCount.count).to eq(55)
   end
 
   it "should not create duplicate categories" do

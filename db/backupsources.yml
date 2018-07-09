@@ -1,0 +1,226 @@
+---
+Source_1:
+  id: 1
+  name: CNN Top Stories
+  rss_url: http://rss.cnn.com/rss/cnn_topstories.rss
+  logo_url: http://i2.cdn.turner.com/cnn/2015/images/09/24/cnn.digital.png
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2018-05-11 16:52:50.061320000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2018-05-11 16:52:50.061320000 Z
+    zone: *2
+    time: *3
+  leans: -2
+Source_2:
+  id: 2
+  name: The Hill
+  rss_url: http://thehill.com/rss/syndicator/19109
+  logo_url: http://thehill.com/sites/all/themes/thehill/images/redesign/thehill-logo-big.png
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2018-05-11 16:52:50.065350000 Z
+    zone: *2
+    time: *4
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2018-05-11 16:52:50.065350000 Z
+    zone: *2
+    time: *5
+  leans: 0
+Source_3:
+  id: 3
+  name: Reuters Top News
+  rss_url: http://feeds.reuters.com/reuters/topNews
+  logo_url: http://www.reuters.com/resources_v2/images/reuters125.png
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &6 2018-05-11 16:52:50.068324000 Z
+    zone: *2
+    time: *6
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &7 2018-05-11 16:52:50.068324000 Z
+    zone: *2
+    time: *7
+  leans: 0
+Source_4:
+  id: 4
+  name: Politico - Politics
+  rss_url: https://www.politico.com/rss/politics08.xml
+  logo_url: https://pmcvariety.files.wordpress.com/2016/05/politico-logo.jpg?w=913&h=513&crop=1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &8 2018-05-11 16:52:50.071315000 Z
+    zone: *2
+    time: *8
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &9 2018-06-23 16:06:54.598220000 Z
+    zone: *2
+    time: *9
+  leans: -2
+Source_5:
+  id: 5
+  name: MSNBC - Top Headlines
+  rss_url: http://www.msnbc.com/feeds/latest
+  logo_url: https://www.seeklogo.net/wp-content/uploads/2015/08/msnbc-logo-vector-download.jpg
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &10 2018-05-11 16:52:50.083750000 Z
+    zone: *2
+    time: *10
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &11 2018-06-23 16:03:39.023615000 Z
+    zone: *2
+    time: *11
+  leans: -3
+Source_6:
+  id: 6
+  name: CNBC - Top News
+  rss_url: https://www.cnbc.com/id/100003114/device/rss/rss.html
+  logo_url: https://upload.wikimedia.org/wikipedia/commons/e/e3/CNBC_logo.svg
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &12 2018-05-11 16:52:50.086892000 Z
+    zone: *2
+    time: *12
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &13 2018-05-11 16:52:50.086892000 Z
+    zone: *2
+    time: *13
+  leans: 1
+Source_7:
+  id: 7
+  name: Fox News Politics
+  rss_url: http://feeds.foxnews.com/foxnews/politics
+  logo_url: https://pmcvariety.files.wordpress.com/2013/12/fox-news-logo.jpg?w=1000&h=563&crop=1
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &14 2018-05-11 16:52:50.089996000 Z
+    zone: *2
+    time: *14
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &15 2018-05-11 16:52:50.089996000 Z
+    zone: *2
+    time: *15
+  leans: 3
+Source_8:
+  id: 8
+  name: Breitbart News
+  rss_url: http://feeds.feedburner.com/breitbart
+  logo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Breitbart_News.svg/524px-Breitbart_News.svg.png
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &16 2018-05-11 16:52:50.093195000 Z
+    zone: *2
+    time: *16
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &17 2018-05-11 16:52:50.093195000 Z
+    zone: *2
+    time: *17
+  leans: 5
+Source_9:
+  id: 9
+  name: BBC News
+  rss_url: http://feeds.bbci.co.uk/news/rss.xml#
+  logo_url: http://newsimg.bbc.co.uk/shared/bsp/xsl/rss/img/news_logo.gif
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &18 2018-05-11 16:52:50.096545000 Z
+    zone: *2
+    time: *18
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &19 2018-05-11 16:52:50.096545000 Z
+    zone: *2
+    time: *19
+  leans: -1
+Source_10:
+  id: 10
+  name: Guardian World News
+  rss_url: https://www.theguardian.com/world/rss
+  logo_url: https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &20 2018-05-11 16:52:50.099831000 Z
+    zone: *2
+    time: *20
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &21 2018-05-11 16:52:50.099831000 Z
+    zone: *2
+    time: *21
+  leans: -2
+Source_11:
+  id: 11
+  name: McClatchyDC
+  rss_url: http://www.mcclatchydc.com/news/?widgetName=rssfeed&widgetContentId=712015&getXmlFeed=true
+  logo_url: ''
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &22 2018-05-11 16:52:50.103077000 Z
+    zone: *2
+    time: *22
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &23 2018-05-11 16:52:50.103077000 Z
+    zone: *2
+    time: *23
+  leans: 0
+Source_12:
+  id: 12
+  name: Al Jazeera
+  rss_url: https://www.aljazeera.com/xml/rss/all.xml
+  logo_url: https://www.aljazeera.com/mritems/assets/images/AljazeeraLogo-sticky.png
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &24 2018-05-14 13:27:45.193936000 Z
+    zone: *2
+    time: *24
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &25 2018-05-14 13:27:45.193936000 Z
+    zone: *2
+    time: *25
+  leans: -1
+Source_13:
+  id: 13
+  name: Washington Post Politics
+  rss_url: http://feeds.washingtonpost.com/rss/politics
+  logo_url: https://pbs.twimg.com/profile_images/875440182501277696/n-Ic9nBO_200x200.jpg
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &26 2018-05-14 19:24:13.041936000 Z
+    zone: *2
+    time: *26
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &27 2018-05-14 19:24:13.041936000 Z
+    zone: *2
+    time: *27
+  leans: -1
+Source_14:
+  id: 14
+  name: CBC Top Stories
+  rss_url: http://rss.cbc.ca/lineup/topstories.xml
+  logo_url: https://vignette.wikia.nocookie.net/logopedia/images/b/b7/Cbc-logo.png/revision/latest/scale-to-width-down/480?cb=20110304223128
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &28 2018-05-30 13:38:43.711673000 Z
+    zone: *2
+    time: *28
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &29 2018-05-30 13:38:43.711673000 Z
+    zone: *2
+    time: *29
+  leans: 0
+Source_15:
+  id: 15
+  name: NPR
+  rss_url: https://www.npr.org/rss/rss.php
+  logo_url: https://media.npr.org/images/podcasts/primary/npr_generic_image_300.jpg?s=200
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &30 2018-05-30 13:40:16.935208000 Z
+    zone: *2
+    time: *30
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &31 2018-05-30 13:40:16.935208000 Z
+    zone: *2
+    time: *31
+  leans: -1
+Source_16:
+  id: 16
+  name: New York Times World
+  rss_url: https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png
+  logo_url: https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &32 2018-06-23 07:48:49.160593000 Z
+    zone: *2
+    time: *32
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &33 2018-06-23 07:50:03.610075000 Z
+    zone: *2
+    time: *33
+  leans: 0

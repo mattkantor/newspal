@@ -29,47 +29,31 @@ class Category < ApplicationRecord
 
   def self.merge(name, ids_to_merge)
     new_cat = Category.where(name:name).first_or_create
-    to_delete = []
-
     Category.find(ids_to_merge).each do |cat|
       new_alias_tags = new_cat.alias_tags << cat.name
       new_cat.alias_tags = new_alias_tags.uniq
       if new_cat.save(validate:false)
         cat.update_attributes({status:1})
-        #merge all the related tables
-        counts_to_merge = cat.category_counts
-        counts_to_merge.each do |count_obj|
-          #get the target object and increment, otherwise create
-          target_obj = CategoryCount.where(category_id:cat.id, run_date:count_obj.run_date).first_or_create
-          target_obj.count = target_obj.count + count_obj.count
-
-          #need to re-calculate sentiment
-          if target_obj.save(validate:false)
-            to_delete << count_obj
-          end
-        end
-
-
+        new_cat.build_all_sums
       end
-      to_delete.delete(true)
-  end
-
+    end
   end
 
   def self.compute_all_daily_trends
     return if Item.count ==0
     the_date = Item.order("id asc").first.published.to_date
     end_date = Time.now.to_date-1
-
-
     loop do
-      puts the_date
-
       break if the_date > end_date
       the_date = the_date + 1
       Category.compute_daily_trends(the_date)
+    end
+  end
 
-
+  def build_all_sums
+    1.upto(90) do |i|
+      target_date = Time.now.to_date - i
+      build_sums(target_date)
     end
   end
 
@@ -79,7 +63,9 @@ class Category < ApplicationRecord
     things.each do |aliaz|
       qry <<  "(lower(title) ~ '#{ aliaz.downcase}' or lower(body) ~ '#{ aliaz.downcase}')" if !aliaz.blank?
     end
+
     compound = qry.join(" OR ")
+    puts compound
     items_qry = Item.where("date(published)=? and (#{compound})", the_date)
     items = items_qry.all
     items_count = items.count
