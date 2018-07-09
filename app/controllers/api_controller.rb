@@ -19,10 +19,11 @@ class ApiController < ActionController::API
     unless cat_name.blank?
       cat = Category.where(name:cat_name).first
       unless cat.nil?
-        counts = cat.category_counts.order("run_date asc").all
+        counts = CategoryCount.get_counts(cat)
       end
 
     end
+    #todo back 90 days
 
     return json_response(counts)
   end
