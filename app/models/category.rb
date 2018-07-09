@@ -91,6 +91,7 @@ class Category < ApplicationRecord
       CategoryCount.find_or_initialize_by(category_id:self.id,run_date:the_date).update_attributes!(count:items_count,  avg_sent:items_sent)
     else
       cat_count = CategoryCount.where(category_id:self.id).where(run_date:the_date).first
+      
     end
   end
 

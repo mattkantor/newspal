@@ -1,0 +1,305 @@
+---
+Category_1:
+  id: 52
+  name: Supreme Court
+  alias_tags:
+  - the Supreme Court
+  - Trump Supreme Court
+  - The Supreme Court
+  cat_type: ORG
+  status: open
+Category_2:
+  id: 53
+  name: North Korea
+  alias_tags: []
+  cat_type: GPE
+  status: open
+Category_3:
+  id: 54
+  name: White House
+  alias_tags: []
+  cat_type: ORG
+  status: open
+Category_4:
+  id: 55
+  name: Donald Trump
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_5:
+  id: 56
+  name: 'Trump '
+  alias_tags: []
+  cat_type: ORG
+  status: open
+Category_6:
+  id: 57
+  name: Maxine Waters
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_7:
+  id: 58
+  name: Michael Cohen
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_8:
+  id: 59
+  name: Capital Gazette
+  alias_tags: []
+  cat_type: ORG
+  status: open
+Category_9:
+  id: 60
+  name: Fox News
+  alias_tags: []
+  cat_type: ORG
+  status: open
+Category_10:
+  id: 61
+  name: Trump administration
+  alias_tags: []
+  cat_type: ORG
+  status: open
+Category_11:
+  id: 62
+  name: New Zealand
+  alias_tags: []
+  cat_type: GPE
+  status: open
+Category_12:
+  id: 63
+  name: Sarah Sanders
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_13:
+  id: 64
+  name: Saudi Arabia
+  alias_tags: []
+  cat_type: GPE
+  status: open
+Category_14:
+  id: 65
+  name: Anthony Kennedy
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_15:
+  id: 66
+  name: the Supreme Court
+  alias_tags: []
+  cat_type: ORG
+  status: flagged
+Category_16:
+  id: 67
+  name: South Korea
+  alias_tags: []
+  cat_type: GPE
+  status: open
+Category_17:
+  id: 68
+  name: New York
+  alias_tags: []
+  cat_type: GPE
+  status: open
+Category_18:
+  id: 69
+  name: South Carolina
+  alias_tags: []
+  cat_type: GPE
+  status: open
+Category_19:
+  id: 70
+  name: Paul Ryan
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_20:
+  id: 71
+  name: Prince William
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_21:
+  id: 72
+  name: Scott Pruitt
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_22:
+  id: 73
+  name: Lopez Obrador
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_23:
+  id: 74
+  name: South Africa
+  alias_tags: []
+  cat_type: GPE
+  status: open
+Category_24:
+  id: 75
+  name: Trump Supreme Court
+  alias_tags: []
+  cat_type: ORG
+  status: flagged
+Category_25:
+  id: 76
+  name: Kim Jong Un
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_26:
+  id: 77
+  name: Andy Murray
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_27:
+  id: 78
+  name: Jacinda Ardern
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_28:
+  id: 79
+  name: Lewis Hamilton
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_29:
+  id: 80
+  name: Elon Musk
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_30:
+  id: 81
+  name: Bill Shine
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_31:
+  id: 82
+  name: Deutsche Bank
+  alias_tags: []
+  cat_type: ORG
+  status: open
+Category_32:
+  id: 83
+  name: Trump on
+  alias_tags: []
+  cat_type: ORG
+  status: open
+Category_33:
+  id: 84
+  name: Goldman Sachs
+  alias_tags: []
+  cat_type: ORG
+  status: open
+Category_34:
+  id: 85
+  name: Charles Krauthammer
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_35:
+  id: 86
+  name: Joe Crowley
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_36:
+  id: 87
+  name: Harvey Weinstein
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_37:
+  id: 88
+  name: LeBron James
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_38:
+  id: 89
+  name: The Supreme Court
+  alias_tags: []
+  cat_type: ORG
+  status: flagged
+Category_39:
+  id: 90
+  name: Jeff Sessions
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_40:
+  id: 91
+  name: Jack Johnson
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_41:
+  id: 92
+  name: John Bolton
+  alias_tags: []
+  cat_type: PERSON
+  status: flagged
+Category_42:
+  id: 93
+  name: Red Hen
+  alias_tags: []
+  cat_type: ORG
+  status: open
+Category_43:
+  id: 94
+  name: Michael Avenatti
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_44:
+  id: 95
+  name: Hong Kong
+  alias_tags: []
+  cat_type: GPE
+  status: open
+Category_45:
+  id: 96
+  name: Anderson Cooper
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_46:
+  id: 97
+  name: UN Human Rights Council
+  alias_tags: []
+  cat_type: ORG
+  status: open
+Category_47:
+  id: 98
+  name: the Democratic Party
+  alias_tags: []
+  cat_type: ORG
+  status: open
+Category_48:
+  id: 99
+  name: Jim Jordan
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_49:
+  id: 100
+  name: Bruce McArthur
+  alias_tags: []
+  cat_type: PERSON
+  status: open
+Category_50:
+  id: 101
+  name: Roger Federer
+  alias_tags:
+  - John Bolton
+  cat_type: PERSON
+  status: open

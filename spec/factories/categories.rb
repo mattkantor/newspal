@@ -1,7 +1,10 @@
 FactoryBot.define do
   factory :category do
-    name "Donald Trump"
+    name "Trumpy Soup"
     alias_tags "[]"
     status 0
   end
+
+
+
 end

@@ -63,6 +63,7 @@ group :development, :test do
   gem "factory_bot_rails"
   gem 'webmock'
   gem 'db_fixtures_dump'
+  gem 'guard-rspec', require: false
 end
 
 group :test do
