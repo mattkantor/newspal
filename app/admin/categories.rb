@@ -8,7 +8,7 @@ batch_action  :merge_into, form: { merge_to: :text } do |ids, inputs|
     if inputs[:merge_to]!=""
       Category.merge(inputs[:merge_to], ids)
     end
-  
+
   redirect_to collection_path, alert: "The categories have been merged."
 end
 
@@ -19,6 +19,8 @@ batch_action  :flag do |ids|
   redirect_to collection_path, alert: "The categories have been flagged."
 end
 
+scope :open
+scope :flagged
 
 index do
   selectable_column
@@ -35,9 +37,9 @@ end
 form do |f|
    f.inputs 'Details' do
      f.input :name
-     f.input :status, label: "Status", as: :select, :collection =>Category.statuses
+     f.input :status, label: "Status", as: :select, :collection =>Category.statuses.keys
      f.input :cat_type, label: "Category Type", as: :select, :collection =>Category.cat_types
-
+     f.submit
 
 
 
