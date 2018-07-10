@@ -19,6 +19,8 @@
              with font-awesome or any other icon font library -->
 
         <%=nav_item("News","/","newspaper-o", @nav=="news")%>
+        <%=nav_item("Topics","/topics","address-card-o", @nav=="topics")%>
+
         <%=nav_item("Sources","/sources","folder", @nav=="sources")%>
         <%if @following.count > 0 %>
         <li class="nav-header">Following </li>

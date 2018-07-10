@@ -21,6 +21,8 @@ Rails.application.routes.draw do
   get 'follow' => 'news#follow'
   get 'unfollow' => 'news#unfollow'
 
+  get 'topics' => 'categories#index'
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 

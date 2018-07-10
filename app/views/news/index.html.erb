@@ -82,18 +82,28 @@
     <table class="table table-hover table-bordered table-condensed">
       <% @items.each do |item|%>
         <tr><td width="80%">
+          <% unless item.image_url.blank? %>
+        <%=image_tag item.image_url, style:"width:100px;padding-left:10px;float:right;height:auto" %>
+          <%end %>
            <%=link_to(item.title, item.url, {target:"_blank", class:" news-item-link", id:"news-#{item.id.to_s}"})%>
 
+
+
            <div class="visible-lg"><span class="small"><Strong><%=item.published.strftime("%a %m-%d-%Y") %></strong><br> <%=sanitize(item.body, :tags=>[])%></span></div>
-             <%if item.entities.where("pos=?", "PERSON").count > 0 %>
+             <%if item.entities.count > 0 %>
           <p>Follow :
-              <% item.entities.where("pos=?", "PERSON").all.each do |e|%>
+              <% item.entities.all.each do |e|%>
 
                 <A  href="/follow?topic=<%=e.name%>"><span class="badge badge-info"><%=e.name%></span></a>
               <%end  %>
           </p>
             <%end  %>
+
          </td>
+
+
+
+
          <td>
 
               <div class="text-center ">  <%=image_tag item.source.logo_url, width:50 %><Br>
