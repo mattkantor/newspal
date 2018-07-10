@@ -24,13 +24,18 @@ class Category < ApplicationRecord
   end
 
   def self.top(count=10, days_back=3)
-      CategoryCount.select("categories.*, *").joins(:category).where("categories.status!=1").where("run_date > ?", DateTime.now-days_back).order("count desc").limit(count).all
+    #select name, category_id, sum(count) as sum from items_categories inner join categories on (categories.id=items_categories.category_id and categories.status!=1)  group by category_id, name order by sum desc limit 20;
+
+      CategoryCount.select("name,category_id, sum(count)").joins("inner join categories on (categories.id=items_categories.category_id and categories.status!=1)").where("items_categories.run_date > ?", DateTime.now-days_back).group(" category_id, name").order("sum desc").limit(count).all
   end
 
   def self.merge(name, ids_to_merge)
     new_cat = Category.where(name:name).first_or_create
     Category.find(ids_to_merge).each do |cat|
       new_alias_tags = new_cat.alias_tags << cat.name
+      cat.alias_tags.each do |tag|
+        new_cat.alias_tags << tag
+      end
       new_cat.alias_tags = new_alias_tags.uniq
       if new_cat.save(validate:false)
         cat.update_attributes({status:1})
