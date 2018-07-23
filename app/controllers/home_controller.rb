@@ -3,5 +3,7 @@ class HomeController < ApplicationController
   end
 
   def contact
+    @nav="Contact"
+    @page_title = "Contact Us"
   end
 end
